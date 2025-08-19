@@ -1,0 +1,85 @@
+.card-icon {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  height: 100%;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+  box-shadow: 0 1px 6px rgba(0,0,0,.06);
+  cursor: pointer;
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px rgba(0,0,0,.12);
+  }
+}
+
+/* Contenedor del ícono */
+.icon-container {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  background: var(--color-2); /* color por defecto */
+  transition: background-color 220ms ease;
+
+  /* En hover de la tarjeta cambiamos a var(--color-3) */
+  .card-icon:hover & {
+    background: var(--color-3);
+  }
+
+  .icon {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    position: absolute;
+    transition: opacity 180ms ease;
+  }
+
+  /* Por defecto se ve el dark */
+  .icon--dark  { opacity: 1; }
+  .icon--light { opacity: 0; }
+
+  /* En hover de la tarjeta, invertimos */
+  .card-icon:hover & .icon--dark  { opacity: 0; }
+  .card-icon:hover & .icon--light { opacity: 1; }
+}
+
+/* Textos (ajusta a tu diseño) */
+.title{ 
+  margin-top: 16px; 
+  font-weight: 500; 
+  color: var(--color-6);
+}
+.subtitle{ 
+  color: var(--color-3); 
+  font-size: 0.8em;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 16px; 
+}
+.description{
+  font-size: 0.8em;
+}
+
+/* HR como barra de progreso */
+/* Pista */
+.pbar {
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(0,0,0,.08);
+  overflow: hidden;             /* por si el fill supera el borde redondeado */
+}
+
+/* Relleno que se anima */
+.pbar__fill {
+  height: 100%;
+  width: 0%;                    /* inicia vacío */
+  background: var(--color-3);
+  transition: width 600ms ease; /* animación de 0 a 100 */
+  will-change: width;
+}
+
+/* Cuando la tarjeta (wrapper) tiene hover, llenamos la barra */
+.card-icon:hover .pbar__fill {
+  width: 100%;
+}

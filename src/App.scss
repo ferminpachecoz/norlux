@@ -1,0 +1,45 @@
+:root{
+  --color-1: #dfd5c3;
+  --color-2: #d5ebea;
+  --color-3: #2f6c5f;
+  --color-4: #0f3534;
+  --color-5: #647377;
+  --color-6: #1b1f1e;
+}
+body {
+  font-family: 'Antenna', sans-serif;
+  font-weight: 400 !important;
+  color: var(--color-5);
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.resaltador{
+  display: flex;
+  justify-content: center;
+  .linea{
+    width: 12%;
+    height: 4px;
+    background-color: var(--color-3);
+    margin: 20px 0px 40px 0px;
+  }
+}
+.section-title{
+  font-size: 35px;
+  text-align: center;
+  color: var(--color-6);
+  font-weight: 400;
+  b{
+    color: var(--color-3);
+    font-weight: 500;
+  }
+}
+.section-subtitle{
+  width: 50%;
+  text-align: center;
+  margin: 20px auto 10px auto;
+}
