@@ -1,0 +1,67 @@
+.footer{
+  padding: 100px;
+  background-color: var(--color-6);
+  color: var(--color-5);
+  img{
+    width: 150px;
+    margin-bottom: 1.5em;
+  }
+  .social-media{
+    span{
+      border-radius: 100000px;
+      background-color: var(--color-3);
+      width: 50px;
+      height: 50px;
+      margin-right: 1em;
+      i{
+        font-size: 20px;
+        color: var(--color-2);
+      }
+    }
+  }
+  .col-title{
+    color: var(--color-2);
+    font-size: 18px;
+  }
+  ul{
+    margin: 0px;
+    padding: 0px;
+    li{
+      margin-bottom: 1em;
+    }
+  }
+  .separador{
+    margin: 50px 0px;
+    height: 2px;
+    width: 100%;
+    background-color: var(--color-5);
+  }
+  .newsletter{
+    form{
+      input{
+        outline: none;
+        border: none;
+        padding: 8px 15px;
+        background-color: var(--color-3);
+        color: var(--color-2);
+        border-radius: 10px;
+        margin-right: 1em;
+        width: 500px;
+      }
+      input::placeholder{
+        color: var(--color-2);
+      }
+      button{
+        background-color: var(--color-2);
+        color: var(--color-3);
+        padding: 8px 15px;
+        border-radius: 10px;
+        border: none;
+        transition: 0.4s;
+      }
+      button:hover{
+        background-color: var(--color-1);
+      }
+    }
+  }
+}
