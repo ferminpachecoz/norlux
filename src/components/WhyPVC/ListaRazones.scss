@@ -1,0 +1,43 @@
+.lista-razones{
+  padding-top: 100px;
+  .lista{
+    background-color: var(--color-1);
+    padding: 100px;
+    .contenedor{
+      padding: 1em;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      height: 100%;
+      .icon-container{
+        width: 70px;
+        height: 60px;
+        background-color: var(--color-3);
+        i{
+          font-size: 25px;
+          color: var(--color-2);
+        }
+      }
+      .contenido{
+        width: fit-content;
+        padding: 0px 20px;
+        .title{
+          margin-top: 0px;
+          margin-bottom: 0.5em;
+          font-size: 18px;
+        }
+        .description{
+          font-size: 14px;
+        }
+        .etiqueta{
+          font-size: 14px;
+          padding: 5px 10px;
+          background-color: var(--color-2);
+          width: fit-content;
+          border-radius: 10000px;
+          color: var(--color-3);
+        }
+      }
+    }
+  }
+}

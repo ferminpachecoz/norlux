@@ -24,7 +24,7 @@ export default function Header() {
         <ul className='d-flex align-items-center m-0'>
           <li>Inicio</li>
           <li>Productos</li>
-          <li>¿Por qué PVC?</li>
+          <li><a href="/por-que-pvc">¿Por qué PVC?</a></li>
           <li><a href="/nosotros">Nosotros</a></li>
           <li>FAQ</li>
         </ul>
