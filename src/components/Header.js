@@ -26,7 +26,7 @@ export default function Header() {
           <li>Productos</li>
           <li><a href="/por-que-pvc">¿Por qué PVC?</a></li>
           <li><a href="/nosotros">Nosotros</a></li>
-          <li>FAQ</li>
+          <li><a href="/FAQs">FAQ</a></li>
         </ul>
         <button>Solicitar Presupuesto</button>
       </div>

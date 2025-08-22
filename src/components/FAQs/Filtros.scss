@@ -1,0 +1,35 @@
+.filtros-faqs{
+  padding: 100px 150px;
+  .btn-filter {
+    white-space: nowrap;              /* NO partir texto dentro del botón */
+    border: 1px solid var(--color-5);
+    background: transparent;
+    border-radius: 999px;
+    padding: .5rem .9rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    transition: background .2s ease, color .2s ease, transform .1s ease;
+    margin: 10px;
+    color: var(--color-5);
+    &:hover,
+    &:focus {
+      background-color: var(--color-3);
+      text-decoration: none;
+      outline: none;
+      color: var(--color-2);
+      border: 1px solid var(--color-3);
+    }
+
+    &:active {
+      transform: translateY(10px);
+    }
+  }
+
+  .btn-filter.active {
+    background: var(--color-3);
+    color: var(--color-2);                      /* contraste */
+    border-color: var(--color-3);
+  }
+}

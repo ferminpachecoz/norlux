@@ -1,0 +1,16 @@
+.acordion{
+  padding: 0px 200px 100px 200px;
+  .icon-container{
+    height: 50px;
+    width: 50px;
+    background-color: var(--color-3);
+    margin-right: 20px;
+    i{
+      color: var(--color-2);
+      font-size: 22px;
+    }
+  }
+  h2{
+    margin-bottom: 0px;
+  }
+}
