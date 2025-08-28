@@ -6,6 +6,7 @@ import Proyectos from '../components/Proyectos';
 import Clientes from '../components/Clientes';
 import Contacto from '../components/Contacto';
 import Footer from '../components/Footer';
+import ServiceProcess from '../components/ServiceProcess';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <MainBanner />
       <Contacto />
+      <ServiceProcess />
       <Beneficios />
       <Proyectos />
       <Clientes />

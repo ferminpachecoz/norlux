@@ -25,6 +25,46 @@
       li{
         margin: 0px 10px;
       }
+      .menu-productos{
+        position: relative;
+        .menu-container{
+          position: absolute;
+          display: none;
+          top: 25px;
+          left: 0px;
+          background-color: var(--color-2);
+          padding: 2em 3em 2em 2em;
+          cursor: pointer;
+          border-radius: 5px;
+          z-index: 5000000000;
+          text-wrap: nowrap;
+          .categorias{
+            position: relative;
+            .sub-categorias{
+              z-index: 10000;
+              position: absolute;
+              top: 0px;
+              left: 100px;
+              background-color: white;
+              padding: 1em 1.5em;
+              border-radius: 5px;
+              display: none;
+            }
+          }
+          .perfiles:hover .perfiles-sub{
+            display: block;
+          }
+          .pisos:hover .pisos-sub{
+            display: block;
+          }
+          .design:hover .design-sub{
+            display: block;
+          }
+        }
+      }
+      .menu-productos:hover .menu-container{
+        display: block;
+      }
     }
     button{
       border: none;

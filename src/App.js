@@ -5,6 +5,19 @@ import Home from "./pages/Home";
 import Nosotros from "./pages/Nosotros";
 import WhyPVC from "./pages/WhyPVC";
 import FAQs from "./pages/FAQs";
+import Developer from "./pages/Developer";
+import Arquitect from "./pages/Arquitect";
+import DobleContacto from "./pages/DobleContacto";
+import Corredizo from "./pages/Corredizo";
+import LineaEfficient from "./pages/Lineas/LineaEfficient";
+import PuertaPivotante from "./pages/Lineas/PuertaPivotante";
+import LineaAdvance from "./pages/Lineas/LineaAdvance";
+import LineaPrime from "./pages/Lineas/LineaPrime";
+import LineaJumbo from "./pages/Lineas/LineaJumbo";
+import LineaEvolution from "./pages/Lineas/LineaEvolution";
+import Decks from "./pages/Pisos/Decks";
+import Zocalos from "./pages/Pisos/Zocalos";
+import PisosInterior from "./pages/Pisos/PisosInterior";
 
 function App() {
   return (
@@ -13,6 +26,20 @@ function App() {
       <Route path="/nosotros" element={<Nosotros />} />
       <Route path="/por-que-pvc" element={<WhyPVC />} />
       <Route path="/FAQs" element={<FAQs />} />
+      <Route path="/developer" element={<Developer />} />
+      <Route path="/arquitect" element={<Arquitect />} />
+      <Route path="/perfiles/doble-contacto" element={<DobleContacto />} />
+      <Route path="/perfiles/corredizo" element={<Corredizo />} />
+      <Route path="/perfiles/doble-contacto/linea-efficient" element={<LineaEfficient />} />
+      <Route path="/perfiles/doble-contacto/puerta-pivotante" element={<PuertaPivotante />} />
+      <Route path="/perfiles/corredizo/linea-advance" element={<LineaAdvance />} />
+      <Route path="/perfiles/corredizo/linea-prime" element={<LineaPrime />} />
+      <Route path="/perfiles/corredizo/linea-jumbo" element={<LineaJumbo />} />
+      <Route path="/perfiles/corredizo/linea-evolution" element={<LineaEvolution />} />
+      <Route path="/pisos/decks" element={<Decks />} />
+      <Route path="/pisos/zocalos" element={<Zocalos />} />
+      <Route path="/pisos/pisos-de-interior" element={<PisosInterior />} />
+      
     </Routes>
   );
 }

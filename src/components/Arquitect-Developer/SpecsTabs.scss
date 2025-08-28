@@ -1,0 +1,100 @@
+/* Variables opcionales (usa tus tokens si ya existen) */
+:root {
+  --bg-soft: #e5dbc7;     /* fondo beige de la barra */
+  --card-bg: #ffffff;
+  --shadow: 0 6px 18px rgba(16, 24, 40, 0.08);
+  --radius: 16px;
+
+  /* Usa tu color de marca para bullets y acentos */
+  --brand: var(--color-3, #2c6c60);
+}
+
+/* Layout general */
+.specs-tabs {
+  display: grid;
+  gap: 16px;
+  padding: 0px 150px;
+}
+
+/* Barra de tabs (como en la captura) */
+.tabs {
+  display: flex;
+  padding: 8px;
+  background: var(--color-2);
+  border-radius: var(--radius);
+  flex-wrap: wrap;               /* si no entran, bajan de línea */
+}
+
+/* Botón/pestaña */
+.tab {
+  flex: 1 1 33.33%;
+  white-space: nowrap;           /* no cortar palabras */
+  background: transparent;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 999px;
+  font-weight: 500;
+  line-height: 1;
+  cursor: pointer;
+  transition: background .2s ease, color .2s ease, box-shadow .2s ease;
+  color: var(--color-6);
+  &:hover,
+  &:focus-visible {
+    outline: none;
+    background: rgba(255, 255, 255, 0.55);
+  }
+
+  &.is-active {
+    background: var(--card-bg);
+    box-shadow: var(--shadow);
+  }
+}
+
+/* Card de contenido */
+.specs-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 3em;
+}
+
+/* Título */
+.specs-title {
+  margin: 0 0 25px 0;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--color-6);
+}
+
+/* Lista en dos columnas (responsive) */
+.specs-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 24px;
+  padding: 0;
+  margin: 0;
+
+  /* Mobile: 1 columna */
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+
+  li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 1em;
+
+    /* bullet redondo tipo "•" en color de marca */
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0.6em;
+      left: 0;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--brand);
+    }
+  }
+}

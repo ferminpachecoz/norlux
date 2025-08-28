@@ -10,11 +10,15 @@ export default function WhyPVC() {
   return (
     <>
       <Header />
-      <HeroSection />
+      <HeroSection 
+        image="/houses/house-banner.jpg" 
+        title="¿Por qué elegimos <br/> <b>el PVC?</b>"
+        subtitle="En Nörlux decidimos especializarnos exclusivamente  aberturas de PVC porque creemos que la excelencia se logra con foco."
+      />
       <ListaRazones />
       <ContenidoWhyPVC />
       <div style={{padding: "100px", backgroundColor: "var(--color-3)"}}>
-        <h1 className='section-title mb-4' style={{color: "white"}}>PVC no es una opción más. <br/>
+        <h1 className='section-title mb-4' style={{color: "white"}} >PVC no es una opción más. <br/>
           <b style={{color: "var(--color-2)"}}>Es la mejor opción.</b>
         </h1>
         <Separador color="--color-2" width="100px" />

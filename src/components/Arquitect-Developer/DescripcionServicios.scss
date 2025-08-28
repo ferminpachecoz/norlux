@@ -1,0 +1,32 @@
+.descripcion-servicios{
+  padding: 100px;
+  .card-container{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 1.5em;
+    .title{
+      font-size: 20px;
+    }
+    .description{
+      font-size: 16px;
+    }
+    ul{
+      li{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        .circle{
+          width: 10px;
+          height: 10px;
+          background-color: var(--color-3);
+          border-radius: 10000px;
+          margin-right: 15px;
+        }
+        p{
+          margin-bottom: 0px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

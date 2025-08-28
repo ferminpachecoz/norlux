@@ -14,11 +14,11 @@ export default function MainBanner() {
               Estoy construyendo mi casa 
               <i className="ms-2 bi bi-arrow-right"></i>
             </a>
-            <a href="#" className='blanco'>
+            <a href="/arquitect" className='blanco'>
               Soy Arquitecto
               <i className="ms-2 bi bi-arrow-right"></i>
             </a>
-            <a href="#" className='blanco'>
+            <a href="/developer" className='blanco'>
               Soy desarrollador
               <i className="ms-2 bi bi-arrow-right"></i>
             </a>
