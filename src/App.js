@@ -18,6 +18,8 @@ import LineaEvolution from "./pages/Lineas/LineaEvolution";
 import Decks from "./pages/Pisos/Decks";
 import Zocalos from "./pages/Pisos/Zocalos";
 import PisosInterior from "./pages/Pisos/PisosInterior";
+import Novedades from "./pages/Novedades";
+import Contacto from "./pages/Contacto";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
       <Route path="/FAQs" element={<FAQs />} />
       <Route path="/developer" element={<Developer />} />
       <Route path="/arquitect" element={<Arquitect />} />
+      <Route path="/novedades" element={<Novedades />} />
+      <Route path="/contacto" element={<Contacto />} />
       <Route path="/perfiles/doble-contacto" element={<DobleContacto />} />
       <Route path="/perfiles/corredizo" element={<Corredizo />} />
       <Route path="/perfiles/doble-contacto/linea-efficient" element={<LineaEfficient />} />

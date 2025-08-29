@@ -22,7 +22,7 @@ export default function WhyPVC() {
           <b style={{color: "var(--color-2)"}}>Es la mejor opción.</b>
         </h1>
         <Separador color="--color-2" width="100px" />
-        <p className='section-subtitle mt-5' style={{color: "var(--color-2)", fontSize: "18px"}}>Y por eso, <b>Nörlux</b>, es la única opción.</p>
+        <p className='section-subtitle mt-5' style={{color: "var(--color-2)", fontSize: "25px"}}>Y por eso, <b>Nörlux</b>, es la única opción.</p>
       </div>
       <div className='estadisticas' style={{padding: "100px"}}>
         <div className='row justify-content-evenly align-items-center'>

@@ -56,10 +56,10 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 0px;
 
     @media (min-width: 1024px) {
-      gap: 60px;
+      gap: 0px;
     }
   }
 

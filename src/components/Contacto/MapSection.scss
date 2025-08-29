@@ -1,0 +1,212 @@
+.map-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, var(--color-2) 0%, var(--color-1) 100%);
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="%23ffffff" stroke-width="0.5" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+    pointer-events: none;
+  }
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  &__title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    color: var(--color-4);
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+
+  &__subtitle {
+    font-size: 1.2rem;
+    color: var(--color-5);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  &__main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    align-items: start;
+
+    @media (min-width: 968px) {
+      grid-template-columns: 2fr 1fr;
+      gap: 60px;
+    }
+  }
+
+  &__map-container {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(15, 53, 52, 0.15);
+    background: white;
+    padding: 8px;
+  }
+
+  &__map {
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100vh;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      filter: grayscale(20%) contrast(1.1);
+      transition: filter 0.3s ease;
+
+      &:hover {
+        filter: grayscale(0%) contrast(1.2);
+      }
+    }
+  }
+
+  &__info {
+    background: white;
+    border-radius: 20px;
+    padding: 40px 30px 0px 30px;
+    box-shadow: 0 20px 40px rgba(15, 53, 52, 0.1);
+    border: 1px solid rgba(47, 108, 95, 0.1);
+  }
+
+  &__info-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-4);
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  &__contact-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    background: rgba(213, 235, 234, 0.3);
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+      background: rgba(213, 235, 234, 0.5);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(47, 108, 95, 0.1);
+    }
+  }
+
+  &__contact-icon {
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-3);
+    border-radius: 10px;
+    flex-shrink: 0;
+  }
+
+  &__contact-content {
+    flex: 1;
+  }
+
+  &__contact-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-4);
+    margin-bottom: 5px;
+  }
+
+  &__contact-text {
+    font-size: 0.9rem;
+    color: var(--color-5);
+    line-height: 1.4;
+    white-space: pre-line;
+  }
+
+  &__cta {
+    text-align: center;
+  }
+
+  &__whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #25D366;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
+
+    &:hover {
+      background: #128C7E;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(37, 211, 102, 0.4);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+  }
+
+  &__whatsapp-icon {
+    font-size: 1.2rem;
+  }
+
+  // Responsive adjustments
+  @media (max-width: 768px) {
+    padding: 60px 0;
+
+    &__container {
+      padding: 0 15px;
+    }
+
+    &__header {
+      margin-bottom: 40px;
+    }
+
+    &__main {
+      gap: 30px;
+    }
+
+    &__info {
+      padding: 30px 20px;
+    }
+
+    &__map {
+      height: 300px;
+    }
+  }
+}

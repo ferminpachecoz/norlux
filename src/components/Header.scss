@@ -2,7 +2,7 @@
   .top-part{
     background-color: var(--color-3);
     color: var(--color-2);
-    padding: 8px 120px;
+    padding: 8px 50px;
     span{
       margin-right: 30px;
       p{
@@ -17,13 +17,14 @@
     }
   }
   .bottom-part{
-    padding: 30px 120px;
+    padding: 30px 50px;
     img{
       width: 200px;
     }
     ul{
       li{
         margin: 0px 10px;
+        font-size: 16px;
       }
       .menu-productos{
         position: relative;

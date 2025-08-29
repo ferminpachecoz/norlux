@@ -7,13 +7,17 @@ import Clientes from '../components/Clientes';
 import Contacto from '../components/Contacto';
 import Footer from '../components/Footer';
 import ServiceProcess from '../components/ServiceProcess';
+import MainBannerAlt from '../components/MainBannerAlt';
+import Proveedores from '../components/Proveedores';
 
 export default function Home() {
   return (
     <>
       <Header />
-      <MainBanner />
+     {/*  <MainBanner /> */}
+      <MainBannerAlt />
       <Contacto />
+      <Proveedores />
       <ServiceProcess />
       <Beneficios />
       <Proyectos />

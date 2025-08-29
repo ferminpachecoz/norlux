@@ -20,7 +20,9 @@ export default function Header() {
         </div>
       </div>
       <div className='bottom-part d-flex align-items-center justify-content-between'>
-        <img src="/logos/logo-lg-verde-negro.png" alt="Logo de Nörlux" />
+        <a href="/">
+          <img src="/logos/logo-lg-verde-negro.png" alt="Logo de Nörlux" />
+        </a>
         <ul className='d-flex align-items-center m-0'>
           <li><a href="/">Inicio</a></li>
           <li className='menu-productos'>
@@ -54,6 +56,8 @@ export default function Header() {
           <li><a href="/por-que-pvc">¿Por qué PVC?</a></li>
           <li><a href="/nosotros">Nosotros</a></li>
           <li><a href="/FAQs">FAQ</a></li>
+          <li><a href="/novedades">Novedades</a></li>
+          <li><a href="/contacto">Contacto</a></li>
         </ul>
         <button>Solicitar Presupuesto</button>
       </div>

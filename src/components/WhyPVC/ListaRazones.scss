@@ -2,13 +2,14 @@
   padding-top: 100px;
   .lista{
     background-color: var(--color-1);
-    padding: 100px;
+    padding: 50px;
     .contenedor{
       padding: 1em;
       background-color: white;
       border-radius: 10px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
       height: 100%;
+      transition: 0.3s;
       .icon-container{
         width: 70px;
         height: 60px;
@@ -32,7 +33,7 @@
         .etiqueta{
           font-size: 14px;
           padding: 5px 10px;
-          background-color: var(--color-2);
+          background-color: var(--color-1);
           width: fit-content;
           border-radius: 10000px;
           color: var(--color-3);
@@ -41,3 +42,50 @@
     }
   }
 }
+.lista-razones {
+  .lista .contenedor {
+    position: relative;
+    border-radius: 14px;
+    padding: 16px;
+    background: #fff;
+    box-shadow: 0 6px 18px rgba(16,24,40,.06);
+    transition: 0.3s;
+    outline: none;
+    overflow: visible;                 /* deja “salir” el texto expandido si hace falta */
+
+    &:hover,
+    &:focus-within {
+      z-index: 2;
+      box-shadow: 0 12px 28px rgba(16,24,40,.12);
+      transform: translateY(-2px);
+      transition: 0.3s;
+    }
+  }
+
+  /* === 4 líneas por defecto === */
+  .description {
+    --lh: 1.25rem;                     /* ajusta a tu tipografía */
+    line-height: var(--lh);
+    margin-bottom: 8px;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;             /* 👈 ahora 4 renglones */
+    overflow: hidden;
+
+    /* para que el “corte” sea suave visualmente */
+    max-height: calc(var(--lh) * 4);   /* 👈 coincide con 4 líneas */
+    mask-image: linear-gradient(180deg, #000 80%, transparent);
+    /* transition: max-height .35s ease, mask-image .35s ease; */
+    will-change: max-height;
+  }
+
+  /* Solo la card hovered se expande con transición */
+  .contenedor:hover .description,
+  .contenedor:focus-within .description {
+    -webkit-line-clamp: unset;         /* quitamos el clamp */
+    max-height: 1000px;                /* suficientemente grande para el contenido */
+    mask-image: none;                  /* sin desvanecido al expandir */
+  }
+}
+

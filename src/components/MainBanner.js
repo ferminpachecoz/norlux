@@ -7,7 +7,7 @@ export default function MainBanner() {
       <img src="/houses/house-banner.jpg" alt="interior of a house" />
       <div className='overlay'>
         <div className='content'>
-          <h1>Aberturas de PVC de <b>alta prestación</b> en Zona Norte</h1>
+          <h1>Aberturas de PVC de <b>alta prestación</b></h1>
           <h2>Soluciones en ventanas y puertas de PVC para viviendas, estudios de arquitectura, y desarrollos de inversión</h2>
           <div className='d-flex justify-content-between align-items-center'>
             <a href="#" className='verde'>
