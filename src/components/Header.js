@@ -46,8 +46,9 @@ export default function Header() {
               <p className='mb-0 categorias design'>
                 In & Out Design
                 <div className='sub-categorias design-sub'>
-                  <p>Tubulares</p>
-                  <p>Wall Panel</p>
+                  <p><a href="/in-out-design/tubulares">Tubulares</a></p>
+                  <p><a href="/in-out-design/wall-panel-interior">Wall Panel Interior</a></p>
+                  <p><a href="/in-out-design/wall-panel-exterior">Wall Panel Exterior</a></p>
                   <p className='mb-0'>Revestimientos</p>
                 </div>
               </p>
@@ -55,7 +56,7 @@ export default function Header() {
           </li>
           <li><a href="/por-que-pvc">¿Por qué PVC?</a></li>
           <li><a href="/nosotros">Nosotros</a></li>
-          <li><a href="/FAQs">FAQ</a></li>
+          <li><a href="/FAQs">Preguntas Frecuentes</a></li>
           <li><a href="/novedades">Novedades</a></li>
           <li><a href="/contacto">Contacto</a></li>
         </ul>

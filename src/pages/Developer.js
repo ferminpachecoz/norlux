@@ -9,11 +9,42 @@ import Desarrollos from '../components/Arquitect-Developer/Desarrollos'
 import Agenda from '../components/Arquitect-Developer/Agenda'
 
 export default function Developer() {
+  let array=[
+    {
+      icon: "bi bi-graph-up-arrow",
+      title: "Rentabilidad Optimizada",
+      description: "Mejor relación costo-beneficio con aberturas que agregan valor real a tus desarrollos.",
+      etiqueta: "ROI superior"
+    },
+    {
+      icon: "bi bi-clock",
+      title: "Entregas Puntuales",
+      description: "Cumplimiento estricto de cronogramas para no retrasar tus entregas de obra.",
+      etiqueta: "0% retrasos"
+    },
+    {
+      icon: "bi bi-shield-check",
+      title: "Cumplimiento Normativo",
+      description: "Todas las aberturas cumplen normas IRAM y requisitos municipales vigentes.",
+      etiqueta: "100% conforme"
+    },
+    {
+      icon: "bi bi-people",
+      title: "Soporte Integral",
+      description: "Equipo dedicado para grandes volúmenes con atención personalizada.",
+      etiqueta: "Servicio VIP"
+    },
+  ]
   return (
     <>
       <Header />
       <BannerAlt dev={true} />
-      <Ventajas dev={true} />
+      <Ventajas 
+        dev={true} 
+        title="Ventajas competitivas para <b>tu negocio</b>" 
+        subtitle="Optimiza costos, cumple normativas y diferencia tus desarrollos con aberturas de calidad superior." 
+        array={array} 
+      />
       <Estadisticas />
       <DescripcionServicios />
       <Desarrollos dev={true} />

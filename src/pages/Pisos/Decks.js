@@ -5,6 +5,12 @@ import Productos from '../../components/Productos'
 import Footer from '../../components/Footer'
 import Separador from '../../components/Separador'
 import IconText from './IconText'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 export default function Decks() {
   let array=[
@@ -45,16 +51,24 @@ export default function Decks() {
       text: "Posee una larga vida útil."
     },
   ]
+  let images=[
+    "/Decks/image-1.jpg",
+    "/Decks/image-2.jpg",
+    "/Decks/img-banner.jpg",
+  ]
   return (
     <>
       <Header />
-      <HeroSection title="Decks" subtitle={"Lorem ipsum dolor sit amet"} image={"/houses/house-banner.jpg"} />
+      <HeroSection title="Decks de PVC" subtitle={"La mejor alternativa a la madera: resistente, elegante y de bajo mantenimiento."} image={"/Decks/img-banner.jpg"} />
       <Productos padding="100px 100px">
         <div className='row'>
           <div className='col-lg-7'>
             <h2>Ahora el Deck es de <b>PVC</b>.</h2>
             <Separador color="--color-3" width="100px" />
-            <p>El <b>Deck de PVC</b> es una opción ideal para proyectos arquitectónicos que requieren durabilidad, resistencia y bajo mantenimiento. Su diseño innovador y tecnología avanzada lo convierten en un material versátil y ecoamigable, perfecto para áreas exteriores expuestas a la intemperie.</p>
+            <p>Los <b>Decks de PVC Muchtek</b>, instalados por <b>Nörlux</b>, son la solución perfecta para quienes buscan <b>disfrutar de espacios exteriores sin preocuparse por el mantenimiento constante de la madera.</b></p>
+            <p>
+              A diferencia de los decks tradicionales, los de PVC <b>no se astillan</b>, no se pudren, resisten la humedad y el sol, y conservan su estética intacta durante años. Además, están diseñados con un sistema de instalación <b>simple y segura</b>, que garantiza un resultado <b>impecable y duradero</b>.
+            </p>
           </div>
           <div className='col-lg-5'>
             <img src="/Decks/deck-foto-03.jpg" alt="deck-foto-03" />
@@ -63,7 +77,7 @@ export default function Decks() {
         <div className='row'>
           <div className='col-lg-6'>
             <img src="/Decks/decks-foils-01.png" alt="decks-foils-01" />
-            <p>Con una variedad de colores y texturas disponibles, el <b>Deck de PVC</b> se adapta a cualquier estilo arquitectónico, mientras que su resistencia a la humedad, los insectos y los hongos garantiza una vida útil prolongada.</p>
+            <p>Ideales para <b>terrazas, balcones, jardines y áreas de piscina</b>, ofrecen un <b>diseño elegante y contemporáneo</b>, con múltiples acabados que se adaptan a distintos estilos arquitectónicos.</p>
             <h2>Instalación</h2>
             <p>Su fácil instalación y mantenimiento reducen los costos y el tiempo de construcción, lo que lo hace una opción costo-efectiva para cualquier proyecto.</p>
             <img src="/Decks/decks_instalacion.png" alt="decks_instalacion" />
@@ -72,6 +86,25 @@ export default function Decks() {
             <IconText array={array} />
           </div>
         </div>
+        <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          slidesPerView={1}
+          loop
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 4000, disableOnInteraction: false }}
+        >
+          {images.map((src, i) => (
+            <SwiperSlide key={i}>
+              <img
+                src={src}
+                alt={`slide-${i}`}
+                className="w-100 h-100 object-fit-cover"
+                loading="lazy"
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
         <h2 className='mt-4'>Descarga nuestros <b>catálogos digitales</b></h2>
         <Separador width="100px" color="--color-3" />
         <div className='row g-4 catalogo-section'>

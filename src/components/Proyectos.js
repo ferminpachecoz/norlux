@@ -44,7 +44,7 @@ export default function Proyectos() {
       <h1 className="section-title">Proyectos que <b>hablan por nosotros</b></h1>
       <p className="section-subtitle">
         Cada proyecto es único y refleja nuestro compromiso con la excelencia, la
-        precisión técnica y el diseño nórdico.
+        precisión técnica y el diseño.
       </p>
       <div className="resaltador">
         <span className="linea"></span>

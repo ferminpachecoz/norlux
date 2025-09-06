@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 import "./CardsCarousel.scss";
 
 
-export default function CardsCarousel({ items }) {
+export default function CardsCarousel({ items, colorTitle }) {
   return (
     <div className="cards-carousel">
       <Swiper
@@ -35,7 +35,7 @@ export default function CardsCarousel({ items }) {
               </div>
               {/* Overlay inferior izquierda */}
               <div className="overlay">
-                <h3 className="title">{it.title}</h3>
+                <h3 className="title" style={{color: colorTitle?`var(${colorTitle})`:"var(--color-1)"}}>{it.title}</h3>
                 {it.headline && <p className="headline">{it.headline}</p>}
                 {it.sub && <p className="sub">{it.sub}</p>}
               </div>

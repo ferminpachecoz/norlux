@@ -20,6 +20,9 @@ import Zocalos from "./pages/Pisos/Zocalos";
 import PisosInterior from "./pages/Pisos/PisosInterior";
 import Novedades from "./pages/Novedades";
 import Contacto from "./pages/Contacto";
+import Tubulares from "./pages/Design/Tubulares";
+import WallPanelInterior from "./pages/Design/WallPanelInterior";
+import WallPanelExterior from "./pages/Design/WallPanelExterior";
 
 function App() {
   return (
@@ -43,7 +46,9 @@ function App() {
       <Route path="/pisos/decks" element={<Decks />} />
       <Route path="/pisos/zocalos" element={<Zocalos />} />
       <Route path="/pisos/pisos-de-interior" element={<PisosInterior />} />
-      
+      <Route path="/in-out-design/tubulares" element={<Tubulares />} />
+      <Route path="/in-out-design/wall-panel-interior" element={<WallPanelInterior />} />
+      <Route path="/in-out-design/wall-panel-exterior" element={<WallPanelExterior />} />
     </Routes>
   );
 }

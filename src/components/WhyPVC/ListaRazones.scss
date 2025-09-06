@@ -1,91 +1,131 @@
-.lista-razones{
-  padding-top: 100px;
-  .lista{
-    background-color: var(--color-1);
-    padding: 50px;
-    .contenedor{
-      padding: 1em;
-      background-color: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      height: 100%;
-      transition: 0.3s;
-      .icon-container{
-        width: 70px;
-        height: 60px;
-        background-color: var(--color-3);
-        i{
-          font-size: 25px;
-          color: var(--color-2);
-        }
-      }
-      .contenido{
-        width: fit-content;
-        padding: 0px 20px;
-        .title{
-          margin-top: 0px;
-          margin-bottom: 0.5em;
-          font-size: 18px;
-        }
-        .description{
-          font-size: 14px;
-        }
-        .etiqueta{
-          font-size: 14px;
-          padding: 5px 10px;
-          background-color: var(--color-1);
-          width: fit-content;
-          border-radius: 10000px;
-          color: var(--color-3);
-        }
-      }
-    }
-  }
+/* ===============================
+   ListaRazones.scss (completo)
+   =============================== */
+
+/* Ajuste para que las columnas NO igualen alturas entre sí */
+.lista-razones .row {
+  align-items: flex-start;
 }
+
 .lista-razones {
+  padding: 100px;
+  background-color: var(--color-1);
+  /* Títulos de sección (podés ajustar a tu sistema) */
+  .section-title {
+    margin-bottom: .5rem;
+  }
+  .section-subtitle {
+    color: #555;
+  }
+
+  /* ====== CARD / ITEM ====== */
   .lista .contenedor {
     position: relative;
+    display: flex;
+    gap: 12px;
+
     border-radius: 14px;
     padding: 16px;
     background: #fff;
-    box-shadow: 0 6px 18px rgba(16,24,40,.06);
-    transition: 0.3s;
+    box-shadow: 0 6px 18px rgba(16, 24, 40, 0.06);
+    transition: box-shadow .25s ease, transform .25s ease;
     outline: none;
-    overflow: visible;                 /* deja “salir” el texto expandido si hace falta */
 
     &:hover,
     &:focus-within {
       z-index: 2;
-      box-shadow: 0 12px 28px rgba(16,24,40,.12);
+      box-shadow: 0 12px 28px rgba(16, 24, 40, 0.12);
       transform: translateY(-2px);
-      transition: 0.3s;
+
+      /* Mostrar descripción SOLO en hover/focus (desktop) */
+      .description {
+        max-height: 500px;      /* suficiente para contenido */
+        opacity: 1;
+        margin-top: 8px;
+      }
     }
   }
 
-  /* === 4 líneas por defecto === */
-  .description {
-    --lh: 1.25rem;                     /* ajusta a tu tipografía */
-    line-height: var(--lh);
-    margin-bottom: 8px;
-
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;             /* 👈 ahora 4 renglones */
-    overflow: hidden;
-
-    /* para que el “corte” sea suave visualmente */
-    max-height: calc(var(--lh) * 4);   /* 👈 coincide con 4 líneas */
-    mask-image: linear-gradient(180deg, #000 80%, transparent);
-    /* transition: max-height .35s ease, mask-image .35s ease; */
-    will-change: max-height;
+  /* Icono a la izquierda (ajustá a tu sistema) */
+  .icon-container {
+    flex: 0 0 auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: rgba(0,0,0,.05);
+    display: grid;
+    place-items: center;
+    i {
+      font-size: 1.2rem;
+      color: var(--color-3, #2c6c60);
+    }
   }
 
-  /* Solo la card hovered se expande con transición */
-  .contenedor:hover .description,
-  .contenedor:focus-within .description {
-    -webkit-line-clamp: unset;         /* quitamos el clamp */
-    max-height: 1000px;                /* suficientemente grande para el contenido */
-    mask-image: none;                  /* sin desvanecido al expandir */
+  .contenido {
+    flex: 1 1 auto;
+    min-width: 0; /* evita overflow de textos largos */
+  }
+
+  /* Título visible siempre */
+  .title {
+    font-weight: 700;
+    margin: 0;             /* sin gap debajo; lo maneja .description */
+    line-height: 1.2;
+  }
+
+  /* === DESCRIPCIÓN: oculta por defecto en desktop === */
+  .description {
+    /* colapsada inicialmente (desktop) */
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    margin: 0;
+
+    /* transición suave */
+    transition: max-height .4s ease, opacity .3s ease, margin .3s ease;
+
+    /* tipografía base (ajustá a tu sistema) */
+    line-height: 1.25rem;
+    color: #333;
+  }
+
+  /* Etiqueta final (si la usás) */
+  .etiqueta {
+    font-weight: 700;
+    color: var(--color-3, #2c6c60);
+    margin-top: 8px;
+  }
+
+  /* ====== RESPONSIVE ====== */
+  @media (max-width: 992px) {
+    .lista.row {
+      row-gap: 1.25rem;
+    }
+  }
+
+  /* Mobile: SIEMPRE mostrar descripción (sin hover) */
+  @media (max-width: 768px) {
+    .description {
+      max-height: none;    /* sin límite */
+      opacity: 1;          /* visible */
+      margin-top: 8px;     /* separar del título */
+    }
+
+    /* En mobile el hover no es relevante, pero mantenemos foco accesible */
+    .lista .contenedor:hover,
+    .lista .contenedor:focus-within {
+      .description {
+        max-height: none;
+        opacity: 1;
+        margin-top: 8px;
+      }
+    }
+  }
+
+  /* ====== ESTADOS DE FOCO (accesibilidad) ====== */
+  .lista .contenedor:focus-visible {
+    box-shadow:
+      0 0 0 3px rgba(44, 108, 96, .25),
+      0 12px 28px rgba(16, 24, 40, 0.12);
   }
 }
-

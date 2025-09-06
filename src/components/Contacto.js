@@ -27,7 +27,7 @@ export default function Contacto() {
               </li>
               <li>
                 <span className='circle'></span>
-                <p>Visita técnica incluida.</p>
+                <p>Consultar por visita técnica gratis.</p>
               </li>
               <li>
                 <span className='circle'></span>

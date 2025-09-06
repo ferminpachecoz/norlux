@@ -9,6 +9,8 @@ const Proveedores = () => {
     { id: 3, name: "Rotofrank", logo: "/proveedores/rotofrank.png" },
     { id: 4, name: "Tecno Perfiles", logo: "/proveedores/tecnoperfiles.png" },
     { id: 5, name: "Vorne", logo: "/proveedores/vorne.png" },
+    { id: 5, name: "Bestchem", logo: "/proveedores/bestchem.png" },
+    { id: 5, name: "Reze", logo: "/proveedores/reze.png" },
   ]
 
   // Duplicamos el array para crear el efecto infinito

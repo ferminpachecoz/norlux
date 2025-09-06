@@ -49,7 +49,7 @@ export default function Beneficios() {
   ]
   return (
     <div className='beneficios'>
-      <h1 className='section-title'>Mas que ventanas: <b>una inversión en calidad, confort y diseño</b></h1>
+      <h1 className='section-title'>Porque <b>tu tranquilidad</b> es lo más importante, hacemos que todo el proceso sea <b>fácil y seguro</b>, con un servicio que te acompaña <b>para siempre.</b></h1>
       <div className='resaltador'>
         <span className='linea'></span>
       </div>

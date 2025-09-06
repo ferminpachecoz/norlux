@@ -25,6 +25,14 @@
       li{
         margin: 0px 10px;
         font-size: 16px;
+        a{
+          transition: 0.3s;
+        }
+      }
+      li:hover{
+        a{
+          color: var(--color-4);
+        }
       }
       .menu-productos{
         position: relative;
@@ -69,8 +77,7 @@
     }
     button{
       border: none;
-      width: 20%;
-      padding: 8px 0px;
+      padding: 8px 10px;
       background-color: var(--color-3);
       color: var(--color-2);
       border-radius: 7px;

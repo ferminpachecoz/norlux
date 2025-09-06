@@ -15,20 +15,20 @@ const SLIDES = [
     ctaClass: "verde",
   },
   {
-    image: "/houses/house-banner.jpg",
+    image: "/houses/house-banner-6.png",
     h1: <>Aberturas de PVC de <b>alta prestación</b></>,
     h2: "Especificaciones técnicas y asesoría para estudios de arquitectura.",
     ctaText: "Soy arquitecto",
     ctaHref: "/arquitect",   // tu ruta existente
-    ctaClass: "blanco",
+    ctaClass: "verde",
   },
   {
-    image: "/houses/house-banner.jpg",
+    image: "/houses/house-banner-2.jpg",
     h1: <>Aberturas de PVC de <b>alta prestación</b></>,
     h2: "Eficiencia, escalabilidad y soporte para desarrollos inmobiliarios.",
     ctaText: "Soy desarrollador",
     ctaHref: "/developer",   // tu ruta existente
-    ctaClass: "blanco",
+    ctaClass: "verde",
   },
 ];
 

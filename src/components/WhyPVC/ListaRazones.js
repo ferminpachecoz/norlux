@@ -52,7 +52,7 @@ export default function ListaRazones() {
       <h1 className='section-title'>Elegimos PVC porque pensamos <br/><b>a largo plazo</b></h1>
       <Separador color={"--color-3"} width={"100px"} />
       <p className='section-subtitle mb-5'>No trabajamos con aluminio ni otros materiales porque el PVC representa, hoy, la mejor combinación entre eficiencia, confort, durabilidad y sustentabilidad.</p>
-      <div className='lista row row-cols-3 g-4 align-items-start'>
+      <div className='lista row row-cols-1 row-cols-lg-2 g-4 align-items-start'>
         {
           array.map((item, index)=>(
             <div className='col' key={index}>
