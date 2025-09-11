@@ -19,7 +19,7 @@ export default function Corredizo() {
     {
       image: "/Perfiles/jumbo.jpg",
       title: "Línea Jumbo",
-      link: "/perfiles/corredizo/linea-prime"
+      link: "/perfiles/corredizo/linea-jumbo"
     },
     {
       image: "/Perfiles/evolution.jpg",

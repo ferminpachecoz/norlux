@@ -5,7 +5,7 @@ export default function CardVentajas({icon, title, description, etiqueta}) {
   return (
     <div className='card-ventajas'>
       <span className='icon-container mb-3'>
-        <i className={icon}></i>
+        <img src={icon} alt={title} />
       </span>
       <p className='title'>
         {title}

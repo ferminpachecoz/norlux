@@ -1,0 +1,21 @@
+.small-section-banner{
+  background-color: var(--color-3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  h1{
+    width: 80%;
+    color: var(--color-2);
+    text-align: center;
+  }
+  a{
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 10px;
+    color: var(--color-4);
+  }
+}

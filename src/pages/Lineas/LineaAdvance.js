@@ -5,12 +5,7 @@ import HeroSection from '../../components/WhyPVC/HeroSection'
 import Productos from '../../components/Productos'
 import Separador from '../../components/Separador'
 import Ventajas from '../../components/Arquitect-Developer/Ventajas'
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
-
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import CarruselOneImage from '../../components/CarruselOneImage'
 
 export default function LineaAdvance() {
   let array = [
@@ -65,26 +60,8 @@ export default function LineaAdvance() {
         <Ventajas 
           array={array}
         />
-         <div style={{padding: "100px 200px 0px 200px"}}>
-          <Swiper
-            modules={[Navigation, Pagination, Autoplay]}
-            slidesPerView={1}
-            loop
-            navigation
-            pagination={{ clickable: true }}
-            autoplay={{ delay: 4000, disableOnInteraction: false }}
-          >
-            {images.map((src, i) => (
-              <SwiperSlide key={i}>
-                <img
-                  src={src}
-                  alt={`slide-${i}`}
-                  className="w-100 h-100 object-fit-cover"
-                  loading="lazy"
-                />
-              </SwiperSlide>
-            ))}
-          </Swiper>
+        <div style={{padding: "100px 200px 0px 200px"}}>
+          <CarruselOneImage images={images} />
         </div>
         <div style={{padding: "100px 200px 100px 200px"}}>
           <h3>Sistemas de <b>dos y tres</b> guías</h3>

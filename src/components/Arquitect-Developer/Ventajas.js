@@ -2,7 +2,7 @@ import React from 'react';
 import "./Ventajas.scss";
 import CardVentajas from './CardVentajas';
 
-export default function Ventajas({title, subtitle, array}) {
+export default function Ventajas({title, subtitle, array, cols}) {
   return (
     <div className='ventajas'>
       {title?
@@ -15,7 +15,7 @@ export default function Ventajas({title, subtitle, array}) {
         :
         <></>
       }
-      <div className='row g-4'>
+      <div className={`row g-4 ${cols?"row-cols-"+cols:""}`}>
         {
           array.map((item,index)=>(
             <div key={index} className='col'>

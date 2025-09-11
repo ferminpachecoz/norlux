@@ -5,12 +5,7 @@ import Productos from '../../components/Productos'
 import Footer from '../../components/Footer'
 import Separador from '../../components/Separador'
 import IconText from './IconText'
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
-
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import CarruselOneImage from '../../components/CarruselOneImage'
 
 export default function Decks() {
   let array=[
@@ -86,26 +81,8 @@ export default function Decks() {
             <IconText array={array} />
           </div>
         </div>
-        <Swiper
-          modules={[Navigation, Pagination, Autoplay]}
-          slidesPerView={1}
-          loop
-          navigation
-          pagination={{ clickable: true }}
-          autoplay={{ delay: 4000, disableOnInteraction: false }}
-        >
-          {images.map((src, i) => (
-            <SwiperSlide key={i}>
-              <img
-                src={src}
-                alt={`slide-${i}`}
-                className="w-100 h-100 object-fit-cover"
-                loading="lazy"
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-        <h2 className='mt-4'>Descarga nuestros <b>catálogos digitales</b></h2>
+        <CarruselOneImage images={images} />
+        <h2 className='mt-5'>Descarga nuestros <b>catálogos digitales</b></h2>
         <Separador width="100px" color="--color-3" />
         <div className='row g-4 catalogo-section'>
           <div className='col'>

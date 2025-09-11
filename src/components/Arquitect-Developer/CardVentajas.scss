@@ -13,8 +13,8 @@
   }
   .icon-container{
     margin-bottom: 10px !important;
-    i{
-      font-size: 25px;
+    img{
+      width: 30px;
     }
   }
   .etiqueta{
@@ -42,7 +42,7 @@
 }
 .card-ventajas:hover{
   .icon-container{
-    background-color: var(--color-3);
+    background-color: #ddc7a2;
     i{
       color: var(--color-2);
     }

@@ -7,44 +7,41 @@ import Separador from '../../components/Separador'
 import IconText from "./IconText.js"
 import ImageBg from './ImageBg.js'
 import CardsCarousel from './CardsCarousel.js'
+import Ventajas from '../../components/Arquitect-Developer/Ventajas.js'
+import CarruselOneImage from '../../components/CarruselOneImage.js'
+import SmallSectionBanner from '../../components/SmallSectionBanner.js'
 
 export default function PisosInterior() {
   let array=[
     {
-      image: "ignifugo.png",
-      text: "Ignífugo y antibacteriano."
+      icon: "/LineaJumbo/icons/layer.png",
+      title: "Variedad de diseños y texturas",
+      description: "Imitaciones de madera y acabados modernos."
     },
     {
-      image: "impacto.png",
-      text: "Resistente a la abrasión, golpes y rayaduras."
+      icon: "/pisosInterior/icons/water-resistant.png",
+      title: "Resistencia al uso diario",
+      description: "Soportan golpes, rayaduras y humedad."
     },
     {
-      image: "mantenimiento.png",
-      text: "Libre mantenimiento."
+      icon: "/LineaJumbo/icons/meditate.png",
+      title: "Confort y calidez",
+      description: "Pisos agradables al tacto y de estética acogedora."
     },
     {
-      image: "sustentable.png",
-      text: "Amigable con el medio ambiente, 100% reciclable."
+      icon: "/pisosInterior/icons/easy-installation.png",
+      title: "Instalación sencilla y rápida",
+      description: "Sistema práctico que asegura un acabado prolijo."
     },
     {
-      image: "limpieza.png",
-      text: "Limpieza muy sencilla."
+      icon: "/pisosInterior/icons/mechanic.png",
+      title: "Bajo mantenimiento",
+      description: "Limpieza simple sin necesidad de ceras o barnices."
     },
     {
-      image: "aislacion-acustica.png",
-      text: "No hace ruido ni se siente frío bajo los pies."
-    },
-    {
-      image: "multicapa.png",
-      text: "Excelente performance gracias a su sistema multicapa."
-    },
-    {
-      image: "estanquidad.png",
-      text: "Resistente al deslizamiento, al agua y humedad, por lo que puede ser utilizado en ambientes como baños y cocinas."
-    },
-    {
-      image: "tipologias-02.png",
-      text: "Apto para losa / piso radiante."
+      icon: "/LineaEfficient/icons/sustentabilidad.png",
+      title: "Durabilidad y sustentabilidad",
+      description: "Materiales reciclables y de larga vida útil."
     },
   ]
 
@@ -62,12 +59,44 @@ export default function PisosInterior() {
       title: "Iroko"
     },
   ]
+
+  const images=[
+    "/houses/house-banner-3.jpg",
+    "/houses/house-banner-4.jpg",
+    "/houses/house-banner-5.jpg"
+  ]
   return (
     <>
       <Header />
-      <HeroSection title="Pisos de Interior" subtitle="Lorem ipsum dolor sit amet" image="/houses/house-banner.jpg" />
+      <HeroSection 
+        title="Pisos de Interior" 
+        subtitle="La solución ideal para quienes buscan diseño, resistencia y bajo mantenimiento en el interior de su hogar o proyecto." 
+        image="/pisosInterior/image-banner.jpg" 
+      />
       <Productos padding="0px">
-        <div className='row' style={{padding: "100px 150px"}}>
+        <div className='section-padding'>
+          <h2><b>Estética y confort</b> en cada ambiente</h2>
+          <Separador width="100px" color="--color-3" />
+          <p className='mb-4'>
+            Los <b>Pisos de Interior de PVC Muchtek</b>, instalados por <b>Nörlux</b>, combinan la <b>calidez de la madera</b> con la <b>resistencia y practicidad del PVC</b>. Diseñados para adaptarse a todo tipo de ambientes, son una alternativa moderna que aporta <b>confort, estética y durabilidad</b>.
+          </p>
+          <img 
+            src="/pisosInterior/image-banner-2.jpg" 
+            alt="Pisos muchtek en casa foa"
+            className='mb-4' 
+            style={{borderRadius: "10px"}}
+          />
+          <p>
+            A diferencia de los pisos de madera o cerámicos, los de PVC son <b>resistentes a la humedad, a los impactos y al desgaste diario</b>, por lo que resultan perfectos para <b>living, dormitorios, oficinas y espacios comerciales</b>. Además, su colocación es rápida y limpia, logrando un resultado impecable en poco tiempo.
+          </p>
+          <Ventajas array={array} cols={3} />
+          <CarruselOneImage images={images} />
+        </div>
+        <SmallSectionBanner 
+          title="¿Querés pisos modernos, resistentes y fáciles de mantener?" 
+          cta="Solicitá tu presupuesto" 
+        />
+        <div className='row section-padding'>
           <div className='col-lg-7'>
             <h2>Sistema <b>Click Locking</b></h2>
             <Separador color="--color-3" width="100px" />
@@ -89,13 +118,13 @@ export default function PisosInterior() {
             </div>
           </div>
         </div>
-        <div style={{padding: "100px 150px"}}>
+        {/* <div className='section-padding'>
           <h2>Ventajas de los <b>pisos de PVC</b> para interior</h2>
           <Separador color="--color-3" width="100px" />
           <p className='mb-5'>Renová tus ambientes, en pocas horas y sin trabajos de albañilería.</p>
           <IconText array={array} gutter="5" cols="3" imgSize="140px" />
-        </div>
-        <div style={{padding: "100px 150px"}} className='row'>
+        </div> */}
+        <div className='row section-padding'>
           <div className='col-5'>
             <img src="/pisosInterior/about-us-floors-03.jpg" alt="about-us-floors-03" />
           </div>
@@ -127,10 +156,10 @@ export default function PisosInterior() {
           <Separador color="--color-1" width="100px" />
           <p>Diseños con texturas y colores que logran una apariencia real. Combinalos con nuestros zòcalos de PVC.</p>
         </ImageBg>
-        <div style={{padding: "100px 150px"}}>
+        <div className='section-padding'>
           <CardsCarousel items={items} />
         </div>
-        <div style={{padding: "0px 150px 100px 150px"}}>
+        <div className='section-padding'>
           <h2 className='mt-4'>Descarga nuestros <b>catálogos digitales</b></h2>
           <Separador width="100px" color="--color-3" />
           <div className='row g-4 catalogo-section'>
