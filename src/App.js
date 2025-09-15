@@ -23,6 +23,7 @@ import Contacto from "./pages/Contacto";
 import Tubulares from "./pages/Design/Tubulares";
 import WallPanelInterior from "./pages/Design/WallPanelInterior";
 import WallPanelExterior from "./pages/Design/WallPanelExterior";
+import Revestimiento from "./pages/Design/Revestimiento";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
       <Route path="/in-out-design/tubulares" element={<Tubulares />} />
       <Route path="/in-out-design/wall-panel-interior" element={<WallPanelInterior />} />
       <Route path="/in-out-design/wall-panel-exterior" element={<WallPanelExterior />} />
+      <Route path="/in-out-design/revestimientos" element={<Revestimiento />} />
     </Routes>
   );
 }

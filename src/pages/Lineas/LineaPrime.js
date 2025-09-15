@@ -7,6 +7,9 @@ import Separador from '../../components/Separador'
 import Ventajas from '../../components/Arquitect-Developer/Ventajas'
 import CarruselOneImage from '../../components/CarruselOneImage'
 import SmallSectionBanner from '../../components/SmallSectionBanner'
+import CarruselCards from '../../components/CarruselCards'
+import ImageBg from '../Pisos/ImageBg'
+import CardsCarousel from '../Pisos/CardsCarousel'
 
 export default function LineaPrime() {
   let array=[
@@ -41,6 +44,28 @@ export default function LineaPrime() {
     "/houses/house-banner-3.jpg",
     "/houses/house-banner-4.jpg",
   ]
+  const ITEMS=[
+    {
+      image: "/LineaPrime/productos/LP_2G_FINAL_BLANCO.jpg",
+      title: "blanco"
+    },
+    {
+      image: "/LineaPrime/productos/LP_2G_GG_GRIS_GRAFITO.jpg",
+      title: "gris grafito"
+    },
+    {
+      image: "/LineaPrime/productos/LP_2G_GMET_2.jpg",
+      title: "gris metalizado"
+    },
+    {
+      image: "/LineaPrime/productos/LP_2G_JB.jpg",
+      title: "jet black"
+    },
+    {
+      image: "/LineaPrime/productos/LP_2G_PELTRE.jpg",
+      title: "peltre"
+    },
+  ]
   return (
     <>
       <Header />
@@ -65,7 +90,9 @@ export default function LineaPrime() {
           <p className='mb-4'>
             Su sistema corredizo ofrece un <b>movimiento suave, seguro y duradero</b>, optimizando el espacio y permitiendo una <b>mayor entrada de luz natural</b> sin comprometer la hermeticidad.
           </p>
-          <Ventajas array={array} cols={3} />
+        </div>
+        <CarruselCards array={array} />
+        <div className='section-padding'>
           <CarruselOneImage 
             images={images} 
           />
@@ -74,6 +101,12 @@ export default function LineaPrime() {
           title="¿Querés ventanales corredizos que combinen diseño y confort?" 
           cta="Solicitá tu presupuesto" 
         />
+        <ImageBg image="/LineaPrime/image-banner-2.jpg">
+          <h2>Gran variedad de colores y texturas</h2>
+          <Separador color="--color-2" width="100px" />
+          <p>Para elegir el diseño que más se adecue a tus ambientes:</p>
+          <CardsCarousel items={ITEMS} colorTitle="--color-4" />
+        </ImageBg>
         <div className='section-padding'>
           <h2>Sistema Corredizo</h2>
           <Separador color="--color-3" width="100px" />

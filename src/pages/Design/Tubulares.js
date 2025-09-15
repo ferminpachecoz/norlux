@@ -7,6 +7,9 @@ import Separador from '../../components/Separador'
 import ImageBg from '../Pisos/ImageBg'
 import CardsCarousel from '../Pisos/CardsCarousel'
 import IconText from '../Pisos/IconText'
+import CarruselCards from '../../components/CarruselCards'
+import CarruselOneImage from '../../components/CarruselOneImage'
+import SmallSectionBanner from '../../components/SmallSectionBanner'
 
 export default function Tubulares() {
   const ITEMS = [
@@ -44,46 +47,75 @@ export default function Tubulares() {
     },
     // ...agregá más si querés
   ];
-  let array = [
+  const array=[
     {
-      image: "ignifugo.png",
-      text: "Ignífugo y autoextinguible."
+      icon: "/LineaJumbo/icons/terrace.png",
+      title: "Diseño arquitectónico moderno",
+      description: "Aporta carácter y sofisticación a las fachadas."
     },
     {
-      image: "durabilidad.png",
-      text: "Larga durabilidad."
+      icon: "/Tubulares/icons/wood.png",
+      title: "Acabados imitación madera",
+      description: "Estética natural sin los problemas del material original."
     },
     {
-      image: "impacto.png",
-      text: "No se corroe, pudre o astilla."
+      icon: "/LineaJumbo/icons/interior-design.png",
+      title: "Integración arquitectónica",
+      description: "Se adaptan a múltiples estilos y amplían las posibilidades de diseño."
     },
     {
-      image: "aislacion-termica.png",
-      text: "Aislante térmico."
+      icon: "/pisosInterior/icons/water-resistant.png",
+      title: "Resistencia a la intemperie",
+      description: "Soporta lluvia, sol y cambios de temperatura."
     },
     {
-      image: "electrico.png",
-      text: "Aislante eléctrico"
+      icon: "/LineaEfficient/icons/mantenimiento.png",
+      title: "Mínimo mantenimiento",
+      description: "No requiere barnices ni pinturas."
     },
     {
-      image: "termitas.png",
-      text: "No lo afectan hongos ni termitas."
+      icon: "/Revestimiento/icons/reliability.png",
+      title: "Durabilidad superior",
+      description: "No se pudre, no se astilla, no pierde color fácilmente."
     },
     {
-      image: "mantenimiento.png",
-      text: "Cero mantenimiento."
-    },
-    {
-      image: "solar.png",
-      text: "Protección solar."
+      icon: "/LineaEfficient/icons/sustentabilidad.png",
+      title: "Sustentabilidad",
+      description: "Fabricados con materiales reciclables."
     },
   ]
+  const images = ["/Tubulares/image-banner-3.JPEG", "/Tubulares/image-banner-4.jpg", "/Tubulares/image-banner-5.jpg"]
   return (
     <>
       <Header />
-      <HeroSection title="Tubulares" subtitle="Lorem ipsum dolor sit amet" image="/houses/house-banner.jpg" />
+      <HeroSection 
+        title="Tubulares" 
+        subtitle="La solución ideal para crear revestimientos exteriores de diseño premium con la calidez de la madera y la resistencia del PVC." 
+        image="/Tubulares/image-banner-1.jpg" 
+      />
       <Productos padding="0px">
-        <div className='row' style={{padding: "100px"}}>
+        <div className='section-padding'>
+          <h2><b>Fachadas modernas</b> con estética natural</h2>
+          <Separador width="100px" color="--color-3" />
+          <p>
+            Los <b>Tubulares de PVC Muchtek</b>, comercializados por <b>Nörlux</b>, están pensados para aportar un <b>diseño contemporáneo y elegante</b> a las fachadas modernas. Gracias a sus acabados en <b>imitación madera</b>, logran transmitir la <b>calidez y estética natural</b> de este material, pero con todas las ventajas del PVC: <b>durabilidad, resistencia a la intemperie y bajo mantenimiento.</b>
+          </p>
+          <img 
+            src="/Tubulares/image-banner-2.jpeg" 
+            alt="Foto de tubulares en una casa" 
+            style={{borderRadius: "10px"}}
+            className='mb-4'
+          />
+          <p>
+            Además, se <b>integran de manera armónica con la arquitectura exterior</b>, lo que permite una <b>amplitud de posibilidades en diseños modernos</b>, adaptándose tanto a viviendas familiares como a proyectos comerciales y de vanguardia.
+          </p>
+        </div>
+        <CarruselCards array={array} />
+        <div className='section-padding'>
+          <CarruselOneImage images={images} />
+        </div>
+        <SmallSectionBanner title="¿Querés darle a tu proyecto una fachada moderna y elegante?" cta="Solicitá tu presupuesto" />
+        <div className='row section-padding'>
           <div className='col-7'>
             <h2>Parasoles - <b>Pérgolas</b> - Quiebravistas - <b>Louvers</b></h2>
             <Separador color="--color-3" width="100px" />
@@ -101,9 +133,6 @@ export default function Tubulares() {
           <p>en la amplia gama de colores y texturas de SKAI Foils.</p>
           <CardsCarousel items={ITEMS} colorTitle="--color-4" />
         </ImageBg>
-        <div style={{padding: "100px"}}>
-          <IconText array={array} gutter="5" cols="4" imgSize="100px" />
-        </div>
         <div className='row' style={{padding: "100px"}}>
           <div className='col-lg-5'>
             <h2>Medidas</h2>

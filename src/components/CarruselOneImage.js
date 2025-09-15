@@ -12,7 +12,6 @@ export default function CarruselOneImage({images}) {
       modules={[Navigation, Pagination, Autoplay]}
       slidesPerView={1}
       loop
-      navigation
       pagination={{ clickable: true }}
       autoplay={{ delay: 4000, disableOnInteraction: false }}
     >

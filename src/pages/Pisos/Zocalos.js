@@ -6,40 +6,42 @@ import Footer from '../../components/Footer'
 import Separador from '../../components/Separador'
 import CardsCarousel from './CardsCarousel'
 import IconText from './IconText'
+import ImageBg from './ImageBg'
+import CarruselCards from '../../components/CarruselCards'
+import CarruselOneImage from '../../components/CarruselOneImage'
+import SmallSectionBanner from '../../components/SmallSectionBanner'
 
 export default function Zocalos() {
-  let array=[
+  const array =[
     {
-      image: "estanquidad.png",
-      text: "Resistente al agua y a la humedad."
+      icon: "/pisosInterior/icons/water-resistant.png",
+      title: "Resistencia a la humedad y golpes",
+      description: "No se deforman ni deterioran con el uso diario."
     },
     {
-      image: "mantenimiento.png",
-      text: "Libre de mantenimiento."
+      icon: "/pisosInterior/icons/mechanic.png",
+      title: "Fácil mantenimiento",
+      description: "Limpieza rápida sin necesidad de tratamientos."
     },
     {
-      image: "texturas.png",
-      text: "Textura suave y homogénea."
+      icon: "/LineaEfficient/icons/versatilidad.png",
+      title: "Estética moderna",
+      description: "Múltiples diseños y colores para combinar con cualquier piso."
     },
     {
-      image: "facil.png",
-      text: "Rápida y sencilla colocación."
+      icon: "/pisosInterior/icons/easy-installation.png",
+      title: "Instalación práctica",
+      description: "Colocación sencilla y firme."
     },
     {
-      image: "impacto.png",
-      text: "No se astilla."
+      icon: "/Revestimiento/icons/reliability.png",
+      title: "Durabilidad garantizada",
+      description: "Conservan su apariencia por muchos años."
     },
     {
-      image: "durabilidad.png",
-      text: "Larga vida útil."
-    },
-    {
-      image: "ignifugo.png",
-      text: "lgnífugo y antibacteriano."
-    },
-    {
-      image: "sustentable.png",
-      text: "Amigable con el medio ambiente."
+      icon: "/LineaEfficient/icons/sustentabilidad.png",
+      title: "Sustentabilidad",
+      description: "Opción reciclable y respetuosa con el medio ambiente."
     },
   ]
   const ITEMS = [
@@ -93,12 +95,44 @@ export default function Zocalos() {
     },
     // ...agregá más si querés
   ];
+  const images=[
+    "/zocalos/image-banner.jpg",
+    "/zocalos/image-banner-3.jpg",
+    "/zocalos/image-banner-2.jpg"
+  ]
   return (
     <>
       <Header />
-      <HeroSection title="Zócalos" subtitle="Lorem ipsum dolor sit amet" image="/houses/house-banner.jpg" />
-      <Productos padding="100px 150px" style={{position: "relative"}}>
-        <div className='row'>
+      <HeroSection 
+        title="Zócalos de PVC" 
+        subtitle="Resistentes, estéticos y fáciles de mantener, para un acabado perfecto en cada ambiente."
+        image="/zocalos/image-banner.jpg"
+      />
+      <Productos padding="0px" style={{position: "relative"}}>
+        <div className='section-padding'>
+          <h2>El detalle que realza <b>tus espacios</b></h2>
+          <Separador width="100px" color="--color-3" />
+          <p>
+            Los <b>Zócalos de PVC Muchtek</b>, instalados por <b>Nörlux</b>, son la terminación ideal para lograr un acabado <b>prolijo y duradero</b> en cada ambiente. Gracias a su <b>resistencia</b> y <b>fácil limpieza</b>, son una opción muy superior a los zócalos de madera tradicionales, que suelen desgastarse con el tiempo y la humedad.
+          </p>
+        </div>
+        <ImageBg image="/zocalos/image-banner.jpg">
+          <h2>Gran variedad de colores y texturas</h2>
+          <Separador color="--color-2" width="100px" />
+          <p>Para elegir el diseño que más se adecue a tus ambientes:</p>
+          <CardsCarousel items={ITEMS} colorTitle="--color-4" />
+        </ImageBg>
+        <div className='section-padding'>
+          <p>
+            Su <b>diseño versátil</b> permite combinarlos con diferentes tipos de pisos, ya sean <b>vinílicos</b>, de PVC, <b>porcelanatos</b> o <b>flotantes</b>, aportando un detalle estético <b>moderno y funcional</b> que resalta el estilo de cada espacio.
+          </p>
+        </div>
+        <CarruselCards array={array} />
+        <div className='section-padding'>
+          <CarruselOneImage images={images} />
+        </div>
+        <SmallSectionBanner title="¿Querés darle a tu proyecto un acabado prolijo y moderno?" cta="Solicitá tu presupuesto" />
+        <div className='row section-padding'>
           <div className='col-7'>
             <h2>Fabricados con todo el <b>know how</b> Muchtek</h2>
             <Separador color="--color-3" width="100px" />
@@ -114,59 +148,50 @@ export default function Zocalos() {
             />
           </div>
         </div>
-        <section className="container my-5">
-          <h2>Gran variedad de <b>colores y texturas</b></h2>
-          <Separador color="--color-3" width="100px" />
-          <p>Para elegir el diseño que más se adecue a tus ambientes:</p>
-          <CardsCarousel items={ITEMS} />
-        </section>
-        <div className='mt-5'>
-          <h2>Ventajas de los <b>zócalos de PVC</b></h2>
-          <Separador color="--color-3" width="100px" />
-          <IconText array={array} cols="4" gutter="5" imgSize="100px" />
-        </div>
-        <div className='mt-5'>
-          <h2>Diseños y <b>Tipologías</b></h2>
-          <Separador color="--color-3" width="100px" />
-          <div className='row'>
-            <div className='col-lg-6'>
-              <img src="/zocalos/disenos_zocalos.png" alt="disenos_zocalos" />
-            </div>
-            <div className='col-lg-6'>
-              <img src="/zocalos/tipologias_zocalos.png" alt="tipologias_zocalos" />
+        <div className='section-padding'>
+          <div className='mt-5'>
+            <h2>Diseños y <b>Tipologías</b></h2>
+            <Separador color="--color-3" width="100px" />
+            <div className='row'>
+              <div className='col-lg-6'>
+                <img src="/zocalos/disenos_zocalos.png" alt="disenos_zocalos" />
+              </div>
+              <div className='col-lg-6'>
+                <img src="/zocalos/tipologias_zocalos.png" alt="tipologias_zocalos" />
+              </div>
             </div>
           </div>
-        </div>
-        <h2 className='mt-4'>Descarga nuestros <b>catálogos digitales</b></h2>
-        <Separador width="100px" color="--color-3" />
-        <div className='row g-4 catalogo-section'>
-          <div className='col'>
-            <p>Brochure institucional Muchtek</p>
-            <span className='d-flex align-items-center'>
-              <i className="bi bi-filetype-pdf"></i>
-              <a href="#">Descargar</a>
-            </span>
-          </div>
-          <div className='col'>
-            <p>Flyer ADN Muchtek</p>
-            <span className='d-flex align-items-center'>
-              <i className="bi bi-filetype-pdf"></i>
-              <a href="#">Descargar</a>
-            </span>
-          </div>
-          <div className='col'>
-            <p>Díptico laminados Muchtek</p>
-            <span className='d-flex align-items-center'>
-              <i className="bi bi-filetype-pdf"></i>
-              <a href="#">Descargar</a>
-            </span>
-          </div>
-          <div className='col'>
-            <p>Brochure In&Out Design Muchtek</p>
-            <span className='d-flex align-items-center'>
-              <i className="bi bi-filetype-pdf"></i>
-              <a href="#">Descargar</a>
-            </span>
+          <h2 className='mt-4'>Descarga nuestros <b>catálogos digitales</b></h2>
+          <Separador width="100px" color="--color-3" />
+          <div className='row g-4 catalogo-section'>
+            <div className='col'>
+              <p>Brochure institucional Muchtek</p>
+              <span className='d-flex align-items-center'>
+                <i className="bi bi-filetype-pdf"></i>
+                <a href="#">Descargar</a>
+              </span>
+            </div>
+            <div className='col'>
+              <p>Flyer ADN Muchtek</p>
+              <span className='d-flex align-items-center'>
+                <i className="bi bi-filetype-pdf"></i>
+                <a href="#">Descargar</a>
+              </span>
+            </div>
+            <div className='col'>
+              <p>Díptico laminados Muchtek</p>
+              <span className='d-flex align-items-center'>
+                <i className="bi bi-filetype-pdf"></i>
+                <a href="#">Descargar</a>
+              </span>
+            </div>
+            <div className='col'>
+              <p>Brochure In&Out Design Muchtek</p>
+              <span className='d-flex align-items-center'>
+                <i className="bi bi-filetype-pdf"></i>
+                <a href="#">Descargar</a>
+              </span>
+            </div>
           </div>
         </div>
       </Productos>

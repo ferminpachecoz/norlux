@@ -3,14 +3,124 @@ import Header from '../../components/Header';
 import HeroSection from '../../components/WhyPVC/HeroSection';
 import Productos from '../../components/Productos';
 import Footer from '../../components/Footer';
+import Separador from '../../components/Separador';
+import CarruselCards from '../../components/CarruselCards';
+import CarruselOneImage from '../../components/CarruselOneImage';
+import SmallSectionBanner from '../../components/SmallSectionBanner';
+import CardsCarousel from '../Pisos/CardsCarousel';
+import ImageBg from '../Pisos/ImageBg';
 
 export default function WallPanelExterior() {
+  const array=[
+    {
+      icon: "/LineaJumbo/icons/interior-design.png",
+      title: "Diseño arquitectónico premium",
+      description: "Estética contemporánea que eleva el valor del proyecto."
+    },
+    {
+      icon: "/Tubulares/icons/wood.png",
+      title: "Acabados imitación madera",
+      description: "Calidez natural con la resistencia del PVC."
+    },
+    {
+      icon: "/LineaJumbo/icons/layer.png",
+      title: "Integración arquitectónica",
+      description: "Múltiples opciones de diseño para fachadas modernas."
+    },
+    {
+      icon: "/pisosInterior/icons/water-resistant.png",
+      title: "Resistencia a la intemperie",
+      description: "Soporta sol, lluvia y cambios de temperatura."
+    },
+    {
+      icon: "/Revestimiento/icons/reliability.png",
+      title: "Durabilidad y bajo mantenimiento",
+      description: "No requiere barnices ni pinturas"
+    },
+    {
+      icon: "/LineaEfficient/icons/sustentabilidad.png",
+      title: "Sustentabilidad",
+      description: "Materiales reciclables y eco-friendly."
+    },
+  ]
+
+  const images=["/WallPanelExterior/image-banner-4.jpg", "/WallPanelExterior/image-banner-5.jpg", "/WallPanelExterior/image-banner-6.jpg"]
+
+  const ITEMS = [
+    {
+      image: "/WallPanelExterior/colores/TP_WP_TURNEROAK.jpg",
+      title: "Turner Oak",
+    },
+    {
+      image: "/WallPanelExterior/colores/TP_WP_NOGAL.jpg",
+      title: "Nogal",
+    },
+    {
+      image: "/WallPanelExterior/colores/TP_WP_TOFFEE.jpg",
+      title: "Toffee",
+    },
+    {
+      image: "/WallPanelExterior/colores/TP_WP_MATTEX KITAMI.jpg",
+      title: "Mattex Kitami",
+    },
+    {
+      image: "/WallPanelExterior/colores/TP_WP_JURA PINE.jpg",
+      title: "Jura Pine",
+    },
+    {
+      image: "/WallPanelExterior/colores/TP_WP_GOLDENOAK.jpg",
+      title: "Golden Oak",
+    },
+    {
+      image: "/WallPanelExterior/colores/TP_WP_CONCRETE_A.jpg",
+      title: "Concrete",
+    },
+    {
+      image: "/WallPanelExterior/colores/TP_WP_ALPINE.jpg",
+      title: "Alpine",
+    },
+    // ...agregá más si querés
+  ];
+
   return (
     <>
       <Header />
-      <HeroSection title="Wall Panel Exterior" subtitle="Lorem ipsum dolor sit amet" image="/houses/house-banner.jpg" />
+      <HeroSection 
+        title="Wall Panel Exterior" 
+        subtitle="La solución innovadora de PVC que combina estética contemporánea y máxima durabilidad para fachadas." 
+        image="/WallPanelExterior/image-banner-1.jpg" 
+      />
       <Productos padding="0px">
-        
+        <div className='section-padding'>
+          <h2><b>Diseño premium</b> con resistencia total</h2>
+          <Separador width="100px" color="--color-3" />
+          <p className='mb-4'>
+            Los <b>Wallpanel Exterior de PVC Muchtek</b>, comercializados por <b>Nörlux</b>, son una opción de <b>revestimiento moderno para fachadas</b> que aporta carácter, elegancia y una terminación arquitectónica de vanguardia. 
+          </p>
+          <img 
+            src="/WallPanelExterior/image-banner-2.jpg" 
+            alt="Diseño wall panel de exterior" 
+            style={{borderRadius: "10px"}}
+            className='mb-4'
+          />
+          <p>
+            Gracias a sus <b>acabados en imitación madera y texturas contemporáneas</b>, permiten integrar la <b>calidez natural con el diseño minimalista</b>, realzando el valor estético de cualquier proyecto. Además, al ser de PVC, ofrecen una <b>resistencia superior a la intemperie</b>, con <b>mínimo mantenimiento y larga vida útil</b>.
+          </p>
+          <p>
+            Su <b>integración arquitectónica</b> los hace ideales para <b>viviendas familiares, desarrollos residenciales y locales comerciales</b>, brindando una <b>amplitud de posibilidades de diseño moderno</b> sin los inconvenientes de materiales tradicionales.
+          </p>
+        </div>
+        <CarruselCards array={array} />
+        <div className='section-padding'>
+          <CarruselOneImage images={images} />
+        </div>
+        <SmallSectionBanner title="¿Querés una fachada moderna, resistente y sin mantenimiento?" cta="Solicitá tu presupuesto" />
+        <ImageBg image="/WallPanelExterior/image-banner-3.jpg">
+          <h2>Posibilidad de laminarlos</h2>
+          <Separador color="--color-2" width="100px" />
+          <p>en la amplia gama de colores y texturas de SKAI Foils.</p>
+          <CardsCarousel items={ITEMS} colorTitle="--color-4" />
+        </ImageBg>
       </Productos>
       <Footer />
     </>

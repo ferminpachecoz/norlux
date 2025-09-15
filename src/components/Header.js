@@ -49,7 +49,7 @@ export default function Header() {
                   <p><a href="/in-out-design/tubulares">Tubulares</a></p>
                   <p><a href="/in-out-design/wall-panel-interior">Wall Panel Interior</a></p>
                   <p><a href="/in-out-design/wall-panel-exterior">Wall Panel Exterior</a></p>
-                  <p className='mb-0'>Revestimientos</p>
+                  <p className='mb-0'><a href="/in-out-design/revestimientos">Revestimientos</a></p>
                 </div>
               </p>
             </span>

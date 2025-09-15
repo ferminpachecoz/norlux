@@ -9,6 +9,12 @@
   .separator{
     margin: 20px 0px;
   }
+  .section-image{
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px 0px;
+  }
   p{
     font-size: 20px;
     color: var(--color-6);

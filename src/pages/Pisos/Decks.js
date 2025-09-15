@@ -6,6 +6,9 @@ import Footer from '../../components/Footer'
 import Separador from '../../components/Separador'
 import IconText from './IconText'
 import CarruselOneImage from '../../components/CarruselOneImage'
+import SmallSectionBanner from '../../components/SmallSectionBanner'
+import ImageBg from './ImageBg'
+import CardsCarousel from './CardsCarousel'
 
 export default function Decks() {
   let array=[
@@ -47,16 +50,30 @@ export default function Decks() {
     },
   ]
   let images=[
-    "/Decks/image-1.jpg",
-    "/Decks/image-2.jpg",
-    "/Decks/img-banner.jpg",
+    "/Decks/image-banner-3.jpg",
+    "/Decks/image-banner-2.jpg",
+    "/Decks/image-banner-4.jpg",
+  ]
+  const ITEMS=[
+    {
+      image: "/Decks/productos/LD_HONEY OAK.jpg",
+      title: "honey oak"
+    },
+    {
+      image: "/Decks/productos/LD_MOUNTAIN OAK.jpg",
+      title: "mountain oak"
+    },
+    {
+      image: "/Decks/productos/LD_NUTMEG OAK.jpg",
+      title: "nutmeg oak"
+    },
   ]
   return (
     <>
       <Header />
       <HeroSection title="Decks de PVC" subtitle={"La mejor alternativa a la madera: resistente, elegante y de bajo mantenimiento."} image={"/Decks/img-banner.jpg"} />
-      <Productos padding="100px 100px">
-        <div className='row'>
+      <Productos padding="0px">
+        <div className='row section-padding'>
           <div className='col-lg-7'>
             <h2>Ahora el Deck es de <b>PVC</b>.</h2>
             <Separador color="--color-3" width="100px" />
@@ -69,7 +86,7 @@ export default function Decks() {
             <img src="/Decks/deck-foto-03.jpg" alt="deck-foto-03" />
           </div>
         </div>
-        <div className='row'>
+        <div className='row section-padding'>
           <div className='col-lg-6'>
             <img src="/Decks/decks-foils-01.png" alt="decks-foils-01" />
             <p>Ideales para <b>terrazas, balcones, jardines y áreas de piscina</b>, ofrecen un <b>diseño elegante y contemporáneo</b>, con múltiples acabados que se adaptan a distintos estilos arquitectónicos.</p>
@@ -81,30 +98,41 @@ export default function Decks() {
             <IconText array={array} />
           </div>
         </div>
-        <CarruselOneImage images={images} />
-        <h2 className='mt-5'>Descarga nuestros <b>catálogos digitales</b></h2>
-        <Separador width="100px" color="--color-3" />
-        <div className='row g-4 catalogo-section'>
-          <div className='col'>
-            <p>Brochure institucional Muchtek</p>
-            <span className='d-flex align-items-center'>
-              <i className="bi bi-filetype-pdf"></i>
-              <a href="#">Descargar</a>
-            </span>
-          </div>
-          <div className='col'>
-            <p>Flyer ADN Muchtek</p>
-            <span className='d-flex align-items-center'>
-              <i className="bi bi-filetype-pdf"></i>
-              <a href="#">Descargar</a>
-            </span>
-          </div>
-          <div className='col'>
-            <p>Díptico laminados Muchtek</p>
-            <span className='d-flex align-items-center'>
-              <i className="bi bi-filetype-pdf"></i>
-              <a href="#">Descargar</a>
-            </span>
+        <div className='section-padding'>
+          <CarruselOneImage images={images} />
+        </div>
+        <SmallSectionBanner title="¿Querés renovar tus espacios exteriores con un deck duradero y elegante?" cta="Solicitá tu presupuesto" />
+        <ImageBg image="/Decks/img-banner.jpg">
+          <h2>Gran variedad de colores y texturas</h2>
+          <Separador color="--color-2" width="100px" />
+          <p>Para elegir el diseño que más se adecue a tus ambientes:</p>
+          <CardsCarousel items={ITEMS} colorTitle="--color-4" />
+        </ImageBg>
+        <div className='section-padding'>
+          <h2 className='mt-5'>Descarga nuestros <b>catálogos digitales</b></h2>
+          <Separador width="100px" color="--color-3" />
+          <div className='row g-4 catalogo-section'>
+            <div className='col'>
+              <p>Brochure institucional Muchtek</p>
+              <span className='d-flex align-items-center'>
+                <i className="bi bi-filetype-pdf"></i>
+                <a href="#">Descargar</a>
+              </span>
+            </div>
+            <div className='col'>
+              <p>Flyer ADN Muchtek</p>
+              <span className='d-flex align-items-center'>
+                <i className="bi bi-filetype-pdf"></i>
+                <a href="#">Descargar</a>
+              </span>
+            </div>
+            <div className='col'>
+              <p>Díptico laminados Muchtek</p>
+              <span className='d-flex align-items-center'>
+                <i className="bi bi-filetype-pdf"></i>
+                <a href="#">Descargar</a>
+              </span>
+            </div>
           </div>
         </div>
       </Productos>

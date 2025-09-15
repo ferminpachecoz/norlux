@@ -7,6 +7,9 @@ import Separador from '../../components/Separador'
 import Ventajas from '../../components/Arquitect-Developer/Ventajas'
 import CarruselOneImage from '../../components/CarruselOneImage'
 import SmallSectionBanner from '../../components/SmallSectionBanner'
+import CarruselCards from '../../components/CarruselCards'
+import ImageBg from '../Pisos/ImageBg'
+import CardsCarousel from '../Pisos/CardsCarousel'
 
 export default function LineaJumbo() {
   const array=[
@@ -42,6 +45,24 @@ export default function LineaJumbo() {
     },
   ]
   const images=["/LineaJumbo/image-banner.jpg","/houses/house-banner.jpg", "/houses/house-banner-2.jpg"]
+  const ITEMS=[
+    {
+      image: "/LineaJumbo/productos/LJ_2G_FINAL_BLANCO.jpg",
+      title: "blanco"
+    },
+    {
+      image: "/LineaJumbo/productos/LJ_2H_JBLACK.jpg",
+      title: "jet black"
+    },
+    {
+      image: "/LineaJumbo/productos/LJ_2H_LENGA.jpg",
+      title: "lenga"
+    },
+    {
+      image: "/LineaJumbo/productos/LJ_2H_TOAK.jpg",
+      title: "turner oak"
+    },
+  ]
   return (
     <>
       <Header />
@@ -64,13 +85,21 @@ export default function LineaJumbo() {
           <p>
             Es la opción perfecta para <b>living-comedores, galerías y proyectos residenciales premium</b> que priorizan amplitud, diseño y confort.
           </p>
-          <Ventajas array={array} cols={3} />
+        </div>
+        <CarruselCards array={array} />
+        <div className='section-padding'>
           <CarruselOneImage images={images} />
         </div>
         <SmallSectionBanner 
           title="¿Querés abrir tus espacios al máximo con diseño y eficiencia?" 
           cta="Solicitá tu presupuesto" 
         />
+        <ImageBg image="/LineaJumbo/image-banner.jpg">
+          <h2>Gran variedad de colores y texturas</h2>
+          <Separador color="--color-2" width="100px" />
+          <p>Para elegir el diseño que más se adecue a tus ambientes:</p>
+          <CardsCarousel items={ITEMS} colorTitle="--color-4" />
+        </ImageBg>
         <div className='section-padding'>
           <h3 className='mt-5'>Sistemas de <b>dos o más</b> guías</h3>
           <img src="/LineaJumbo/jumbo-guias.png" alt="Jumbo Guias" />

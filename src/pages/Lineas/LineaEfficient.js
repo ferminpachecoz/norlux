@@ -8,6 +8,9 @@ import IconText from '../Pisos/IconText';
 import Ventajas from '../../components/Arquitect-Developer/Ventajas';
 import CarruselOneImage from '../../components/CarruselOneImage';
 import SmallSectionBanner from '../../components/SmallSectionBanner';
+import CarruselCards from '../../components/CarruselCards';
+import CardsCarousel from '../Pisos/CardsCarousel';
+import ImageBg from '../Pisos/ImageBg';
 
 export default function LineaEfficient() {
   let array = [
@@ -37,7 +40,34 @@ export default function LineaEfficient() {
       description: "Fabricadas con materiales reciclables y pensadas para reducir el consumo energético."
     },
   ]
-  let images=["/houses/house-banner-2.jpg","/houses/house-banner-3.jpg","/houses/house-banner-4.jpg"]
+  let images=["/LineaEfficient/image-banner-2.jpg","/LineaEfficient/image-banner-6.jpg","/LineaEfficient/image-banner-5.jpg"]
+
+  const items=[
+    {
+      image: "/LineaEfficient/productos/LEFF_CERRADA_ALPINE.jpg",
+      title: "alpine"
+    },
+    {
+      image: "/LineaEfficient/productos/LEFF_CC_ALTWEISS COMPLETA.jpg",
+      title: "altweiss"
+    },
+    {
+      image: "/LineaEfficient/productos/LN_CC_58-69_BLANCO.jpg",
+      title: "blanco"
+    },
+    {
+      image: "/LineaEfficient/productos/LEFF_PF_JETBLACK.jpg",
+      title: "jet black"
+    },
+    {
+      image: "/LineaEfficient/productos/LN_58-85_CC_SCHWARZBRAUN.jpg",
+      title: "schwarzbraun"
+    },
+    {
+      image: "/LineaEfficient/productos/LEFF_CC_BANDEROLA_TOFFEE.jpg",
+      title: "toffee"
+    },
+  ]
   return (
     <>
       <Header />
@@ -48,23 +78,33 @@ export default function LineaEfficient() {
 
       />
       <Productos padding="0px">
-        <div style={{padding: "100px 200px 0px 200px"}}>
+        <div className='section-padding'>
           <h2 className='titulo'>Ventanas que combinan <b>eficiencia y confort</b></h2>
           <Separador width="100px" color="--color-3" />
           <p>
             La línea <b>Efficient</b> de <b>Muchtek</b>, está pensada para quienes buscan el equilibrio perfecto entre <b>diseño, confort y eficiencia energética</b>. Sus aperturas practicables permiten una <b>apertura total</b> que favorece la ventilación, a la vez que ofrecen un <b>alto nivel de hermeticidad</b> gracias a su doble contacto para mantener la temperatura interior, reducir ruidos externos y ahorrar en climatización.
           </p>
+          <img 
+            src="/LineaEfficient/image-banner-3.jpg" 
+            alt="Muchtek en casa foa - linea efficient" 
+            className='mb-4'
+            style={{borderRadius: "10px"}}
+          />
           <p>
             Estas ventanas son ideales para proyectos que buscan una máxima <b>aislación térmica y acústica</b>, adaptándose a diferentes estilos arquitectónicos sin perder prestaciones
           </p>
         </div>
-        <Ventajas array={array} />
-        <div style={{padding: "50px 100px 0px 100px"}}>
+        <CarruselCards array={array} />
+        <div className='section-padding'>
           <CarruselOneImage images={images} />
         </div>
-        <div style={{padding: "100px 0px 0px 0px"}}>
-          <SmallSectionBanner title="¿Querés conocer cómo la línea Efficient puede transformar tu proyecto?" cta="Solicitá tu presupuesto" />
-        </div>
+        <SmallSectionBanner title="¿Querés conocer cómo la línea Efficient puede transformar tu proyecto?" cta="Solicitá tu presupuesto" />
+        <ImageBg image="/LineaEfficient/image-banner.jpg">
+          <h2>Gran variedad de colores y texturas</h2>
+          <Separador color="--color-2" width="100px" />
+          <p>Para elegir el diseño que más se adecue a tus ambientes:</p>
+          <CardsCarousel items={items} colorTitle="--color-3" />
+        </ImageBg>
         {/* <img src="/LineaEfficient/pano-fijo-renders.png" alt="Paño fijo renders" />
         <h3>Series <b>58-55</b> y <b>58-67</b></h3>
         <img src="/LineaEfficient/pano-fijo-series.png" alt="Paño fijo series" /> */}

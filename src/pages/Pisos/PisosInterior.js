@@ -10,6 +10,7 @@ import CardsCarousel from './CardsCarousel.js'
 import Ventajas from '../../components/Arquitect-Developer/Ventajas.js'
 import CarruselOneImage from '../../components/CarruselOneImage.js'
 import SmallSectionBanner from '../../components/SmallSectionBanner.js'
+import CarruselCards from '../../components/CarruselCards.js'
 
 export default function PisosInterior() {
   let array=[
@@ -89,7 +90,9 @@ export default function PisosInterior() {
           <p>
             A diferencia de los pisos de madera o cerámicos, los de PVC son <b>resistentes a la humedad, a los impactos y al desgaste diario</b>, por lo que resultan perfectos para <b>living, dormitorios, oficinas y espacios comerciales</b>. Además, su colocación es rápida y limpia, logrando un resultado impecable en poco tiempo.
           </p>
-          <Ventajas array={array} cols={3} />
+        </div>
+        <CarruselCards array={array} />
+        <div className='section-padding'>
           <CarruselOneImage images={images} />
         </div>
         <SmallSectionBanner 
@@ -108,16 +111,12 @@ export default function PisosInterior() {
             <img src="/pisosInterior/about-us-floors-04.jpg" alt="about-us-floors-04" />
           </div>
         </div>
-        <div style={{ backgroundImage: "url(/houses/sample-02.jpg)", backgroundAttachment: "fixed"}}>
-          <div style={{padding: "100px 150px", width: "100%", height: "100%", backgroundColor: "rgba(27, 31, 30, 0.5)"}}>
-            <h2 style={{color: "var(--color-2)"}}>Composición</h2>
-            <Separador width="100px" color="--color-1" />
-            <p className='mb-5' style={{color: "var(--color-2)"}}>Multicapa, compuesto a base de PVC virgen, malla de fibra de vidrio para mayor estabilidad, lamina con patrón de diseño y capa de abrasión.</p>
-            <div style={{padding: "0px 100px"}}>
-              <img src="/pisosInterior/pisos-composicion-cuadro.jpg" alt="pisos-composicion-cuadro"  />
-            </div>
-          </div>
-        </div>
+        <ImageBg image="/pisosInterior/pisos-colores.jpg">
+          <h2>Pisos de PVC para interior simil madera</h2>
+          <Separador color="--color-1" width="100px" />
+          <p>Diseños con texturas y colores que logran una apariencia real. Combinalos con nuestros zòcalos de PVC.</p>
+          <CardsCarousel items={items} />
+        </ImageBg>
         {/* <div className='section-padding'>
           <h2>Ventajas de los <b>pisos de PVC</b> para interior</h2>
           <Separador color="--color-3" width="100px" />
@@ -151,13 +150,15 @@ export default function PisosInterior() {
             </div>
           </div>
         </div>
-        <ImageBg image="/pisosInterior/pisos-colores.jpg">
-          <h2>Pisos de PVC para interior simil madera</h2>
-          <Separador color="--color-1" width="100px" />
-          <p>Diseños con texturas y colores que logran una apariencia real. Combinalos con nuestros zòcalos de PVC.</p>
-        </ImageBg>
-        <div className='section-padding'>
-          <CardsCarousel items={items} />
+        <div style={{ backgroundImage: "url(/houses/sample-02.jpg)", backgroundAttachment: "fixed"}}>
+          <div style={{padding: "100px 150px", width: "100%", height: "100%", backgroundColor: "rgba(27, 31, 30, 0.5)"}}>
+            <h2 style={{color: "var(--color-2)"}}>Composición</h2>
+            <Separador width="100px" color="--color-1" />
+            <p className='mb-5' style={{color: "var(--color-2)"}}>Multicapa, compuesto a base de PVC virgen, malla de fibra de vidrio para mayor estabilidad, lamina con patrón de diseño y capa de abrasión.</p>
+            <div style={{padding: "0px 100px"}}>
+              <img src="/pisosInterior/pisos-composicion-cuadro.jpg" alt="pisos-composicion-cuadro"  />
+            </div>
+          </div>
         </div>
         <div className='section-padding'>
           <h2 className='mt-4'>Descarga nuestros <b>catálogos digitales</b></h2>
