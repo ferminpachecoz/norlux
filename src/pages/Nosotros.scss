@@ -128,3 +128,33 @@
     }
   }
 }
+@media (max-width: 476px){
+  .nosotros{
+    .banner{
+      padding: 0em 1em;
+      h1{
+        font-size: 35px;
+      }
+      .subtitle{
+        width: 100%;
+      }
+    }
+    .content{
+      padding: 2em 1em;
+    }
+    .seccion{
+      padding: 2em;
+    }
+    .experience{
+      padding: 2em 1em;
+      .texto{
+        h2{
+          text-align: center;
+        }
+        .highlight{
+          margin: 20px auto;
+        }
+      }
+    }
+  }
+}

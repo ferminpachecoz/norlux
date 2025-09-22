@@ -19,3 +19,13 @@
     color: var(--color-4);
   }
 }
+@media (max-width: 476px){
+  .small-section-banner{
+    height: 50vh;
+    padding: 0em 1em;
+    h1{
+      width: 100%;
+      font-size: 25px;
+    }
+  }
+}

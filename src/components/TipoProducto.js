@@ -4,7 +4,7 @@ import "./TipoProducto.scss";
 export default function TipoProducto({array}) {
   return (
     <div className='tipo-producto'>
-      <div className='row row-cols-2 g-4'>
+      <div className='row row-cols-lg-2 row-cols-1 g-4'>
         {
           array.map((item, index)=>(
           <div className='col' key={index}>

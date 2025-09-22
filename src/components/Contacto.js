@@ -65,14 +65,14 @@ export default function Contacto() {
       </div>
       <div className='anexo'>
         <p className='main-text'>¿Prefieres contactarnos directamente?</p>
-        <div className='d-flex justify-content-center align-items-center'>
-          <span className='d-flex me-5'>
+        <div className='d-flex justify-content-lg-center justify-content-around align-items-center'>
+          <span className='d-flex me-0 me-lg-5'>
             <i className="bi bi-telephone-fill me-2"></i>
-            <p>+54 11 4567-8900</p>
+            <p className='mb-0'>+54 11 4567-8900</p>
           </span>
-          <span className='d-flex'>
+          <span className='d-flex align-items-center'>
             <i className="bi bi-envelope me-2"></i>
-            <p>info@norlux.com.ar</p>
+            <p className='mb-0'>info@norlux.com.ar</p>
           </span>
         </div>
       </div>

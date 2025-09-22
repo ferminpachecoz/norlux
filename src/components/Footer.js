@@ -74,12 +74,12 @@ export default function Footer() {
         </form>
       </div>
       <div className='separador'></div>
-      <div className='derechos d-flex justify-content-between align-items-center'>
+      <div className='derechos d-lg-flex d-block justify-content-between align-items-center'>
         <p>© 2024 Nörlux. Todos los derechos reservados.</p>
         <span className='d-flex'>
-          <p className='me-5'>Política de Privacidad</p>
-          <p className='me-5'>Términos de Uso</p>
-          <p className='me-5'>Cookies</p>
+          <p className='me-lg-5 me-2'>Política de Privacidad</p>
+          <p className='me-lg-5 me-2'>Términos de Uso</p>
+          <p className='me-lg-5 me-2'>Cookies</p>
         </span>
       </div>
     </div>

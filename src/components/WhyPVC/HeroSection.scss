@@ -33,3 +33,17 @@
     }
   }
 }
+@media (max-width: 476px){
+  .hero-section{
+    .mask{
+      padding: 1em;
+      h1{
+        text-align: center;
+        font-size: 35px;
+      }
+      .subtitle{
+        width: 100%;
+      }
+    }
+  }
+}

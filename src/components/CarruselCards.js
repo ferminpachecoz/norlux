@@ -11,11 +11,24 @@ export default function CarruselCards({array}) {
   return (
     <div className='carrusel-cards'>
       <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
-        slidesPerView={3}           // 1 slide visible por vez
+        modules={[Navigation, Pagination, Autoplay]}           // 1 slide visible por vez
         loop                        // vuelve a empezar al final
         pagination={{ clickable: true }}
         autoplay={{ delay: 2000, disableOnInteraction: true }}
+        breakpoints={{
+          0: {           // desde 0px hasta el siguiente breakpoint
+            slidesPerView: 1,
+            spaceBetween: 12,
+          },
+          768: {        // tablets
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          992: {        // desktops
+            slidesPerView: 3,
+            spaceBetween: 24,
+          },
+        }}
       >
         {
           array.map((item,index)=>(

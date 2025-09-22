@@ -92,3 +92,14 @@
     }
   }
 }
+@media (max-width: 476px){
+  .proyectos{
+    padding: 2em 1em;
+    .fondo{
+      padding-bottom: 2em;
+    }
+    .swiper-button-prev, .swiper-button-next{
+      top: var(--swiper-navigation-top-offset, 45%);
+    }
+  }
+}

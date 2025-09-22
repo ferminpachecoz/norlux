@@ -11,58 +11,60 @@ export default function Novedades() {
     <>
       <Header />
       <HeroSection image="/houses/house-banner.jpg" title="Novedades" subtitle="Descubrí todas las novedades del mundo del PVC" />
-      <Productos padding="100px 150px">
-        <h2>Novedades</h2>
-        <Separador color="--color-3" width="100px" />
-        <div className='row mb-3'>
-          <ImageCard 
-            width="12" 
-            image="/houses/house-banner.jpg" 
-            title="Lorem ipsum dolor sit amet" 
-            category="lorem ipsum"
-          />
-        </div>
-        <div className='row mb-3 g-3'>
-          <ImageCard 
-            width="6" 
-            image="/houses/house-banner.jpg" 
-            title="Lorem ipsum dolor sit amet" 
-            category="lorem ipsum"
-          />
-          <ImageCard 
-            width="6" 
-            image="/houses/house-banner.jpg" 
-            title="Lorem ipsum dolor sit amet" 
-            category="lorem ipsum"
-          />
-        </div>
-        <div className='row mb-3 g-3'>
-          <ImageCard 
-            width="8" 
-            image="/houses/house-banner.jpg" 
-            title="Lorem ipsum dolor sit amet" 
-            category="lorem ipsum"
-          />
-          <ImageCard 
-            width="4" 
-            image="/houses/house-banner.jpg" 
-            title="Lorem ipsum dolor sit amet" 
-            category="lorem ipsum"
-          />
-        </div>
-        <div className='row mb-3 g-3'>
-          <ImageCard 
-            width="4" 
-            image="/houses/house-banner.jpg" 
-            title="Lorem ipsum dolor sit amet" 
-            category="lorem ipsum"
-          />
-          <ImageCard 
-            width="8" 
-            image="/houses/house-banner.jpg" 
-            title="Lorem ipsum dolor sit amet" 
-            category="lorem ipsum"
-          />
+      <Productos padding="0px">
+        <div className='section-padding'>
+          <h2>Novedades</h2>
+          <Separador color="--color-3" width="100px" />
+          <div className='row mb-3'>
+            <ImageCard 
+              width="12" 
+              image="/houses/house-banner.jpg" 
+              title="Lorem ipsum dolor sit amet" 
+              category="lorem ipsum"
+            />
+          </div>
+          <div className='row mb-3 g-3'>
+            <ImageCard 
+              width="6" 
+              image="/houses/house-banner.jpg" 
+              title="Lorem ipsum dolor sit amet" 
+              category="lorem ipsum"
+            />
+            <ImageCard 
+              width="6" 
+              image="/houses/house-banner.jpg" 
+              title="Lorem ipsum dolor sit amet" 
+              category="lorem ipsum"
+            />
+          </div>
+          <div className='row mb-3 g-3'>
+            <ImageCard 
+              width="8" 
+              image="/houses/house-banner.jpg" 
+              title="Lorem ipsum dolor sit amet" 
+              category="lorem ipsum"
+            />
+            <ImageCard 
+              width="4" 
+              image="/houses/house-banner.jpg" 
+              title="Lorem ipsum dolor sit amet" 
+              category="lorem ipsum"
+            />
+          </div>
+          <div className='row mb-3 g-3'>
+            <ImageCard 
+              width="4" 
+              image="/houses/house-banner.jpg" 
+              title="Lorem ipsum dolor sit amet" 
+              category="lorem ipsum"
+            />
+            <ImageCard 
+              width="8" 
+              image="/houses/house-banner.jpg" 
+              title="Lorem ipsum dolor sit amet" 
+              category="lorem ipsum"
+            />
+          </div>
         </div>
       </Productos>
       <Footer />

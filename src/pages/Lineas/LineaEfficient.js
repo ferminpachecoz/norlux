@@ -108,7 +108,7 @@ export default function LineaEfficient() {
         {/* <img src="/LineaEfficient/pano-fijo-renders.png" alt="Paño fijo renders" />
         <h3>Series <b>58-55</b> y <b>58-67</b></h3>
         <img src="/LineaEfficient/pano-fijo-series.png" alt="Paño fijo series" /> */}
-        <div style={{padding: "100px 200px"}}>
+        <div className='section-padding'>
           <h2 className='titulo mt-4'>Sistema de <b>doble contacto</b></h2>
           <Separador width="100px" color="--color-3" />
           <p className='big'>Cuenta con los siguientes sistemas:</p>

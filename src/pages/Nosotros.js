@@ -48,7 +48,7 @@ export default function Nosotros() {
           <div className='row g-5'>
             {
               array.map((item, index)=>(
-              <div className='col' key={index}>
+              <div className='col-12 col-lg' key={index}>
                 <div className='card'>
                   <span className='icon-container'>
                     <i className={item.icon}></i>

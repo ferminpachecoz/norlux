@@ -48,3 +48,14 @@ a{
 .section-padding{
   padding: 50px 200px;
 }
+@media (max-width: 476px){
+  .section-title{
+    font-size: 25px;
+  }
+  .section-subtitle{
+    width: 100%;
+  }
+  .section-padding{
+    padding: 2em 1em;
+  }
+}

@@ -28,7 +28,7 @@ export default function Estadisticas() {
     <div className='estadisticas'>
       <h1 className='section-title'>Retorno de inversión <b>comprobado</b></h1>
       <p className='section-subtitle mb-4'>Datos reales de proyectos ejecutados que demuestran el impacto positivo en tu rentabilidad.</p>
-      <div className='row g-4'>
+      <div className='row  g-4'>
         {
           array.map((item, index)=>(
             <div className='col' key={index}>

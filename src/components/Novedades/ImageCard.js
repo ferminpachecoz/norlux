@@ -3,7 +3,7 @@ import "./ImageCard.scss";
 
 export default function ImageCard({width, image, title, category}) {
   return (
-    <div className={`col-lg-${width} image-card`}>
+    <div className={`col-lg-${width} col-12 image-card`}>
       <div style={{position: "relative"}}>
         <a href="#">
           <img src={image} alt="" />

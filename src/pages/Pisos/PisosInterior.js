@@ -124,10 +124,10 @@ export default function PisosInterior() {
           <IconText array={array} gutter="5" cols="3" imgSize="140px" />
         </div> */}
         <div className='row section-padding'>
-          <div className='col-5'>
+          <div className='col-lg-5 d-none d-lg-block'>
             <img src="/pisosInterior/about-us-floors-03.jpg" alt="about-us-floors-03" />
           </div>
-          <div className='col-7'>
+          <div className='col-lg-7 col-12'>
             <h2>Instalacion</h2>
             <Separador color="--color-3" width="100px" />
             <p>Sistema click perimetral. 1-2-3 y listo!!!</p>
@@ -151,11 +151,11 @@ export default function PisosInterior() {
           </div>
         </div>
         <div style={{ backgroundImage: "url(/houses/sample-02.jpg)", backgroundAttachment: "fixed"}}>
-          <div style={{padding: "100px 150px", width: "100%", height: "100%", backgroundColor: "rgba(27, 31, 30, 0.5)"}}>
+          <div className='section-padding' style={{width: "100%", height: "100%", backgroundColor: "rgba(27, 31, 30, 0.5)"}}>
             <h2 style={{color: "var(--color-2)"}}>Composición</h2>
             <Separador width="100px" color="--color-1" />
             <p className='mb-5' style={{color: "var(--color-2)"}}>Multicapa, compuesto a base de PVC virgen, malla de fibra de vidrio para mayor estabilidad, lamina con patrón de diseño y capa de abrasión.</p>
-            <div style={{padding: "0px 100px"}}>
+            <div className='section-padding'>
               <img src="/pisosInterior/pisos-composicion-cuadro.jpg" alt="pisos-composicion-cuadro"  />
             </div>
           </div>

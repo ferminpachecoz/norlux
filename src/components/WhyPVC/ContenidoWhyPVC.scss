@@ -10,3 +10,11 @@
     line-height: 35px;
   }
 }
+@media (max-width: 476px){
+  .contenido-why-pvc{
+    padding: 3em 1em;
+    .section-subtitle{
+      width: 100%;
+    }
+  }
+}

@@ -53,7 +53,7 @@ export default function Beneficios() {
       <div className='resaltador'>
         <span className='linea'></span>
       </div>
-      <div className='row row-cols-lg-3 g-5'>
+      <div className='row row-cols-lg-3 g-lg-5 row-cols-2 g-2'>
         {
           elementos.map((item, key)=>(
             <div className='col' key={key}>
@@ -69,16 +69,16 @@ export default function Beneficios() {
         }
       </div>
       <p className='text'>Cada detalle está pensado para brindar la mejor experiencia y resultados duraderos</p>
-      <div className='d-flex justify-content-evenly align-items-center lista'>
-        <span className='d-flex align-items-center'>
+      <div className='d-flex justify-content-evenly align-items-center lista flex-column flex-lg-row'>
+        <span className='d-flex align-items-center mb-3'>
           <span className='circle me-2'></span>
           <p>10 años de garantía en perfiles</p>
         </span>
-        <span className='d-flex align-items-center'>
+        <span className='d-flex align-items-center mb-3'>
           <span className='circle me-2'></span>
           <p>5 años en herrajes</p>
         </span>
-        <span className='d-flex align-items-center'>
+        <span className='d-flex align-items-center mb-3'>
           <span className='circle me-2'></span>
           <p>Instalación certificada</p>
         </span>

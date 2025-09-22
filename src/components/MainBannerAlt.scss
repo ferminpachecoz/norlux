@@ -58,3 +58,24 @@
   .swiper-pagination-bullet { background: rgba(255,255,255,.6); }
   .swiper-pagination-bullet-active { background: #fff; }
 }
+@media (max-width: 476px){
+  .main-banner{
+    .overlay{
+      padding: 1em;
+      .content{
+        width: 100%;
+        h1{
+          font-size: 2.8em;
+          text-align: center;
+        }
+        h2{
+          font-size: 1.5em;
+          text-align: center;
+        }
+        a.verde{
+          margin: 0px auto;
+        }
+      }
+    }
+  }
+}

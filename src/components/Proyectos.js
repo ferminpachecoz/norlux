@@ -57,7 +57,7 @@ export default function Proyectos() {
           loop
           navigation
           pagination={{ clickable: true }}
-          autoplay={{ delay: 4500, disableOnInteraction: false }}
+         /*  autoplay={{ delay: 4500, disableOnInteraction: false }} */
           aria-label="Carrusel de proyectos"
         >
           {proyectos.map((p, i) => (
