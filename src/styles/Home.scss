@@ -1,0 +1,32 @@
+.carrusel-clientes-overlay{
+  position: fixed;
+  width: 100%;
+  z-index: 10000000000;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .contenedor-carrusel-clientes{
+    width: 60vw;
+    height: auto;
+  }
+  .close-icon-container{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+    z-index: 100000000;
+    cursor: pointer;
+    font-size: 30px;
+  }
+}
+@media (max-width: 476px){
+  .carrusel-clientes-overlay{
+    .contenedor-carrusel-clientes{
+      width: 90vw;
+    }
+  }
+}

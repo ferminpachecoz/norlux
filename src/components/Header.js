@@ -10,7 +10,7 @@ export default function Header() {
     <div className='header'>
       <div className='top-part d-flex align-items-center justify-content-between'>
         <div className='d-flex'>
-          <span className='d-flex me-4 me-lg-0'>
+          <span className='d-flex me-4 me-lg-3'>
             <i className="bi bi-telephone"></i>
             <p>+54 11 1234-5678</p>
           </span>

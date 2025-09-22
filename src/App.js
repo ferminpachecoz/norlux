@@ -24,9 +24,20 @@ import Tubulares from "./pages/Design/Tubulares";
 import WallPanelInterior from "./pages/Design/WallPanelInterior";
 import WallPanelExterior from "./pages/Design/WallPanelExterior";
 import Revestimiento from "./pages/Design/Revestimiento";
+import Noticia1 from "./pages/Novedades/Noticia1";
+import Noticia2 from "./pages/Novedades/Noticia2";
 
 function App() {
   return (
+    <>
+    <div className='wpp-button'>
+      <a 
+      href="https://wa.me/5491123269142?text=Hola%21%20Me%20gustar%C3%ADa%20hacer%20una%20consulta%20sobre%20las%20aberturas%20de%20N%C3%B6rlux." 
+      target="_blank" 
+      rel="noopener noreferrer">
+        <i className="bi bi-whatsapp"></i>
+      </a>
+    </div>
     <Routes>
       <Route exact={true} path="/" element={<Home />} />
       <Route path="/nosotros" element={<Nosotros />} />
@@ -51,7 +62,10 @@ function App() {
       <Route path="/in-out-design/wall-panel-interior" element={<WallPanelInterior />} />
       <Route path="/in-out-design/wall-panel-exterior" element={<WallPanelExterior />} />
       <Route path="/in-out-design/revestimientos" element={<Revestimiento />} />
+      <Route path="/novedades/pvc-vs-aluminio" element={<Noticia1 />} />
+      <Route path="/novedades/tipos-de-vidrio" element={<Noticia2 />} />
     </Routes>
+    </>
   );
 }
 

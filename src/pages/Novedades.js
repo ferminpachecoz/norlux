@@ -19,16 +19,18 @@ export default function Novedades() {
             <ImageCard 
               width="12" 
               image="/houses/house-banner.jpg" 
-              title="Lorem ipsum dolor sit amet" 
-              category="lorem ipsum"
+              title="PVC vs. Aluminio" 
+              category="Aberturas"
+              link="/novedades/pvc-vs-aluminio"
             />
           </div>
           <div className='row mb-3 g-3'>
             <ImageCard 
               width="6" 
               image="/houses/house-banner.jpg" 
-              title="Lorem ipsum dolor sit amet" 
+              title="Tipos de Vidrio en Argentina" 
               category="lorem ipsum"
+              link="/novedades/tipos-de-vidrio"
             />
             <ImageCard 
               width="6" 

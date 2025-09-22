@@ -1,0 +1,113 @@
+/* === Contenedor del mapa (columna izquierda) === */
+.clientes {
+  .image-container {
+    position: relative;
+    overflow: hidden; /* evita que algo se escape si animás pins */
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover; /* por si el mapa no es proporcional */
+    }
+  }
+
+  /* === Pin clickeable === */
+  .map-pin {
+    position: absolute;
+    /* Anclamos la "punta" del pin al punto exacto (x,y) */
+    transform: translate(-50%, -100%);
+
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+
+    /* accesibilidad teclado */
+    outline: none;
+
+    /* aumenta click area sin afectar layout */
+    &::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 100%;
+      transform: translate(-50%, 2px);
+      width: 14px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.15);
+      filter: blur(1px);
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    &:hover::after,
+    &:focus-visible::after,
+    &.is-active::after {
+      opacity: 1;
+    }
+  }
+
+  .map-pin:focus-visible {
+    outline: 2px solid var(--color-3, #2c6c60);
+    outline-offset: 2px;
+    border-radius: 999px;
+  }
+
+  /* Punto visual (podés reemplazar por un SVG si querés otro estilo) */
+  .map-pin .pin-dot {
+    width: 14px;
+    height: 14px;
+    background: #ff6b3d;        /* color base del pin */
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    display: block;
+
+    transition: transform 0.15s ease, background-color 0.2s ease;
+  }
+
+  /* Estado activo del pin (seleccionado) */
+  .map-pin.is-active .pin-dot {
+    background: var(--color-3, #2c6c60);
+    transform: scale(1.1);
+  }
+
+  /* Opcional: animación “pulse” suave para el activo */
+  .map-pin.is-active .pin-dot {
+    animation: pinPulse 1.6s ease-out infinite;
+  }
+
+  @keyframes pinPulse {
+    0%   { box-shadow: 0 0 0 0 rgba(44,108,96,.35); }
+    70%  { box-shadow: 0 0 0 10px rgba(44,108,96,0); }
+    100% { box-shadow: 0 0 0 0 rgba(44,108,96,0); }
+  }
+
+  /* === Columna derecha: no tocamos tus clases,
+     pero te dejo ejemplos por si querés un pequeño refuerzo visual === */
+
+  .testimonials {
+    /* mantén tus estilos existentes */
+  }
+
+  .review {
+    /* tus estilos */
+  }
+
+  .profile img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .stars i.bi-star-fill {
+    color: #f7b500; /* estrella activa (podés cambiar) */
+  }
+  .stars i.bi-star {
+    color: #c7c7c7; /* estrella vacía */
+  }
+}

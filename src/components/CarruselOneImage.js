@@ -13,7 +13,8 @@ export default function CarruselOneImage({images}) {
       slidesPerView={1}
       loop
       pagination={{ clickable: true }}
-      autoplay={{ delay: 4000, disableOnInteraction: false }}
+      navigation
+      /* autoplay={{ delay: 4000, disableOnInteraction: false }} */
     >
       {images.map((src, i) => (
         <SwiperSlide key={i}>
