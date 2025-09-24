@@ -1,0 +1,462 @@
+.montaje-obra {
+  width: 100%;
+  
+  &__hero {
+    padding: 80px 0;
+    background: linear-gradient(135deg, var(--color-2) 0%, var(--color-1) 100%);
+    
+    &-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+      }
+    }
+    
+    &-text {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    
+    &-image {
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 20px 40px rgba(var(--color-6), 0.1);
+      }
+    }
+  }
+  
+  &__title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-4);
+    line-height: 1.2;
+    margin: 0;
+    
+    @media (max-width: 768px) {
+      font-size: 2.2rem;
+    }
+  }
+  
+  &__subtitle {
+    font-size: 1.2rem;
+    color: var(--color-5);
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  &__section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-4);
+    text-align: center;
+    margin-bottom: 40px;
+    
+    @media (max-width: 768px) {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+  }
+  
+  // Sección Importancia
+  &__importance {
+    padding: 100px 0;
+    background: white;
+    
+    &-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+    }
+    
+    &-text {
+      p {
+        font-size: 1.1rem;
+        color: var(--color-5);
+        line-height: 1.7;
+        margin-bottom: 30px;
+      }
+    }
+    
+    &-image {
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 15px 30px rgba(var(--color-6), 0.1);
+      }
+    }
+  }
+  
+  &__problems {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 30px 0;
+  }
+  
+  &__problem-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    background: var(--color-1);
+    border-radius: 8px;
+    border-left: 4px solid var(--color-3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      background: var(--color-2);
+      transform: translateX(5px);
+    }
+  }
+  
+  &__problem-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+  }
+  
+  &__problem-text {
+    font-size: 1rem;
+    color: var(--color-4);
+    font-weight: 500;
+  }
+  
+  &__conclusion {
+    font-weight: 600;
+    color: var(--color-4) !important;
+    background: var(--color-2);
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid var(--color-3);
+  }
+  
+  // Sección Materiales
+  &__materials {
+    padding: 100px 0;
+    background: var(--color-1);
+    
+    &-intro {
+      font-size: 1.2rem;
+      color: var(--color-5);
+      text-align: center;
+      margin-bottom: 50px;
+      line-height: 1.6;
+    }
+    
+    &-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      gap: 40px;
+      
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+  
+  &__material-card {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(var(--color-6), 0.1);
+    transition: all 0.3s ease;
+    
+    &:hover {
+      box-shadow: 0 20px 40px rgba(var(--color-6), 0.15);
+    }
+  }
+  
+  &__material-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  
+  &__material-icon {
+    font-size: 2rem;
+    background: var(--color-3);
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  &__material-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-4);
+    margin: 0;
+  }
+  
+  &__material-description {
+    font-size: 1.1rem;
+    color: var(--color-5);
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+  
+  &__material-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  &__material-feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 1rem;
+    color: var(--color-5);
+    line-height: 1.5;
+  }
+  
+  &__feature-bullet {
+    color: var(--color-3);
+    font-weight: 700;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+  }
+  
+  // Sección Equipo
+  &__team {
+    padding: 100px 0;
+    background: white;
+    
+    &-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+    }
+    
+    &-description {
+      font-size: 1.2rem;
+      color: var(--color-5);
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+    
+    &-image {
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 15px 30px rgba(var(--color-6), 0.1);
+      }
+    }
+  }
+  
+  &__benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  &__benefit-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+    background: var(--color-2);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      background: var(--color-1);
+      transform: translateX(5px);
+    }
+  }
+  
+  &__benefit-icon {
+    font-size: 1.5rem;
+    background: var(--color-3);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  
+  &__benefit-text {
+    font-size: 1.1rem;
+    color: var(--color-4);
+    font-weight: 500;
+  }
+  
+  // Sección Sello
+  &__seal {
+    padding: 80px 0;
+    background: var(--color-4);
+    color: white;
+    text-align: center;
+    
+    &-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .montaje-obra__section-title {
+      color: white;
+      margin-bottom: 30px;
+    }
+    
+    &-text {
+      font-size: 1.3rem;
+      line-height: 1.7;
+      opacity: 0.9;
+    }
+  }
+  
+  // Sección CTA
+  &__cta {
+    padding: 100px 0;
+    background: var(--color-1);
+    
+    &-content {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    &-title {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--color-4);
+      margin-bottom: 20px;
+      
+      @media (max-width: 768px) {
+        font-size: 1.8rem;
+      }
+    }
+    
+    &-subtitle {
+      font-size: 1.2rem;
+      color: var(--color-5);
+      line-height: 1.6;
+      margin-bottom: 50px;
+    }
+  }
+  
+  // Formulario
+  &__form {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 15px 30px rgba(var(--color-6), 0.1);
+    text-align: left;
+    
+    &-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    &-group {
+      margin-bottom: 24px;
+    }
+    
+    &-label {
+      display: block;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--color-4);
+      margin-bottom: 8px;
+    }
+    
+    &-input,
+    &-textarea {
+      width: 100%;
+      padding: 12px 16px;
+      border: 2px solid var(--color-2);
+      border-radius: 8px;
+      font-size: 1rem;
+      color: var(--color-4);
+      background: white;
+      transition: all 0.3s ease;
+      
+      &:focus {
+        outline: none;
+        border-color: var(--color-3);
+        box-shadow: 0 0 0 3px rgba(var(--color-3), 0.1);
+      }
+      
+      &::placeholder {
+        color: var(--color-5);
+        opacity: 0.7;
+      }
+    }
+    
+    &-textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+    
+    &-button {
+      width: 100%;
+      padding: 16px 32px;
+      background: var(--color-3);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background: var(--color-4);
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(var(--color-3), 0.3);
+      }
+      
+      &:active {
+        transform: translateY(0);
+      }
+    }
+  }
+}

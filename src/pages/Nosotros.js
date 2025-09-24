@@ -2,6 +2,7 @@ import React from 'react'
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import "./Nosotros.scss";
+import Separador from '../components/Separador';
 
 export default function Nosotros() {
   let array = [
@@ -27,8 +28,8 @@ export default function Nosotros() {
       <div className='nosotros'>
         <div className='banner'>
           <h1>Nosotros</h1>
-          <div className='highlight'></div>
-          <p className='subtitle'>En Nörlux creemos que construir es mucho más que levantar paredes. Es <b>crear espacios</b> donde las personas van a vivir sus momentos <b>más importantes</b>.</p>
+          <Separador width="100px" color="--color-2" />
+          <p className='subtitle mt-4'>En Nörlux creemos que construir es mucho más que levantar paredes. Es <b>crear espacios</b> donde las personas van a vivir sus momentos <b>más importantes</b>.</p>
         </div>
         <div className='content'>
           <p>Por eso, acompañamos cada proyecto con el <b>profesionalismo</b>, la <b>responsabilidad</b> y la <b>empatía</b> que hacen falta para dar tranquilidad en cada paso.</p>

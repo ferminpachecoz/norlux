@@ -10,7 +10,11 @@ export default function Novedades() {
   return (
     <>
       <Header />
-      <HeroSection image="/houses/house-banner.jpg" title="Novedades" subtitle="Descubrí todas las novedades del mundo del PVC" />
+      <HeroSection 
+        image="/images/MG_0197.jpg" 
+        title="Novedades" 
+        subtitle="Descubrí todas las novedades del mundo del PVC" 
+      />
       <Productos padding="0px">
         <div className='section-padding'>
           <h2>Novedades</h2>
@@ -18,7 +22,7 @@ export default function Novedades() {
           <div className='row mb-3'>
             <ImageCard 
               width="12" 
-              image="/houses/house-banner.jpg" 
+              image="/images/IMG-20250919-WA0012.jpg" 
               title="PVC vs. Aluminio" 
               category="Aberturas"
               link="/novedades/pvc-vs-aluminio"
@@ -27,44 +31,49 @@ export default function Novedades() {
           <div className='row mb-3 g-3'>
             <ImageCard 
               width="6" 
-              image="/houses/house-banner.jpg" 
+              image="/images/_MG_9837.jpg" 
               title="Tipos de Vidrio en Argentina" 
               category="lorem ipsum"
               link="/novedades/tipos-de-vidrio"
             />
             <ImageCard 
               width="6" 
-              image="/houses/house-banner.jpg" 
-              title="Lorem ipsum dolor sit amet" 
+              image="/Decks/deck-foto-03.jpg" 
+              title="Nuevos Decks de PVC" 
               category="lorem ipsum"
+              link="/novedades/nuevos-decks-de-pvc"
             />
           </div>
           <div className='row mb-3 g-3'>
             <ImageCard 
               width="8" 
-              image="/houses/house-banner.jpg" 
-              title="Lorem ipsum dolor sit amet" 
-              category="lorem ipsum"
+              image="/Casas - Clientes Satisfechos/Casa Canning/2438.JPG" 
+              title="Importancia de montaje en obra de calidad" 
+              category="Obra"
+              link="/novedades/la-importancia-de-un-montaje-en-obra-de-calidad"
             />
             <ImageCard 
               width="4" 
-              image="/houses/house-banner.jpg" 
-              title="Lorem ipsum dolor sit amet" 
-              category="lorem ipsum"
+              image="/LineaEvolution/productos/LE_2G_GG_JBLACK.jpg" 
+              title="Evolution: La Nueva Generación" 
+              category="PVC"
+              link="/novedades/evolution-la-nueva-generacion-de-aberturas-pvc"
             />
           </div>
           <div className='row mb-3 g-3'>
             <ImageCard 
               width="4" 
-              image="/houses/house-banner.jpg" 
-              title="Lorem ipsum dolor sit amet" 
+              image="/images/_MG_0235.jpg" 
+              title="Aislacion térmica en ventanas de PVC" 
               category="lorem ipsum"
+              link="/novedades/aislacion-termica-en-ventanas-de-pvc"
             />
             <ImageCard 
               width="8" 
-              image="/houses/house-banner.jpg" 
-              title="Lorem ipsum dolor sit amet" 
+              image="/images/IMG-20250919-WA0009.jpg" 
+              title="Aislacion acústica en ventanas de PVC" 
               category="lorem ipsum"
+              link="/novedades/aislacion-acustica-en-ventanas-de-pvc"
             />
           </div>
         </div>

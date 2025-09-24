@@ -9,13 +9,17 @@
 
 .lista-razones {
   padding: 100px;
-  background-color: var(--color-1);
+  background-color: var(--color-3);
   /* Títulos de sección (podés ajustar a tu sistema) */
   .section-title {
     margin-bottom: .5rem;
+    color: var(--color-2);
+    b{
+      color: var(--color-2);
+    }
   }
   .section-subtitle {
-    color: #555;
+    color: var(--color-1);
   }
 
   /* ====== CARD / ITEM ====== */

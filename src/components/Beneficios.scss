@@ -1,13 +1,13 @@
 .beneficios{
   padding: 100px 150px;
-  background-color: var(--color-1);
+  background-color: var(--color-3);
   h1{
     font-size: 35px;
     text-align: center;
-    color: var(--color-6);
+    color: var(--color-2);
     font-weight: 400;
     b{
-      color: var(--color-3);
+      color: var(--color-1);
       font-weight: 500;
     }
   }
@@ -15,17 +15,18 @@
     text-align: center;
     margin-top: 50px;
     font-size: 1.2em;
+    color: var(--color-2);
   }
   .lista{
     .circle{
       width: 8px;
       height: 8px;
       border-radius: 10000px;
-      background-color: var(--color-3);
+      background-color: var(--color-2);
     }
     p{
       margin: 0px;
-      color: var(--color-3);
+      color: var(--color-2);
       font-size: 1.2em;
     }
   }

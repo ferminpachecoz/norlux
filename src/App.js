@@ -26,6 +26,11 @@ import WallPanelExterior from "./pages/Design/WallPanelExterior";
 import Revestimiento from "./pages/Design/Revestimiento";
 import Noticia1 from "./pages/Novedades/Noticia1";
 import Noticia2 from "./pages/Novedades/Noticia2";
+import Noticia3 from "./pages/Novedades/Noticia3";
+import Noticia4 from "./pages/Novedades/Noticia4";
+import Noticia5 from "./pages/Novedades/Noticia5";
+import Noticia6 from "./pages/Novedades/Noticia6";
+import Noticia7 from "./pages/Novedades/Noticia7";
 
 function App() {
   return (
@@ -64,6 +69,23 @@ function App() {
       <Route path="/in-out-design/revestimientos" element={<Revestimiento />} />
       <Route path="/novedades/pvc-vs-aluminio" element={<Noticia1 />} />
       <Route path="/novedades/tipos-de-vidrio" element={<Noticia2 />} />
+      <Route path="/novedades/nuevos-decks-de-pvc" element={<Noticia3 />} />
+      <Route 
+        path="/novedades/la-importancia-de-un-montaje-en-obra-de-calidad" 
+        element={<Noticia4 />} 
+      />
+      <Route 
+        path="/novedades/evolution-la-nueva-generacion-de-aberturas-pvc" 
+        element={<Noticia5 />} 
+      />
+      <Route 
+        path="/novedades/aislacion-termica-en-ventanas-de-pvc" 
+        element={<Noticia6 />} 
+      />
+      <Route 
+        path="/novedades/aislacion-acustica-en-ventanas-de-pvc" 
+        element={<Noticia7 />} 
+      />
     </Routes>
     </>
   );
