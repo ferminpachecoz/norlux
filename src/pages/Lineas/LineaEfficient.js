@@ -85,7 +85,7 @@ export default function LineaEfficient() {
             La línea <b>Efficient</b> de <b>Muchtek</b>, está pensada para quienes buscan el equilibrio perfecto entre <b>diseño, confort y eficiencia energética</b>. Sus aperturas practicables permiten una <b>apertura total</b> que favorece la ventilación, a la vez que ofrecen un <b>alto nivel de hermeticidad</b> gracias a su doble contacto para mantener la temperatura interior, reducir ruidos externos y ahorrar en climatización.
           </p>
           <img 
-            src="/LineaEfficient/image-banner-3.jpg" 
+            src="/images/_MG_9893.jpg" 
             alt="Muchtek en casa foa - linea efficient" 
             className='mb-4'
             style={{borderRadius: "10px"}}

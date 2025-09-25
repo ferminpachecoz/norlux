@@ -40,9 +40,9 @@ export default function LineaAdvance() {
     },
   ]
   const images = [
-    "/Linea Advance/image-banner-2.jpg",
+    /* "/Linea Advance/image-banner-2.jpg", */
     "/Linea Advance/image-banner-3.jpg",
-    "/Linea Advance/image-banner-5.jpg",
+    /* "/Linea Advance/image-banner-5.jpg", */
   ];
   const items=[
     {

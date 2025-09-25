@@ -20,7 +20,7 @@ export default function DobleContacto() {
   return (
     <>
       <Header />
-      <HeroSection image="/houses/house-banner.jpg" title="Doble Contacto" subtitle="Descubrí todas nuestros perfiles de doble contacto" />
+      <HeroSection image="/images/_MG_9831.jpg" title="Doble Contacto" subtitle="Descubrí todas nuestros perfiles de doble contacto" />
       <TipoProducto array={array} />
       <Footer />
     </>

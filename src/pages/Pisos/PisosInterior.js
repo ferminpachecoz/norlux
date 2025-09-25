@@ -92,9 +92,9 @@ export default function PisosInterior() {
           </p>
         </div>
         <CarruselCards array={array} />
-        <div className='section-padding'>
+        {/* <div className='section-padding'>
           <CarruselOneImage images={images} />
-        </div>
+        </div> */}
         <SmallSectionBanner 
           title="¿Querés pisos modernos, resistentes y fáciles de mantener?" 
           cta="Solicitá tu presupuesto" 

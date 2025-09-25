@@ -44,7 +44,7 @@ export default function LineaJumbo() {
       description: "Diseño contemporáneo que realza cualquier proyecto."
     },
   ]
-  const images=["/LineaJumbo/image-banner.jpg","/houses/house-banner.jpg", "/houses/house-banner-2.jpg"]
+  const images=["/LineaJumbo/image-banner.jpg","/images/_MG_0212.jpg", "/images/_MG_0154.jpg"]
   const ITEMS=[
     {
       image: "/LineaJumbo/productos/LJ_2G_FINAL_BLANCO.jpg",

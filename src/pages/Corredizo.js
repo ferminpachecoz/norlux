@@ -30,7 +30,7 @@ export default function Corredizo() {
   return (
     <>
       <Header />
-      <HeroSection image="/houses/house-banner.jpg" title="Corredizo" subtitle="Descubrí todos nuestros corredizos" />
+      <HeroSection image="/images/_MG_0165.jpg" title="Corredizo" subtitle="Descubrí todos nuestros sistemas corredizos" />
       <TipoProducto array={array} />
       <Footer />
     </>

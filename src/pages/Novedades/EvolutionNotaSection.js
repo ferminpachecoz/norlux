@@ -121,7 +121,7 @@ const EvolutionNotaSection = () => {
           </p>
         </div>
         <div className="evolution-hero__image">
-          <img src="/Novedades/noticia-5/modern-large-pvc-sliding-window-evolution-line-pre.jpg" alt="Línea Evolution - Ventanas PVC de gran formato" />
+          <img src="/LineaEvolution/image-banner-1.jpg" alt="Línea Evolution - Ventanas PVC de gran formato" />
         </div>
       </motion.div>
 

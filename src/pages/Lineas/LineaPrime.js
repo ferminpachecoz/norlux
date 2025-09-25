@@ -40,9 +40,9 @@ export default function LineaPrime() {
     }
   ]
   const images=[
-    "/houses/house-banner.jpg",
-    "/houses/house-banner-3.jpg",
-    "/houses/house-banner-4.jpg",
+    "/LineaPrime/image-banner-3.jpg",
+    "/LineaPrime/image-banner-4.jpg",
+    "/LineaPrime/image-banner-5.jpg",
   ]
   const ITEMS=[
     {

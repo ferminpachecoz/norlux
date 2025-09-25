@@ -8,7 +8,7 @@ export default function ImageCard({width, image, title, category, link}) {
         <a href={link?link:"#"}>
           <img src={image} alt="" />
           <div className='overlay'>
-            <p className='category'>{category}</p>
+            {/* <p className='category'>{category}</p> */}
             <h1 className='title'>{title}</h1>
           </div>
         </a>
