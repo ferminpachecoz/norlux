@@ -17,7 +17,7 @@ const FALLBACK_CLIENTS = [
     review:
       "Trabajo con Nörlux en varios proyectos. Precisión técnica y acabados impecables.",
     rating: 5,
-    avatar: "/img/clientes/carlos.jpg",
+    avatar: "/img/clientes/carlos.webp",
     x: 62,
     y: 38,
   },
@@ -30,7 +30,7 @@ const FALLBACK_CLIENTS = [
     review:
       "Excelente performance térmica y acústica. Cumplieron plazos y asesoraron en pliegos.",
     rating: 5,
-    avatar: "/img/clientes/paula.jpg",
+    avatar: "/img/clientes/paula.webp",
     x: 48,
     y: 50,
   },
@@ -43,7 +43,7 @@ const FALLBACK_CLIENTS = [
     review:
       "DVH y herrajes multipunto marcaron diferencia. Acompañamiento constante en obra.",
     rating: 4,
-    avatar: "/img/clientes/estudio.jpg",
+    avatar: "/img/clientes/estudio.webp",
     x: 30,
     y: 46,
   },
@@ -52,7 +52,7 @@ const FALLBACK_CLIENTS = [
 export default function ClientesFinal({
   title = <>Clientes satisfechos en <b>toda Zona Norte</b></>,
   subtitle = "Descubrí lo que dicen nuestros clientes sobre su experiencia con Nörlux. Cada pin representa una historia de éxito.",
-  mapSrc = "/img/mapa-zonanorte.jpg",
+  mapSrc = "/img/mapa-zonanorte.webp",
   clients = FALLBACK_CLIENTS,
 }) {
   const [selectedId, setSelectedId] = useState(clients[0]?.id);

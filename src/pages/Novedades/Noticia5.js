@@ -11,7 +11,7 @@ export default function Noticia5() {
       <HeroSection 
         title="Evolution"
         subtitle="La nueva generación de aberturas de PVC"
-        image="/houses/house-banner.jpg"
+        image="/houses/house-banner.webp"
       />
       <EvolutionNotaSection />
       <Footer />

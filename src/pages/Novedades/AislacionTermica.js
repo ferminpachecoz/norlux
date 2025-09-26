@@ -144,7 +144,7 @@ const AislacionTermica = () => {
             </p>
           </motion.div>
           <motion.div className="aislacion-termica__hero-image" variants={itemVariants}>
-            <img src="/Novedades/noticia-6/modern-home-with-efficient-pvc-windows-thermal-ins.jpg" alt="Hogar eficiente con ventanas de PVC" />
+            <img src="/Novedades/noticia-6/modern-home-with-efficient-pvc-windows-thermal-ins.webp" alt="Hogar eficiente con ventanas de PVC" />
           </motion.div>
         </div>
       </motion.section>

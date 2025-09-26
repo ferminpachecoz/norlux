@@ -11,7 +11,7 @@ export default function Noticia6() {
       <HeroSection 
         title="El confort de un hogar eficiente" 
         subtitle="Cómo las ventanas de PVC Nörlux logran una aislación térmica superior" 
-        image="/houses/house-banner.jpg" 
+        image="/houses/house-banner.webp" 
       />
       <AislacionTermica />
       <Footer />

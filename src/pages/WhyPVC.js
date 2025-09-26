@@ -11,7 +11,7 @@ export default function WhyPVC() {
     <>
       <Header />
       <HeroSection 
-        image="/images/_MG_0078.jpg" 
+        image="/images/_MG_0078.webp" 
         title="¿Por qué elegimos <br/> <b>el PVC?</b>"
         subtitle="En Nörlux decidimos especializarnos exclusivamente  aberturas de PVC porque creemos que la excelencia se logra con foco."
       />

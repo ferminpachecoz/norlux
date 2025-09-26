@@ -129,7 +129,7 @@ const AislacionAcustica = () => {
           </motion.div>
           <motion.div className="aislacion-acustica__hero-image" variants={itemVariants}>
             <img
-              src="/Novedades/noticia-7/quiet-peaceful-home-interior-with-pvc-windows-soun.jpg"
+              src="/Novedades/noticia-7/quiet-peaceful-home-interior-with-pvc-windows-soun.webp"
               alt="Interior tranquilo con ventanas de PVC que proporcionan aislación acústica"
               className="aislacion-acustica__hero-img"
             />

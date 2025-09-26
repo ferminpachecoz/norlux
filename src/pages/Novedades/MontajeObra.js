@@ -106,7 +106,7 @@ const MontajeObra = () => {
             </p>
           </div>
           <div className="montaje-obra__hero-image">
-            <img src="/Novedades/noticia-4/professional-window-installation-team-working-on-p.jpg" alt="Montaje profesional de ventanas PVC" />
+            <img src="/Novedades/noticia-4/montaje-obra-1.webp" alt="Montaje profesional de ventanas PVC" />
           </div>
         </div>
       </motion.section>
@@ -140,7 +140,7 @@ const MontajeObra = () => {
               </p>
             </div>
             <div className="montaje-obra__importance-image">
-              <img src="/Novedades/noticia-4/detailed-view-of-window-installation-problems-wate.jpg" alt="Problemas de instalación incorrecta" />
+              <img src="/Novedades/noticia-4/montaje-en-obra-2.webp" alt="Problemas de instalación incorrecta" />
             </div>
           </div>
         </div>
@@ -205,7 +205,7 @@ const MontajeObra = () => {
               </div>
             </div>
             <div className="montaje-obra__team-image">
-              <img src="/Novedades/noticia-4/specialized-technical-team-installing-pvc-windows-.jpg" alt="Equipo especializado en montaje" />
+              <img src="/Novedades/noticia-4/montaje-obra-3.webp" alt="Equipo especializado en montaje" />
             </div>
           </div>
         </div>

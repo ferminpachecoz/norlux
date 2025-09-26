@@ -11,7 +11,7 @@ export default function Noticia2() {
       <HeroSection 
         title="Tipos de vidrio en Argentina" 
         subtitle="Innovación y confort para tus ventanas" 
-        image="/houses/house-banner.jpg" 
+        image="/houses/house-banner.webp" 
       />
       <TiposVidrio />
       <Footer />

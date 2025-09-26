@@ -13,127 +13,127 @@ import CardsCarousel from '../Pisos/CardsCarousel'
 export default function LineaEvolution() {
   let array=[
     {
-      icon: "/LineaPrime/icons/window.png",
+      icon: "/LineaPrime/icons/window.webp",
       title: "Hermeticidad superior",
       description: "Doble contacto que maximiza el cierre."
     },
     {
-      icon: "/LineaEfficient/icons/thermal-insulation.png",
+      icon: "/LineaEfficient/icons/thermal-insulation.webp",
       title: "Aislamiento térmico y acústico",
       description: "Eficiencia comparable a un sistema practicable."
     },
     {
-      icon: "/LineaEvolution/Icons/mobility.png",
+      icon: "/LineaEvolution/Icons/mobility.webp",
       title: "Movimiento suave y seguro",
       description: "Herrajes premium que facilitan el deslizamiento."
     },
     {
-      icon: "/LineaEvolution/Icons/frame.png",
+      icon: "/LineaEvolution/Icons/frame.webp",
       title: "Estética moderna con marcos esbeltos.",
       description: "Diseño minimalista"
     },
     {
-      icon: "/LineaJumbo/icons/panorama.png",
+      icon: "/LineaJumbo/icons/panorama.webp",
       title: "Luz natural y amplitud",
       description: "Grandes superficies vidriadas que integran ambientes."
     },
     {
-      icon: "/Revestimiento/icons/reliability.png",
+      icon: "/Revestimiento/icons/reliability.webp",
       title: "Durabilidad garantizada",
       description: "Perfiles robustos y bajo mantenimiento."
     },
   ]
   const images=[
-    "/LineaEvolution/image-banner-3.jpg",
-    "/LineaEvolution/image-banner-4.jpg",
-    "/LineaEvolution/image-banner-5.jpg",
+    "/LineaEvolution/image-banner-3.webp",
+    "/LineaEvolution/image-banner-4.webp",
+    "/LineaEvolution/image-banner-5.webp",
   ]
   const ITEMS=[
     {
-      image: "/LineaEvolution/productos/LE_2G_ALPINE.jpg",
+      image: "/LineaEvolution/productos/LE_2G_ALPINE.webp",
       title: "alpine"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_ALTWEISS.jpg",
+      image: "/LineaEvolution/productos/LE_2G_ALTWEISS.webp",
       title: "altweiss"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_BLANCO.jpg",
+      image: "/LineaEvolution/productos/LE_2G_BLANCO.webp",
       title: "blanco"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_G BRONZE.jpg",
+      image: "/LineaEvolution/productos/LE_2G_G BRONZE.webp",
       title: "gold bronze"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_GOLDENOAK.jpg",
+      image: "/LineaEvolution/productos/LE_2G_GOLDENOAK.webp",
       title: "golden oak"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_GOAK.jpg",
+      image: "/LineaEvolution/productos/LE_2G_GOAK.webp",
       title: "grey oak"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_GGRAF.jpg",
+      image: "/LineaEvolution/productos/LE_2G_GGRAF.webp",
       title: "gris grafito"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_GMET.jpg",
+      image: "/LineaEvolution/productos/LE_2G_GMET.webp",
       title: "gris metalizado"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_GG_JBLACK.jpg",
+      image: "/LineaEvolution/productos/LE_2G_GG_JBLACK.webp",
       title: "jet black"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_JURAPINE.jpg",
+      image: "/LineaEvolution/productos/LE_2G_JURAPINE.webp",
       title: "jura pine"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_LENGA.jpg",
+      image: "/LineaEvolution/productos/LE_2G_LENGA.webp",
       title: "lenga"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_MATTEXK.jpg",
+      image: "/LineaEvolution/productos/LE_2G_MATTEXK.webp",
       title: "mattex kitami"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_NOAK.jpg",
+      image: "/LineaEvolution/productos/LE_2G_NOAK.webp",
       title: "natural oak"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_NOGAL.jpg",
+      image: "/LineaEvolution/productos/LE_2G_NOGAL.webp",
       title: "nogal"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_PELTRE.jpg",
+      image: "/LineaEvolution/productos/LE_2G_PELTRE.webp",
       title: "peltre"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_SCHWARZ.jpg",
+      image: "/LineaEvolution/productos/LE_2G_SCHWARZ.webp",
       title: "schwarzbraun"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_TOFFEE.jpg",
+      image: "/LineaEvolution/productos/LE_2G_TOFFEE.webp",
       title: "toffee"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_TOAK.jpg",
+      image: "/LineaEvolution/productos/LE_2G_TOAK.webp",
       title: "turner oak"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_WENGUE.jpg",
+      image: "/LineaEvolution/productos/LE_2G_WENGUE.webp",
       title: "wengue"
     },
     {
-      image: "/LineaEvolution/productos/LE_2G_WA.jpg",
+      image: "/LineaEvolution/productos/LE_2G_WA.webp",
       title: "white aluminium"
     },
   ]
   return (
     <>
       <Header />
-      <HeroSection title="Linea Evolution" subtitle="El sistema corredizo de PVC que une diseño moderno con la hermeticidad de la línea Efficient." image="/LineaEvolution/image-banner-1.jpg" />
+      <HeroSection title="Linea Evolution" subtitle="El sistema corredizo de PVC que une diseño moderno con la hermeticidad de la línea Efficient." image="/LineaEvolution/image-banner-1.webp" />
       <Productos padding="0px">
         <div className='section-padding'>
           <h2><b>La nueva generación</b> de ventanas corredizas</h2>
@@ -150,7 +150,7 @@ export default function LineaEvolution() {
           <CarruselOneImage images={images} />
         </div>
         <SmallSectionBanner title="¿Querés un corredizo con diseño moderno y hermeticidad total?" cta="Solicitá tu presupuesto" />
-        <ImageBg image="/LineaEvolution/image-banner-1.jpg">
+        <ImageBg image="/LineaEvolution/image-banner-1.webp">
           <h2>Gran variedad de colores y texturas</h2>
           <Separador color="--color-2" width="100px" />
           <p>Para elegir el diseño que más se adecue a tus ambientes:</p>
@@ -162,7 +162,7 @@ export default function LineaEvolution() {
           <p>
             La <b>línea Evolution de Muchtek</b>, marca un antes y un después en el mundo de los <b>sistemas corredizos de PVC</b>. Su innovación radica en combinar la <b>funcionalidad y estética del corredizo</b> con el <b>doble contacto de la línea Efficient</b>, lo que garantiza un <b>cierre totalmente hermético con grandes resistencias de peso y presiones de viento</b>.
           </p>
-          <img src="/LineaEvolution/evolution-renders.png" alt="Evolution Renders" />
+          <img src="/LineaEvolution/evolution-renders.webp" alt="Evolution Renders" />
           <p>
             Gracias a su herraje de alta prestación, las hojas se deslizan con <b>suavidad y precisión</b>, incluso en grandes dimensiones. De esta forma, Evolution ofrece un <b>nivel superior de aislamiento térmico y acústico</b>, sin renunciar al diseño minimalista y a la comodidad de un sistema corredizo.
           </p>
@@ -176,8 +176,8 @@ export default function LineaEvolution() {
             <li>Con doble o triple vidriado hermético de hasta 42 mm.</li>
             <li>Función soft-open y soft-close, brindando mayor confort y seguridad de uso.</li>
           </ul> */}
-          <img src="/LineaEvolution/evolution-guias-marco.png" alt="Evolution Guias marco" />
-          <img src="/LineaEvolution/evolution-cortes.png" alt="evolution-cortes" />
+          <img src="/LineaEvolution/evolution-guias-marco.webp" alt="Evolution Guias marco" />
+          <img src="/LineaEvolution/evolution-cortes.webp" alt="evolution-cortes" />
           <h2 className='mt-4'>Descarga nuestros <b>catálogos digitales</b></h2>
           <Separador width="100px" color="--color-3" />
           <div className='row g-4 catalogo-section'>

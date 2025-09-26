@@ -11,7 +11,7 @@ export default function Noticia7() {
       <HeroSection 
         title="El confort del silencio" 
         subtitle="Cómo las ventanas de PVC Nörlux logran una aislación acústica superior" 
-        image="/houses/house-banner.jpg"
+        image="/houses/house-banner.webp"
       />
       <AislacionAcustica />
       <Footer />

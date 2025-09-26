@@ -193,7 +193,7 @@ const ContactSection = () => {
                   name="files"
                   onChange={handleInputChange}
                   multiple
-                  accept=".pdf,.doc,.docx,.jpg,.jpeg,.png,.dwg"
+                  accept=".pdf,.doc,.docx,.webp,.webp,.webp,.dwg"
                 />
                 <div className="file-input-display">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none">

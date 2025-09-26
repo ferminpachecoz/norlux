@@ -13,68 +13,68 @@ import CardsCarousel from '../Pisos/CardsCarousel'
 export default function Revestimiento() {
   const array=[
     {
-      icon: "/LineaJumbo/icons/interior-design.png",
+      icon: "/LineaJumbo/icons/interior-design.webp",
       title: "Estética prolija y moderna",
       description: "Ideal para ambientes residenciales y comerciales."
     },
     {
-      icon: "/pisosInterior/icons/water-resistant.png",
+      icon: "/pisosInterior/icons/water-resistant.webp",
       title: "Resistencia a la humedad",
       description: "Perfectos para cocinas y baños."
     },
     {
-      icon: "/Revestimiento/icons/reliability.png",
+      icon: "/Revestimiento/icons/reliability.webp",
       title: "Durabilidad garantizada",
       description: "No se deforma, no se descascara, no pierde color."
     },
     {
-      icon: "/pisosInterior/icons/easy-installation.png",
+      icon: "/pisosInterior/icons/easy-installation.webp",
       title: "Fácil instalación",
       description: "Sistema práctico y seguro."
     },
     {
-      icon: "/pisosInterior/icons/mechanic.png",
+      icon: "/pisosInterior/icons/mechanic.webp",
       title: "Mantenimiento mínimo",
       description: "Limpieza rápida sin tratamientos adicionales."
     },
     {
-      icon: "/LineaEfficient/icons/versatilidad.png",
+      icon: "/LineaEfficient/icons/versatilidad.webp",
       title: "Opciones de diseño",
       description: "En blanco liso o acabados imitación madera."
     },
   ]
-  const images=["/Revestimiento/image-banner-3.jpg", "/Revestimiento/image-banner-4.jpg", "/Revestimiento/image-banner-5.jpg"]
+  const images=["/Revestimiento/image-banner-3.webp", "/Revestimiento/image-banner-4.webp", "/Revestimiento/image-banner-5.webp"]
   const ITEMS=[
     {
-      image: "/Revestimiento/productos/TP_CR_BLANCO.jpg",
+      image: "/Revestimiento/productos/TP_CR_BLANCO.webp",
       title: "blanco"
     },
     {
-      image: "/Revestimiento/productos/TP_CR_CONCRETE C.jpg",
+      image: "/Revestimiento/productos/TP_CR_CONCRETE C.webp",
       title: "concrete c"
     },
     {
-      image: "/Revestimiento/productos/TP_CR_CONCRETE WHITE.jpg",
+      image: "/Revestimiento/productos/TP_CR_CONCRETE WHITE.webp",
       title: "concrete white"
     },
     {
-      image: "/Revestimiento/productos/TP_CR_EUCALYPTUS.jpg",
+      image: "/Revestimiento/productos/TP_CR_EUCALYPTUS.webp",
       title: "eucalyptus"
     },
     {
-      image: "/Revestimiento/productos/TP_CR_OAK.jpg",
+      image: "/Revestimiento/productos/TP_CR_OAK.webp",
       title: "oak"
     },
     {
-      image: "/Revestimiento/productos/TP_CR_PL_I_POPLAR.jpg",
+      image: "/Revestimiento/productos/TP_CR_PL_I_POPLAR.webp",
       title: "poplar"
     },
     {
-      image: "/Revestimiento/productos/TP_CR_TEAK.jpg",
+      image: "/Revestimiento/productos/TP_CR_TEAK.webp",
       title: "teak"
     },
     {
-      image: "/Revestimiento/productos/TP_CR_PL_I_WALNUT.jpg",
+      image: "/Revestimiento/productos/TP_CR_PL_I_WALNUT.webp",
       title: "walnut"
     }
   ]
@@ -84,7 +84,7 @@ export default function Revestimiento() {
       <HeroSection 
         title="Revestimientos"
         subtitle="Una solución práctica y moderna para interiores, resistente a la humedad y de larga durabilidad."
-        image="/Revestimiento/image-banner.jpg"
+        image="/Revestimiento/image-banner.webp"
       />
       <Productos padding="0px">
         <div className='section-padding'>
@@ -94,7 +94,7 @@ export default function Revestimiento() {
             Los <b>Cielorrasos de PVC Muchtek</b>, instalados por <b>Nörlux</b>, ofrecen un acabado prolijo y contemporáneo para interiores, aportando <b>estética moderna, fácil instalación y bajo mantenimiento</b>.
           </p>
           <img 
-            src="/Revestimiento/image-banner-2.jpg" 
+            src="/Revestimiento/image-banner-2.webp" 
             alt="Casa con revestimiento de PVC"
             style={{borderRadius: "10px"}}
             className='mb-4'
@@ -111,14 +111,14 @@ export default function Revestimiento() {
           <CarruselOneImage images={images} />
         </div>
         <SmallSectionBanner title="¿Querés renovar tus interiores con un cielorraso moderno y duradero?" cta="Solicitá tu presupuesto" />
-        <ImageBg image="/zocalos/image-banner.jpg">
+        <ImageBg image="/zocalos/image-banner.webp">
           <h2>Gran variedad de colores y texturas</h2>
           <Separador color="--color-2" width="100px" />
           <p>Para elegir el diseño que más se adecue a tus ambientes:</p>
           <CardsCarousel items={ITEMS} colorTitle="--color-3" />
         </ImageBg>
         <div className='section-padding'>
-          <img src="/Revestimiento/info-tecnica.png" alt="Ficha de informacion tecnica" />
+          <img src="/Revestimiento/info-tecnica.webp" alt="Ficha de informacion tecnica" />
         </div>
       </Productos>
       <Footer />

@@ -121,7 +121,7 @@ const EvolutionNotaSection = () => {
           </p>
         </div>
         <div className="evolution-hero__image">
-          <img src="/LineaEvolution/image-banner-1.jpg" alt="Línea Evolution - Ventanas PVC de gran formato" />
+          <img src="/LineaEvolution/image-banner-1.webp" alt="Línea Evolution - Ventanas PVC de gran formato" />
         </div>
       </motion.div>
 
@@ -233,7 +233,7 @@ const EvolutionNotaSection = () => {
           </p>
         </div>
         <div className="evolution-innovation__image">
-          <img src="/LineaEvolution/productos/LE_2G_ALPINE.jpg" alt="Innovación Evolution - Tecnología de vanguardia" />
+          <img src="/LineaEvolution/productos/LE_2G_ALPINE.webp" alt="Innovación Evolution - Tecnología de vanguardia" />
         </div>
       </motion.div>
 

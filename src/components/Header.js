@@ -26,7 +26,7 @@ export default function Header() {
       <div className='row bottom-part d-flex align-items-center justify-content-between'>
         <div className='col-6 col-lg-auto'>
           <a href="/">
-            <img src="/logos/logo-lg-verde-negro.png" alt="Logo de Nörlux" />
+            <img src="/logos/logo-lg-verde-negro.webp" alt="Logo de Nörlux" />
           </a>
         </div>
         <div className='col-6 d-lg-none'>
@@ -78,7 +78,7 @@ export default function Header() {
       <div className={`menu-mobile-overlay ${display2?"d-flex":"d-none"}`}>
         <div className='menu-mobile'>
           <a href="/">
-            <img src="/logos/logo-lg-verde-negro.png" alt="Logo de Nörlux" />
+            <img src="/logos/logo-lg-verde-negro.webp" alt="Logo de Nörlux" />
           </a>
           <ul>
             <li><a href="/">Inicio</a></li>
@@ -86,14 +86,14 @@ export default function Header() {
               Productos
               <span className={`menu-container ${display?"d-block":"d-none"}`}>
                 <p className='categorias perfiles'>
-                  Perfiles
+                  <b>Perfiles</b>
                   <div className='sub-categorias perfiles-sub'>
                     <p><a href="/perfiles/doble-contacto">Doble Contacto</a></p>
                     <p className='mb-0'><a href="/perfiles/corredizo">Corredizo</a></p>
                   </div>
                 </p>
                 <p className='categorias pisos'>
-                  Pisos
+                  <b>Pisos</b>
                   <div className='sub-categorias pisos-sub'>
                     <p><a href="/pisos/decks">Decks</a></p>
                     <p><a href="/pisos/pisos-de-interior">Pisos de interior</a></p>
@@ -101,7 +101,7 @@ export default function Header() {
                   </div>
                 </p>
                 <p className='mb-0 categorias design'>
-                  In & Out Design
+                  <b>In & Out Design</b>
                   <div className='sub-categorias design-sub'>
                     <p><a href="/in-out-design/tubulares">Tubulares</a></p>
                     <p><a href="/in-out-design/wall-panel-interior">Wall Panel Interior</a></p>

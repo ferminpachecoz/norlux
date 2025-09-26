@@ -15,56 +15,56 @@ import ImageBg from '../Pisos/ImageBg';
 export default function LineaEfficient() {
   let array = [
     {
-      icon: "/LineaEfficient/icons/thermal-insulation.png",
+      icon: "/LineaEfficient/icons/thermal-insulation.webp",
       title: "Aislamiento térmico superior",
       description: "Mantiene tu hogar cálido en invierno y fresco en verano."
     },
     {
-      icon: "/LineaEfficient/icons/acoustic-panel.png",
+      icon: "/LineaEfficient/icons/acoustic-panel.webp",
       title: "Hermeticidad acústica",
       description: "Bloquea el ruido exterior para un ambiente más tranquilo."
     },
     {
-      icon: "/LineaEfficient/icons/mantenimiento.png",
+      icon: "/LineaEfficient/icons/mantenimiento.webp",
       title: "Durabilidad y bajo mantenimiento",
       description: "El PVC de Muchtek no se deforma, no se oxida y se limpia fácilmente."
     },
     {
-      icon: "/LineaEfficient/icons/versatilidad.png",
+      icon: "/LineaEfficient/icons/versatilidad.webp",
       title: "Versatilidad de diseño",
       description: "Múltiples configuraciones y acabados para adaptarse a cualquier proyecto."
     },
     {
-      icon: "/LineaEfficient/icons/sustentabilidad.png",
+      icon: "/LineaEfficient/icons/sustentabilidad.webp",
       title: "Sustentabilidad",
       description: "Fabricadas con materiales reciclables y pensadas para reducir el consumo energético."
     },
   ]
-  let images=["/LineaEfficient/image-banner-2.jpg","/LineaEfficient/image-banner-6.jpg","/LineaEfficient/image-banner-5.jpg"]
+  let images=["/LineaEfficient/image-banner-2.webp","/LineaEfficient/image-banner-6.webp","/LineaEfficient/image-banner-5.webp"]
 
   const items=[
     {
-      image: "/LineaEfficient/productos/LEFF_CERRADA_ALPINE.jpg",
+      image: "/LineaEfficient/productos/LEFF_CERRADA_ALPINE.webp",
       title: "alpine"
     },
     {
-      image: "/LineaEfficient/productos/LEFF_CC_ALTWEISS COMPLETA.jpg",
+      image: "/LineaEfficient/productos/LEFF_CC_ALTWEISS COMPLETA.webp",
       title: "altweiss"
     },
     {
-      image: "/LineaEfficient/productos/LN_CC_58-69_BLANCO.jpg",
+      image: "/LineaEfficient/productos/LN_CC_58-69_BLANCO.webp",
       title: "blanco"
     },
     {
-      image: "/LineaEfficient/productos/LEFF_PF_JETBLACK.jpg",
+      image: "/LineaEfficient/productos/LEFF_PF_JETBLACK.webp",
       title: "jet black"
     },
     {
-      image: "/LineaEfficient/productos/LN_58-85_CC_SCHWARZBRAUN.jpg",
+      image: "/LineaEfficient/productos/LN_58-85_CC_SCHWARZBRAUN.webp",
       title: "schwarzbraun"
     },
     {
-      image: "/LineaEfficient/productos/LEFF_CC_BANDEROLA_TOFFEE.jpg",
+      image: "/LineaEfficient/productos/LEFF_CC_BANDEROLA_TOFFEE.webp",
       title: "toffee"
     },
   ]
@@ -74,7 +74,7 @@ export default function LineaEfficient() {
       <HeroSection 
         title="Linea Efficient" 
         subtitle="La línea de ventanas practicables de PVC que asegura aislamiento térmico y acústico, con diseño funcional y durabilidad garantizada." 
-        image="/LineaEfficient/image-banner.jpg" 
+        image="/LineaEfficient/image-banner.webp" 
 
       />
       <Productos padding="0px">
@@ -85,7 +85,7 @@ export default function LineaEfficient() {
             La línea <b>Efficient</b> de <b>Muchtek</b>, está pensada para quienes buscan el equilibrio perfecto entre <b>diseño, confort y eficiencia energética</b>. Sus aperturas practicables permiten una <b>apertura total</b> que favorece la ventilación, a la vez que ofrecen un <b>alto nivel de hermeticidad</b> gracias a su doble contacto para mantener la temperatura interior, reducir ruidos externos y ahorrar en climatización.
           </p>
           <img 
-            src="/images/_MG_9893.jpg" 
+            src="/images/_MG_9893.webp" 
             alt="Muchtek en casa foa - linea efficient" 
             className='mb-4'
             style={{borderRadius: "10px"}}
@@ -99,15 +99,15 @@ export default function LineaEfficient() {
           <CarruselOneImage images={images} />
         </div>
         <SmallSectionBanner title="¿Querés conocer cómo la línea Efficient puede transformar tu proyecto?" cta="Solicitá tu presupuesto" />
-        <ImageBg image="/LineaEfficient/image-banner.jpg">
+        <ImageBg image="/LineaEfficient/image-banner.webp">
           <h2>Gran variedad de colores y texturas</h2>
           <Separador color="--color-2" width="100px" />
           <p>Para elegir el diseño que más se adecue a tus ambientes:</p>
           <CardsCarousel items={items} colorTitle="--color-3" />
         </ImageBg>
-        {/* <img src="/LineaEfficient/pano-fijo-renders.png" alt="Paño fijo renders" />
+        {/* <img src="/LineaEfficient/pano-fijo-renders.webp" alt="Paño fijo renders" />
         <h3>Series <b>58-55</b> y <b>58-67</b></h3>
-        <img src="/LineaEfficient/pano-fijo-series.png" alt="Paño fijo series" /> */}
+        <img src="/LineaEfficient/pano-fijo-series.webp" alt="Paño fijo series" /> */}
         <div className='section-padding'>
           <h2 className='titulo mt-4'>Sistema de <b>doble contacto</b></h2>
           <Separador width="100px" color="--color-3" />
@@ -115,9 +115,9 @@ export default function LineaEfficient() {
           <p>De abrir (interior/exterior), oscilobatiente, proyectante, banderola, plegable y corredora paralela. </p>
           <p className='mb-5'>Con refuerzos interiores de acero galvanizado que permiten diseñar aberturas de grandes tamaños con vidrios simples y/o dobles hasta 34 mm de espesor.</p>
           <h3>Series <b>55-69</b> <b>55-69</b>, <b>55-85</b> Y <b>67-85</b></h3>
-          <img src="/LineaEfficient/doble-contacto-series-01.png" alt="Doble Contacto Series" />
+          <img src="/LineaEfficient/doble-contacto-series-01.webp" alt="Doble Contacto Series" />
           <h3>Series <b>67-100</b></h3>
-          <img src="/LineaEfficient/doble-contacto-series-02.png" alt="Doble contacto series 2" />
+          <img src="/LineaEfficient/doble-contacto-series-02.webp" alt="Doble contacto series 2" />
           <h2 className='mt-4'>Descarga nuestros <b>catálogos digitales</b></h2>
           <Separador width="100px" color="--color-3" />
           <div className='row g-4 catalogo-section'>

@@ -13,65 +13,65 @@ import CardsCarousel from './CardsCarousel'
 export default function Decks() {
   let array=[
     {
-      image: "mantenimiento.png",
+      image: "mantenimiento.webp",
       text: "No requiere mantenimiento adicional."
     },
     {
-      image: "limpieza.png",
+      image: "limpieza.webp",
       text: "Se limpia con agua y jabón."
     },
     {
-      image: "facil.png",
+      image: "facil.webp",
       text: "Se instala de forma muy sencilla."
     },
     {
-      image: "estanquidad.png",
+      image: "estanquidad.webp",
       text: "Resistente a la humedad y al agua."
     },
     {
-      image: "recubrimiento.png",
+      image: "recubrimiento.webp",
       text: "Recubrimiento acrílico en toda su superficie."
     },
     {
-      image: "antideslizante.png",
+      image: "antideslizante.webp",
       text: "Es antideslizante, no se astilla ni se agrieta."
     },
     {
-      image: "ignifugo.png",
+      image: "ignifugo.webp",
       text: "Muy baja propagación de llama y autoextinguible."
     },
     {
-      image: "sustentable.png",
+      image: "sustentable.webp",
       text: "Amigable con el medio ambiente. Se puede reciclar al 100%."
     },
     {
-      image: "durabilidad.png",
+      image: "durabilidad.webp",
       text: "Posee una larga vida útil."
     },
   ]
   let images=[
-    "/Decks/image-banner-3.jpg",
-    "/Decks/image-banner-2.jpg",
-    "/Decks/image-banner-4.jpg",
+    "/Decks/image-banner-3.webp",
+    "/Decks/image-banner-2.webp",
+    "/Decks/image-banner-4.webp",
   ]
   const ITEMS=[
     {
-      image: "/Decks/productos/LD_HONEY OAK.jpg",
+      image: "/Decks/productos/LD_HONEY OAK.webp",
       title: "honey oak"
     },
     {
-      image: "/Decks/productos/LD_MOUNTAIN OAK.jpg",
+      image: "/Decks/productos/LD_MOUNTAIN OAK.webp",
       title: "mountain oak"
     },
     {
-      image: "/Decks/productos/LD_NUTMEG OAK.jpg",
+      image: "/Decks/productos/LD_NUTMEG OAK.webp",
       title: "nutmeg oak"
     },
   ]
   return (
     <>
       <Header />
-      <HeroSection title="Decks de PVC" subtitle={"La mejor alternativa a la madera: resistente, elegante y de bajo mantenimiento."} image={"/Decks/img-banner.jpg"} />
+      <HeroSection title="Decks de PVC" subtitle={"La mejor alternativa a la madera: resistente, elegante y de bajo mantenimiento."} image={"/Decks/img-banner.webp"} />
       <Productos padding="0px">
         <div className='row section-padding'>
           <div className='col-lg-7'>
@@ -83,16 +83,16 @@ export default function Decks() {
             </p>
           </div>
           <div className='col-lg-5'>
-            <img src="/Decks/deck-foto-03.jpg" alt="deck-foto-03" />
+            <img src="/Decks/deck-foto-03.webp" alt="deck-foto-03" />
           </div>
         </div>
         <div className='row section-padding'>
           <div className='col-lg-6'>
-            <img src="/Decks/decks-foils-01.png" alt="decks-foils-01" />
+            <img src="/Decks/decks-foils-01.webp" alt="decks-foils-01" />
             <p>Ideales para <b>terrazas, balcones, jardines y áreas de piscina</b>, ofrecen un <b>diseño elegante y contemporáneo</b>, con múltiples acabados que se adaptan a distintos estilos arquitectónicos.</p>
             <h2>Instalación</h2>
             <p>Su fácil instalación y mantenimiento reducen los costos y el tiempo de construcción, lo que lo hace una opción costo-efectiva para cualquier proyecto.</p>
-            <img src="/Decks/decks_instalacion.png" alt="decks_instalacion" />
+            <img src="/Decks/decks_instalacion.webp" alt="decks_instalacion" />
           </div>
           <div className='col-lg-6 p-5'>
             <IconText array={array} />
@@ -102,7 +102,7 @@ export default function Decks() {
           <CarruselOneImage images={images} />
         </div>
         <SmallSectionBanner title="¿Querés renovar tus espacios exteriores con un deck duradero y elegante?" cta="Solicitá tu presupuesto" />
-        <ImageBg image="/Decks/img-banner.jpg">
+        <ImageBg image="/Decks/img-banner.webp">
           <h2>Gran variedad de colores y texturas</h2>
           <Separador color="--color-2" width="100px" />
           <p>Para elegir el diseño que más se adecue a tus ambientes:</p>

@@ -64,7 +64,7 @@ export default function BannerAlt({dev}) {
           </div>
         </div>
         <div className='col-lg-5 image-container'>
-          <img src="/houses/house-banner.jpg" alt="Banner de casa moderna con luz natural" />
+          <img src="/houses/house-banner.webp" alt="Banner de casa moderna con luz natural" />
           <span className='stats'>
             {dev?
               <p className='title'>25%</p>

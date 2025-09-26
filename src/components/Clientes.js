@@ -12,7 +12,7 @@ export default function Clientes() {
       <div className='row g-5'>
         <div className='col-lg-6'>
           <div className='image-container'>
-            <img src="image-placeholder.jpg" alt="Placeholder" />
+            <img src="image-placeholder.webp" alt="Placeholder" />
           </div>
         </div>
         <div className='col-lg-6'>
@@ -28,7 +28,7 @@ export default function Clientes() {
               <p className='m-0'>5/5</p>
             </div>
             <div className='profile'>
-              <img src="image-placeholder.jpg" alt="Placeholder" />
+              <img src="image-placeholder.webp" alt="Placeholder" />
               <div className='ms-4'>
                 <p className='name'>Arq. Carlos Mendez</p>
                 <p className='profession'>Arquitecto</p>

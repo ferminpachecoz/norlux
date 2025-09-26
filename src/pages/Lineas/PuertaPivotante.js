@@ -12,39 +12,39 @@ import SmallSectionBanner from '../../components/SmallSectionBanner'
 export default function PuertaPivotante() {
   const array =[
     {
-      icon: "/LineaJumbo/icons/interior-design.png",
+      icon: "/LineaJumbo/icons/interior-design.webp",
       title: "Diseño moderno e imponente",
       description: "Genera impacto visual desde el primer momento."
     },
     {
-      icon: "/LineaJumbo/icons/panorama.png",
+      icon: "/LineaJumbo/icons/panorama.webp",
       title: "Mayor amplitud de paso",
       description: "Ideal para accesos principales y proyectos de gran escala."
     },
     {
-      icon: "/LineaEfficient/icons/thermal-insulation.png",
+      icon: "/LineaEfficient/icons/thermal-insulation.webp",
       title: "Aislamiento térmico y acústico",
       description: "Garantiza confort y eficiencia energética integral."
     },
     {
-      icon: "/LineaJumbo/icons/cyber-security.png",
+      icon: "/LineaJumbo/icons/cyber-security.webp",
       title: "Seguridad reforzada",
       description: "Estructura robusta y herrajes de alta prestación."
     },
     {
-      icon: "/LineaEfficient/icons/versatilidad.png",
+      icon: "/LineaEfficient/icons/versatilidad.webp",
       title: "Personalización total",
       description: "Diferentes acabados, colores y configuraciones."
     },
   ]
-  const images=["/PuertaPivotante/image-banner-2.jpg", "/PuertaPivotante/image-banner-3.jpg", "/PuertaPivotante/image-banner-4.jpg"]
+  const images=["/PuertaPivotante/image-banner-2.webp", "/PuertaPivotante/image-banner-3.webp", "/PuertaPivotante/image-banner-4.webp"]
   return (
     <>
       <Header />
       <HeroSection 
         title="Puerta Pivotante" 
         subtitle="La puerta de entrada que combina innovación, amplitud y resistencia, ideal para proyectos residenciales y comerciales premium." 
-        image="/PuertaPivotante/image-banner.jpg" 
+        image="/PuertaPivotante/image-banner.webp" 
       />
       <Productos padding="0px">
         <div className='section-padding'>
@@ -54,7 +54,7 @@ export default function PuertaPivotante() {
             Las <b>puertas pivotantes de Muchtek</b>, marcan la diferencia en cualquier proyecto. A diferencia de las puertas tradicionales, su sistema de apertura con eje desplazado brinda un efecto <b>imponente, elegante y funcional</b>, optimizando el uso del espacio y aportando un estilo arquitectónico distintivo.
           </p>
           <img 
-            src="/houses/house-banner.jpg" 
+            src="/houses/house-banner.webp" 
             alt="casa con luz natural y puerta pivotante" 
             className='mb-4 section-image'
           />
@@ -79,8 +79,8 @@ export default function PuertaPivotante() {
           <p>
             Siempre a la vanguardia tecnológica y respondiendo a una creciente demanda arquitectónica, Muchtek presenta la nueva PUERTA PIVOTANTE DE PVC, de 2.60 mts de alto, con un sistema de herraje de acero inoxidable y un cerramiento con cremona, que ofrece el máximo grado de seguridad, novedoso diseño, con gran estilo y confort.
           </p>
-          <img src="/PuertaPivotante/caracteristicas-pivotante.jpg" alt="caracteristicas de puerta pivotante" />
-          <img src="/PuertaPivotante/detalle-pivotante.jpg" alt="Detalles de puerta pivotante" />
+          <img src="/PuertaPivotante/caracteristicas-pivotante.webp" alt="caracteristicas de puerta pivotante" />
+          <img src="/PuertaPivotante/detalle-pivotante.webp" alt="Detalles de puerta pivotante" />
           <h2 className='mt-4'>Descarga nuestros <b>catálogos digitales</b></h2>
           <Separador width="100px" color="--color-3" />
           <div className='row g-4 catalogo-section'>

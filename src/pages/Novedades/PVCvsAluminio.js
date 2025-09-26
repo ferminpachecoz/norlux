@@ -164,7 +164,7 @@ const PVCvsAluminio = () => {
               {/* PVC Column */}
               <div className="material-column pvc-column">
                 <div className="material-header">
-                  <img src="/Novedades/noticia-1/aluminum-window-profile-icon.jpg" alt="PVC Muchtek" className="material-icon" />
+                  <img src="/Novedades/noticia-1/aluminum-window-profile-icon.webp" alt="PVC Muchtek" className="material-icon" />
                   <h3>{comparisonData[activeTab].pvc.title}</h3>
                   <span className="winner-badge">✅ Ganador</span>
                 </div>
@@ -189,7 +189,7 @@ const PVCvsAluminio = () => {
               {/* Aluminum Column */}
               <div className="material-column aluminum-column">
                 <div className="material-header">
-                  <img src="/Novedades/noticia-1/pvc-window-profile-icon.jpg" alt="Aluminio" className="material-icon" />
+                  <img src="/Novedades/noticia-1/pvc-window-profile-icon.webp" alt="Aluminio" className="material-icon" />
                   <h3>{comparisonData[activeTab].aluminum.title}</h3>
                 </div>
                 <div className="material-content">

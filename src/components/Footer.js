@@ -6,7 +6,7 @@ export default function Footer() {
     <div className='footer'>
       <div className='row'>
         <div className='col-lg-3'>
-          <img src="/logos/logo-lg-claro-claro.png" alt="Logo Nörlux" />
+          <img src="/logos/logo-lg-claro-claro.webp" alt="Logo Nörlux" />
           <p className='small mb-4'>Aberturas PVC de Alto Rendimiento</p>
           <p className='medium'>Especialistas en ventanas y puertas PVC con tecnología europea. Transformamos espacios con calidad, diseño y eficiencia energética.</p>
           <div className='social-media d-flex justify-content-start align-items-center'>

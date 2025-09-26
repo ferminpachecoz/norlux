@@ -14,84 +14,84 @@ import SmallSectionBanner from '../../components/SmallSectionBanner'
 export default function Tubulares() {
   const ITEMS = [
     {
-      image: "/tubulares/TOFFEE_REC_TP.jpg",
+      image: "/tubulares/TOFFEE_REC_TP.webp",
       title: "Toffee",
     },
     {
-      image: "/tubulares/TB_SR_NOGAL.jpg",
+      image: "/tubulares/TB_SR_NOGAL.webp",
       title: "Nogal",
     },
     {
-      image: "/tubulares/LENGA_TP.jpg",
+      image: "/tubulares/LENGA_TP.webp",
       title: "Lenga",
     },
     {
-      image: "/tubulares/JET BLACK_TP.jpg",
+      image: "/tubulares/JET BLACK_TP.webp",
       title: "Jet Black",
     },
     {
-      image: "/tubulares/GREYOAK_TP.jpg",
+      image: "/tubulares/GREYOAK_TP.webp",
       title: "Greyoak",
     },
     {
-      image: "/tubulares/GOLDEN OAK_REC_TP.jpg",
+      image: "/tubulares/GOLDEN OAK_REC_TP.webp",
       title: "Golden Oak",
     },
     {
-      image: "/tubulares/GOLDBRONZE_TP.jpg",
+      image: "/tubulares/GOLDBRONZE_TP.webp",
       title: "Gold Bronze",
     },
     {
-      image: "/tubulares/ALPINE_REC_TP.jpg",
+      image: "/tubulares/ALPINE_REC_TP.webp",
       title: "Alpine",
     },
     // ...agregá más si querés
   ];
   const array=[
     {
-      icon: "/LineaJumbo/icons/terrace.png",
+      icon: "/LineaJumbo/icons/terrace.webp",
       title: "Diseño arquitectónico moderno",
       description: "Aporta carácter y sofisticación a las fachadas."
     },
     {
-      icon: "/Tubulares/icons/wood.png",
+      icon: "/Tubulares/icons/wood.webp",
       title: "Acabados imitación madera",
       description: "Estética natural sin los problemas del material original."
     },
     {
-      icon: "/LineaJumbo/icons/interior-design.png",
+      icon: "/LineaJumbo/icons/interior-design.webp",
       title: "Integración arquitectónica",
       description: "Se adaptan a múltiples estilos y amplían las posibilidades de diseño."
     },
     {
-      icon: "/pisosInterior/icons/water-resistant.png",
+      icon: "/pisosInterior/icons/water-resistant.webp",
       title: "Resistencia a la intemperie",
       description: "Soporta lluvia, sol y cambios de temperatura."
     },
     {
-      icon: "/LineaEfficient/icons/mantenimiento.png",
+      icon: "/LineaEfficient/icons/mantenimiento.webp",
       title: "Mínimo mantenimiento",
       description: "No requiere barnices ni pinturas."
     },
     {
-      icon: "/Revestimiento/icons/reliability.png",
+      icon: "/Revestimiento/icons/reliability.webp",
       title: "Durabilidad superior",
       description: "No se pudre, no se astilla, no pierde color fácilmente."
     },
     {
-      icon: "/LineaEfficient/icons/sustentabilidad.png",
+      icon: "/LineaEfficient/icons/sustentabilidad.webp",
       title: "Sustentabilidad",
       description: "Fabricados con materiales reciclables."
     },
   ]
-  const images = ["/Tubulares/image-banner-3.JPEG", "/Tubulares/image-banner-4.jpg", "/Tubulares/image-banner-5.jpg"]
+  const images = ["/Tubulares/image-banner-3.webp", "/Tubulares/image-banner-4.webp", "/Tubulares/image-banner-5.webp"]
   return (
     <>
       <Header />
       <HeroSection 
         title="Tubulares" 
         subtitle="La solución ideal para crear revestimientos exteriores de diseño premium con la calidez de la madera y la resistencia del PVC." 
-        image="/Tubulares/image-banner-1.jpg" 
+        image="/Tubulares/image-banner-1.webp" 
       />
       <Productos padding="0px">
         <div className='section-padding'>
@@ -101,7 +101,7 @@ export default function Tubulares() {
             Los <b>Tubulares de PVC Muchtek</b>, comercializados por <b>Nörlux</b>, están pensados para aportar un <b>diseño contemporáneo y elegante</b> a las fachadas modernas. Gracias a sus acabados en <b>imitación madera</b>, logran transmitir la <b>calidez y estética natural</b> de este material, pero con todas las ventajas del PVC: <b>durabilidad, resistencia a la intemperie y bajo mantenimiento.</b>
           </p>
           <img 
-            src="/Tubulares/image-banner-2.jpeg" 
+            src="/Tubulares/image-banner-2.webp" 
             alt="Foto de tubulares en una casa" 
             style={{borderRadius: "10px"}}
             className='mb-4'
@@ -124,10 +124,10 @@ export default function Tubulares() {
             <p>Son ideales para ambientar espacios que necesiten control solar y renovación de aire. Permiten aportar diseño a los proyectos arquitectónicos, utilizándolos como revestimientos de paredes, cielorrasos decorativos, divisorios de balcones o ambientes interiores, pantallas, portones batientes, cercas, entre otros. Tienen la posibilidad de foliarlos en la <b>amplia gama de colores</b> y texturas de SKAI Foils.</p>
           </div>
           <div className='col-5'>
-            <img src="/Tubulares/un-tubulares-02.jpg" alt="un-tubulares-02" />
+            <img src="/Tubulares/un-tubulares-02.webp" alt="un-tubulares-02" />
           </div>
         </div>
-        <ImageBg image="/houses/sample-02.jpg">
+        <ImageBg image="/houses/sample-02.webp">
           <h2>Posibilidad de laminarlos</h2>
           <Separador color="--color-2" width="100px" />
           <p>en la amplia gama de colores y texturas de SKAI Foils.</p>
@@ -137,8 +137,8 @@ export default function Tubulares() {
           <div className='col-lg-5'>
             <h2>Medidas</h2>
             <Separador color="--color-3" width="100px" />
-            <img src="/Tubulares/tubular-38x38.png" alt="tubular-38x38" />
-            <img src="/Tubulares/tubular-76x38.png" alt="tubular-76x38" />
+            <img src="/Tubulares/tubular-38x38.webp" alt="tubular-38x38" />
+            <img src="/Tubulares/tubular-76x38.webp" alt="tubular-76x38" />
             <h3>Ideales para ambientar espacios que requieran <b>control solar</b> y <b>renovación de aire</b>.</h3>
             <ul>
               <li>Celosías</li>
@@ -150,9 +150,9 @@ export default function Tubulares() {
             </ul>
           </div>
           <div className='col-lg-7'>
-            <img src="/Tubulares/medidas-tubulares-tipologias-01.png" alt="medidas-tubulares-tipologias-01" />
+            <img src="/Tubulares/medidas-tubulares-tipologias-01.webp" alt="medidas-tubulares-tipologias-01" />
             <h3 className='my-4'>El sistema se complementa con <b>tapas de PVC</b> disponibles para ambos tubulares.</h3>
-            <img src="/Tubulares/medidas-tubulares-tipologias-tapas.png" alt="medidas-tubulares-tipologias-tapas" />
+            <img src="/Tubulares/medidas-tubulares-tipologias-tapas.webp" alt="medidas-tubulares-tipologias-tapas" />
 
           </div>
         </div>
@@ -161,19 +161,19 @@ export default function Tubulares() {
           <div style={{margin:"10px auto", width:"100px", height:"4px", backgroundColor:"var(--color-3)"}}>
 
           </div>
-          <img src="/Tubulares/medidas-tubulares-tipologias-refuerzos.png" alt="medidas-tubulares-tipologias-refuerzos" />
+          <img src="/Tubulares/medidas-tubulares-tipologias-refuerzos.webp" alt="medidas-tubulares-tipologias-refuerzos" />
         </div>
         <div style={{backgroundColor: "var(--color-1)"}}>
           <div className='row' style={{padding: "100px 150px 50px 150px"}}>
             <div className='col-lg-2'>
-              <img src="/Tubulares/tubular-render.png" alt="tubular-render" />
+              <img src="/Tubulares/tubular-render.webp" alt="tubular-render" />
             </div>
             <div className='col-lg-10 px-5'>
               <h2>Contamos con una variada <b>gama de accesorios</b> y terminaciones en PVC para brindar soluciones a <b>tus proyectos</b>.</h2>
             </div>  
           </div>
           <div className='row' style={{padding: "0px 200px 100px 200px"}}>
-            <img src="/Tubulares/medidas-tubulares-tipologias-complementarios.png" alt="medidas-tubulares-tipologias-complementarios" />
+            <img src="/Tubulares/medidas-tubulares-tipologias-complementarios.webp" alt="medidas-tubulares-tipologias-complementarios" />
           </div>
         </div>
         <div style={{padding: "100px"}}>

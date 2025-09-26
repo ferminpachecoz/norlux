@@ -111,7 +111,7 @@ const NuevosDecks = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
           >
-            <img src="/Novedades/noticia-3/modern-pvc-deck-terrace-with-outdoor-furniture.jpg" alt="Deck de PVC Muchtek en terraza moderna" />
+            <img src="/Novedades/noticia-3/modern-pvc-deck-terrace-with-outdoor-furniture.webp" alt="Deck de PVC Muchtek en terraza moderna" />
           </motion.div>
         </div>
       </motion.section>
@@ -155,7 +155,7 @@ const NuevosDecks = () => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <img src="/Novedades/noticia-3/pvc-deck-profile-close-up-texture-wood-like.jpg" alt="Perfil de deck de PVC con textura madera" />
+              <img src="/Novedades/noticia-3/pvc-deck-profile-close-up-texture-wood-like.webp" alt="Perfil de deck de PVC con textura madera" />
             </motion.div>
           </div>
         </div>
@@ -226,7 +226,7 @@ const NuevosDecks = () => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <img src="/Novedades/noticia-3/pvc-deck-around-swimming-pool-with-lounge-chairs.jpg" alt="Deck de PVC alrededor de piscina" />
+              <img src="/Novedades/noticia-3/pvc-deck-around-swimming-pool-with-lounge-chairs.webp" alt="Deck de PVC alrededor de piscina" />
             </motion.div>
           </div>
         </div>

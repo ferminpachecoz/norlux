@@ -14,52 +14,52 @@ import CardsCarousel from '../Pisos/CardsCarousel'
 export default function LineaJumbo() {
   const array=[
     {
-      icon: "/LineaJumbo/icons/panorama.png",
+      icon: "/LineaJumbo/icons/panorama.webp",
       title: "Máxima amplitud",
       description: "Ideal para ventanales de gran porte y vistas panorámicas."
     },
     {
-      icon: "/LineaJumbo/icons/meditate.png",
+      icon: "/LineaJumbo/icons/meditate.webp",
       title: "Confort asegurado",
       description: "Aislamiento térmico y acústico en superficies amplias."
     },
     {
-      icon: "/LineaJumbo/icons/layer.png",
+      icon: "/LineaJumbo/icons/layer.webp",
       title: "Múltiples hojas",
       description: "Posibilidad de cubrir largos tramos con diferentes configuraciones."
     },
     {
-      icon: "/LineaJumbo/icons/terrace.png",
+      icon: "/LineaJumbo/icons/terrace.webp",
       title: "Integración total",
       description: "Conecta espacios interiores con galerías, jardines o terrazas."
     },
     {
-      icon: "/LineaJumbo/icons/cyber-security.png",
+      icon: "/LineaJumbo/icons/cyber-security.webp",
       title: "Resistencia y seguridad",
       description: "Herrajes de alta prestación para hojas pesadas."
     },
     {
-      icon: "/LineaJumbo/icons/interior-design.png",
+      icon: "/LineaJumbo/icons/interior-design.webp",
       title: "Estética premium",
       description: "Diseño contemporáneo que realza cualquier proyecto."
     },
   ]
-  const images=["/LineaJumbo/image-banner.jpg","/images/_MG_0212.jpg", "/images/_MG_0154.jpg"]
+  const images=["/LineaJumbo/image-banner.webp","/images/_MG_0212.webp", "/images/_MG_0154.webp"]
   const ITEMS=[
     {
-      image: "/LineaJumbo/productos/LJ_2G_FINAL_BLANCO.jpg",
+      image: "/LineaJumbo/productos/LJ_2G_FINAL_BLANCO.webp",
       title: "blanco"
     },
     {
-      image: "/LineaJumbo/productos/LJ_2H_JBLACK.jpg",
+      image: "/LineaJumbo/productos/LJ_2H_JBLACK.webp",
       title: "jet black"
     },
     {
-      image: "/LineaJumbo/productos/LJ_2H_LENGA.jpg",
+      image: "/LineaJumbo/productos/LJ_2H_LENGA.webp",
       title: "lenga"
     },
     {
-      image: "/LineaJumbo/productos/LJ_2H_TOAK.jpg",
+      image: "/LineaJumbo/productos/LJ_2H_TOAK.webp",
       title: "turner oak"
     },
   ]
@@ -69,7 +69,7 @@ export default function LineaJumbo() {
       <HeroSection 
         title="Línea Jumbo" 
         subtitle="La línea de ventanales corredizos de PVC pensada para abrir tus espacios al máximo, con diseño premium y alta eficiencia." 
-        image="/LineaJumbo/image-banner.jpg" 
+        image="/LineaJumbo/image-banner.webp" 
       />
       <Productos padding="0px">
         <div className='section-padding'>
@@ -78,7 +78,7 @@ export default function LineaJumbo() {
           <p>
             La línea <b>Jumbo</b> de <b>Muchtek</b>, es la elección ideal para <b>proyectos arquitectónicos de gran escala</b> que buscan integrar el interior con el exterior a través de <b>vistas panorámicas y ventanales de gran porte</b>.
           </p>
-          <img src="/LineaJumbo/jumbo-renders.png" alt="jumbo renders" />
+          <img src="/LineaJumbo/jumbo-renders.webp" alt="jumbo renders" />
           <p>
             Gracias a su sistema corredizo de alta prestación, permite un <b>desplazamiento suave y seguro incluso en hojas de gran tamaño</b>, garantizando la misma <b>hermeticidad, aislamiento térmico y acústico</b> que caracteriza al PVC.
           </p>
@@ -94,7 +94,7 @@ export default function LineaJumbo() {
           title="¿Querés abrir tus espacios al máximo con diseño y eficiencia?" 
           cta="Solicitá tu presupuesto" 
         />
-        <ImageBg image="/LineaJumbo/image-banner.jpg">
+        <ImageBg image="/LineaJumbo/image-banner.webp">
           <h2>Gran variedad de colores y texturas</h2>
           <Separador color="--color-2" width="100px" />
           <p>Para elegir el diseño que más se adecue a tus ambientes:</p>
@@ -102,7 +102,7 @@ export default function LineaJumbo() {
         </ImageBg>
         <div className='section-padding'>
           <h3 className='mt-5'>Sistemas de <b>dos o más</b> guías</h3>
-          <img src="/LineaJumbo/jumbo-guias.png" alt="Jumbo Guias" />
+          <img src="/LineaJumbo/jumbo-guias.webp" alt="Jumbo Guias" />
           <h2 className='mt-4'>Descarga nuestros <b>catálogos digitales</b></h2>
           <Separador width="100px" color="--color-3" />
           <div className='row g-4 catalogo-section'>

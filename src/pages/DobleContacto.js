@@ -7,12 +7,12 @@ import TipoProducto from "../components/TipoProducto"
 export default function DobleContacto() {
   let array = [
     {
-      image: "/Perfiles/efficient-58-69.jpg",
+      image: "/Perfiles/efficient-58-69.webp",
       title: "Línea Efficient",
       link: "/perfiles/doble-contacto/linea-efficient"
     },
     {
-      image: "/Perfiles/pivotante.jpg",
+      image: "/Perfiles/pivotante.webp",
       title: "Puerta Pivotante",
       link: "/perfiles/doble-contacto/puerta-pivotante"
     },
@@ -20,7 +20,7 @@ export default function DobleContacto() {
   return (
     <>
       <Header />
-      <HeroSection image="/images/_MG_9831.jpg" title="Doble Contacto" subtitle="Descubrí todas nuestros perfiles de doble contacto" />
+      <HeroSection image="/images/_MG_9831.webp" title="Doble Contacto" subtitle="Descubrí todas nuestros perfiles de doble contacto" />
       <TipoProducto array={array} />
       <Footer />
     </>

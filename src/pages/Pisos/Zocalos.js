@@ -14,81 +14,81 @@ import SmallSectionBanner from '../../components/SmallSectionBanner'
 export default function Zocalos() {
   const array =[
     {
-      icon: "/pisosInterior/icons/water-resistant.png",
+      icon: "/pisosInterior/icons/water-resistant.webp",
       title: "Resistencia a la humedad y golpes",
       description: "No se deforman ni deterioran con el uso diario."
     },
     {
-      icon: "/pisosInterior/icons/mechanic.png",
+      icon: "/pisosInterior/icons/mechanic.webp",
       title: "Fácil mantenimiento",
       description: "Limpieza rápida sin necesidad de tratamientos."
     },
     {
-      icon: "/LineaEfficient/icons/versatilidad.png",
+      icon: "/LineaEfficient/icons/versatilidad.webp",
       title: "Estética moderna",
       description: "Múltiples diseños y colores para combinar con cualquier piso."
     },
     {
-      icon: "/pisosInterior/icons/easy-installation.png",
+      icon: "/pisosInterior/icons/easy-installation.webp",
       title: "Instalación práctica",
       description: "Colocación sencilla y firme."
     },
     {
-      icon: "/Revestimiento/icons/reliability.png",
+      icon: "/Revestimiento/icons/reliability.webp",
       title: "Durabilidad garantizada",
       description: "Conservan su apariencia por muchos años."
     },
     {
-      icon: "/LineaEfficient/icons/sustentabilidad.png",
+      icon: "/LineaEfficient/icons/sustentabilidad.webp",
       title: "Sustentabilidad",
       description: "Opción reciclable y respetuosa con el medio ambiente."
     },
   ]
   const ITEMS = [
     {
-      image: "/zocalos/almendra.jpg",
+      image: "/zocalos/almendra.webp",
       title: "Almendra",
       headline: "PRÓXIMAMENTE",
       sub: "Nuevos foliados",
     },
     {
-      image: "/zocalos/blanco.jpg",
+      image: "/zocalos/blanco.webp",
       title: "Blanco",
       headline: "PRÓXIMAMENTE",
       sub: "Nuevos foliados",
     },
     {
-      image: "/zocalos/TP_Z_60_EUCA.jpg",
+      image: "/zocalos/TP_Z_60_EUCA.webp",
       title: "Eucalyptus",
       headline: "PRÓXIMAMENTE",
       sub: "Nuevos foliados",
     },
     {
-      image: "/zocalos/TP_Z_60_OAK.jpg",
+      image: "/zocalos/TP_Z_60_OAK.webp",
       title: "Oak",
       headline: "PRÓXIMAMENTE",
       sub: "Nuevos foliados",
     },
     {
-      image: "/zocalos/TP_Z_60_POPLAR.jpg",
+      image: "/zocalos/TP_Z_60_POPLAR.webp",
       title: "Poplar",
       headline: "PRÓXIMAMENTE",
       sub: "Nuevos foliados",
     },
     {
-      image: "/zocalos/TP_Z_60_TEEK.jpg",
+      image: "/zocalos/TP_Z_60_TEEK.webp",
       title: "Teak",
       headline: "PRÓXIMAMENTE",
       sub: "Nuevos foliados",
     },
     {
-      image: "/zocalos/TP_Z_60_WALNUT.jpg",
+      image: "/zocalos/TP_Z_60_WALNUT.webp",
       title: "Walnut",
       headline: "PRÓXIMAMENTE",
       sub: "Nuevos foliados",
     },
     {
-      image: "/zocalos/abedul.jpg",
+      image: "/zocalos/abedul.webp",
       title: "Abedul",
       headline: "PRÓXIMAMENTE",
       sub: "Nuevos foliados",
@@ -96,9 +96,9 @@ export default function Zocalos() {
     // ...agregá más si querés
   ];
   const images=[
-    "/zocalos/image-banner.jpg",
-    "/zocalos/image-banner-3.jpg",
-    "/zocalos/image-banner-2.jpg"
+    "/zocalos/image-banner.webp",
+    "/zocalos/image-banner-3.webp",
+    "/zocalos/image-banner-2.webp"
   ]
   return (
     <>
@@ -106,7 +106,7 @@ export default function Zocalos() {
       <HeroSection 
         title="Zócalos de PVC" 
         subtitle="Resistentes, estéticos y fáciles de mantener, para un acabado perfecto en cada ambiente."
-        image="/zocalos/image-banner.jpg"
+        image="/zocalos/image-banner.webp"
       />
       <Productos padding="0px" style={{position: "relative"}}>
         <div className='section-padding'>
@@ -116,7 +116,7 @@ export default function Zocalos() {
             Los <b>Zócalos de PVC Muchtek</b>, instalados por <b>Nörlux</b>, son la terminación ideal para lograr un acabado <b>prolijo y duradero</b> en cada ambiente. Gracias a su <b>resistencia</b> y <b>fácil limpieza</b>, son una opción muy superior a los zócalos de madera tradicionales, que suelen desgastarse con el tiempo y la humedad.
           </p>
         </div>
-        <ImageBg image="/zocalos/image-banner.jpg">
+        <ImageBg image="/zocalos/image-banner.webp">
           <h2>Gran variedad de colores y texturas</h2>
           <Separador color="--color-2" width="100px" />
           <p>Para elegir el diseño que más se adecue a tus ambientes:</p>
@@ -142,7 +142,7 @@ export default function Zocalos() {
           </div>
           <div className='col-lg-5 col-12 d-lg-block d-none' >
             <img 
-            src="/zocalos/un-zocalos-02.jpg" 
+            src="/zocalos/un-zocalos-02.webp" 
             alt="un-zocalos-02" 
             style={{height: "80%"}}
             />
@@ -154,10 +154,10 @@ export default function Zocalos() {
             <Separador color="--color-3" width="100px" />
             <div className='row'>
               <div className='col-lg-6 col-12'>
-                <img src="/zocalos/disenos_zocalos.png" alt="disenos_zocalos" />
+                <img src="/zocalos/disenos_zocalos.webp" alt="disenos_zocalos" />
               </div>
               <div className='col-lg-6 col-12'>
-                <img src="/zocalos/tipologias_zocalos.png" alt="tipologias_zocalos" />
+                <img src="/zocalos/tipologias_zocalos.webp" alt="tipologias_zocalos" />
               </div>
             </div>
           </div>

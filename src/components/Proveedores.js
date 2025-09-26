@@ -4,13 +4,13 @@ import Separador from "./Separador";
 const Proveedores = () => {
   // Array de clientes con logos placeholder
   const clients = [
-    { id: 1, name: "Muchtek", logo: "/proveedores/muchtek.png" },
-    { id: 2, name: "Herramaq", logo: "/proveedores/Herramaq.png" },
-    { id: 3, name: "Rotofrank", logo: "/proveedores/rotofrank.png" },
-    { id: 4, name: "Tecno Perfiles", logo: "/proveedores/tecnoperfiles.png" },
-    { id: 5, name: "Vorne", logo: "/proveedores/vorne.png" },
-    { id: 5, name: "Bestchem", logo: "/proveedores/bestchem.png" },
-    { id: 5, name: "Reze", logo: "/proveedores/reze.png" },
+    { id: 1, name: "Muchtek", logo: "/proveedores/muchtek.webp" },
+    { id: 2, name: "Herramaq", logo: "/proveedores/Herramaq.webp" },
+    { id: 3, name: "Rotofrank", logo: "/proveedores/rotofrank.webp" },
+    { id: 4, name: "Tecno Perfiles", logo: "/proveedores/tecnoperfiles.webp" },
+    { id: 5, name: "Vorne", logo: "/proveedores/vorne.webp" },
+    { id: 5, name: "Bestchem", logo: "/proveedores/bestchem.webp" },
+    { id: 5, name: "Reze", logo: "/proveedores/reze.webp" },
   ]
 
   // Duplicamos el array para crear el efecto infinito

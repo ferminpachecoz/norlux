@@ -5,43 +5,43 @@ import CardIcon from './CardIcon';
 export default function Beneficios() {
   let elementos = [
     {
-      lightIcon: "shield-check.png",
-      darkIcon: "shield-check-white.png",
+      lightIcon: "shield-check.webp",
+      darkIcon: "shield-check-white.webp",
       title: "Perfiles PVC Alto Rendimiento",
       subtitle: "Muchtek",
       description: "Perfiles de PVC premium con cámaras múltiples para máximo aislamiento térmico y acústico."
     },
     {
-      lightIcon: "settings.png",
-      darkIcon: "settings-white.png",
+      lightIcon: "settings.webp",
+      darkIcon: "settings-white.webp",
       title: "Herrajes de Precisión Europea",
       subtitle: "Rotofrank",
       description: "Herrajes alemanes de última generación que garantizan suavidad, durabilidad y seguridad."
     },
     {
-      lightIcon: "team-check.png",
-      darkIcon: "team-check-white.png",
+      lightIcon: "team-check.webp",
+      darkIcon: "team-check-white.webp",
       title: "Asesoramiento Especializado",
       subtitle: "Consultoría",
       description: "Equipo técnico especializado para brindar la mejor solución según cada proyecto y necesidad."
     },
     {
-      lightIcon: "bolt.png",
-      darkIcon: "bolt-white.png",
+      lightIcon: "bolt.webp",
+      darkIcon: "bolt-white.webp",
       title: "Eficiencia y Precisión",
       subtitle: "Procesos optimizados",
       description: "Fabricación con tecnología de punta y procesos optimizados para entregas puntuales."
     },
     {
-      lightIcon: "ruler-triangle.png",
-      darkIcon: "ruler-triangle-white.png",
+      lightIcon: "ruler-triangle.webp",
+      darkIcon: "ruler-triangle-white.webp",
       title: "Instalación Llave en Mano",
       subtitle: "Garantía y cumplimiento",
       description: "Servicio integral desde la medición hasta la instalación final con garantía completa."
     },
     {
-      lightIcon: "normas-iram.png",
-      darkIcon: "normas-iram-white.png",
+      lightIcon: "normas-iram.webp",
+      darkIcon: "normas-iram-white.webp",
       title: "Normas IRAM",
       subtitle: "Certificación nacional",
       description: "Todos nuestros productos cumplen y superan las exigentes normas IRAM de calidad."

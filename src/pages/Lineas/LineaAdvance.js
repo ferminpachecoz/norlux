@@ -14,51 +14,51 @@ import CardsCarousel from '../Pisos/CardsCarousel'
 export default function LineaAdvance() {
   let array = [
     {
-      icon: "/LineaJumbo/icons/interior-design.png",
+      icon: "/LineaJumbo/icons/interior-design.webp",
       title: "Diseño compacto y funciona",
       description: "Perfecto para cocinas, baños y dormitorios."
     },
     {
-      icon: "/LineaPrime/icons/window.png",
+      icon: "/LineaPrime/icons/window.webp",
       title: "Ahorro de espacio",
       description: "Sistema corredizo sin hojas que invadan el interior."
     },
     {
-      icon: "/LineaEfficient/icons/acoustic-panel.png",
+      icon: "/LineaEfficient/icons/acoustic-panel.webp",
       title: "Hermeticidad y aislamiento",
       description: "Mantiene el confort incluso en aberturas pequeñas."
     },
     {
-      icon: "/pisosInterior/icons/easy-installation.png",
+      icon: "/pisosInterior/icons/easy-installation.webp",
       title: "Durabilidad y bajo mantenimiento",
       description: "Resistencia al uso diario y fácil limpieza."
     },
     {
-      icon: "/LineaEfficient/icons/versatilidad.png",
+      icon: "/LineaEfficient/icons/versatilidad.webp",
       title: "Versatilidad de acabados",
       description: "múltiples opciones de diseño y colores."
     },
   ]
   const images = [
-    /* "/Linea Advance/image-banner-2.jpg", */
-    "/Linea Advance/image-banner-3.jpg",
-    /* "/Linea Advance/image-banner-5.jpg", */
+    /* "/Linea Advance/image-banner-2.webp", */
+    "/Linea Advance/image-banner-3.webp",
+    /* "/Linea Advance/image-banner-5.webp", */
   ];
   const items=[
     {
-      image: "/Linea Advance/productos/LA_2G_FINAL_BLANCO.jpg",
+      image: "/Linea Advance/productos/LA_2G_FINAL_BLANCO.webp",
       title: "blanco"
     },
     {
-      image: "/Linea Advance/productos/LA_2G_NOGAL.jpg",
+      image: "/Linea Advance/productos/LA_2G_NOGAL.webp",
       title: "nogal"
     },
     {
-      image: "/Linea Advance/productos/LA_2G_SIPO.jpg",
+      image: "/Linea Advance/productos/LA_2G_SIPO.webp",
       title: "sipo"
     },
     {
-      image: "/Linea Advance/productos/LA_2G_W.jpg",
+      image: "/Linea Advance/productos/LA_2G_W.webp",
       title: "wengue"
     },
   ]
@@ -67,7 +67,7 @@ export default function LineaAdvance() {
       <Header />
       <HeroSection 
         title="Línea Advance" 
-        image="/Linea Advance/image-banner-4.jpg" 
+        image="/Linea Advance/image-banner-4.webp" 
         subtitle="La línea ideal de ventanas corredizas de PVC para cocinas, baños y dormitorios, donde cada centímetro cuenta." 
       />
       <Productos padding="0px">
@@ -78,7 +78,7 @@ export default function LineaAdvance() {
             La línea <b>Advance de Muchtek</b>, fue desarrollada pensando en espacios donde las ventanas cumplen un papel fundamental en la <b>iluminación y ventilación diaria</b>. Su formato corredizo permite un <b>uso práctico en superficies reducidas</b>, como sobre mesadas de cocina, baños o dormitorios con ventanas pequeñas.
           </p>
           <img 
-            src="/Linea Advance/image-banner-1.jpg" 
+            src="/Linea Advance/image-banner-1.webp" 
             alt="Casa con luz natural y jardin" 
             className='mb-4'
             style={{borderRadius: "10px"}}
@@ -92,7 +92,7 @@ export default function LineaAdvance() {
           <CarruselOneImage images={images} />
         </div>
         <SmallSectionBanner title="¿Necesitás una solución práctica para tus espacios reducidos?" cta="Solicitá tu presupuesto" />
-        <ImageBg image="/LineaEfficient/image-banner-2.jpg">
+        <ImageBg image="/LineaEfficient/image-banner-2.webp">
           <h2>Gran variedad de colores y texturas</h2>
           <Separador color="--color-2" width="100px" />
           <p>Para elegir el diseño que más se adecue a tus ambientes:</p>
@@ -102,7 +102,7 @@ export default function LineaAdvance() {
           <h2>Sistema Corredizo</h2>
           <Separador color="--color-3" width="100px" />
           <p>La <b>línea ideal</b> de ventanas corredizas de PVC para cocinas, baños y dormitorios, donde cada centímetro cuenta.</p>
-          <img src="/Linea Advance/advance-renders.png" alt="Advance Renders" />
+          <img src="/Linea Advance/advance-renders.webp" alt="Advance Renders" />
           <p>
             La línea <b>Advance</b> de <b>Muchtek</b>, fue desarrollada pensando en espacios   donde las ventanas cumplen un papel fundamental en la <b>iluminación y ventilación diaria</b>. Su formato corredizo permite un <b>uso práctico en superficies reducidas</b>, como sobre mesadas de cocina, baños o dormitorios con ventanas pequeñas.
           </p>
@@ -112,10 +112,10 @@ export default function LineaAdvance() {
         </div>
         <div className='section-padding'>
           <h3>Sistemas de <b>dos y tres</b> guías</h3>
-          <img src="/Linea Advance/sistema-advance-2y3guias.png" alt="Sistema de 2 y 3 guias" />
+          <img src="/Linea Advance/sistema-advance-2y3guias.webp" alt="Sistema de 2 y 3 guias" />
           <h3>Nuevo sistema <b>fijo-móvil</b></h3>
           <p>Ventana corrediza monorriel de una hoja móvil y un paño fijo u opción fija central y móviles laterales.</p>
-          <img src="/Linea Advance/advance-monorriel.png" alt="Advance Monorriel" />
+          <img src="/Linea Advance/advance-monorriel.webp" alt="Advance Monorriel" />
           <h2 className='mt-4'>Descarga nuestros <b>catálogos digitales</b></h2>
           <Separador width="100px" color="--color-3" />
           <div className='row g-4 catalogo-section'>

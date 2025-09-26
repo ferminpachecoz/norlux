@@ -11,7 +11,7 @@ export default function Noticia3() {
       <HeroSection 
         title="Nuevos Decks de PVC" 
         subtitle="Presentamos los nuevos decks de PVC Muchtek" 
-        image="/pisosInterior/image-banner.jpg" 
+        image="/pisosInterior/image-banner.webp" 
       />
       <NuevosDecks />
       <Footer />

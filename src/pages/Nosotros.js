@@ -36,11 +36,11 @@ export default function Nosotros() {
           <p className='resaltado'>
             <b>Nuestra historia</b> nace tras más de 10 años de experiencia en el rubro de las aberturas. Aprendimos lo que funciona, lo que no, y lo que los clientes realmente necesitan: cumplimiento, comunicación clara y soluciones que simplifican el proceso en lugar de sumar problemas.
           </p>
-          <img src="/houses/house-banner.jpg" alt="House with natural light" />
+          <img src="/houses/house-banner.webp" alt="House with natural light" />
           <p>
             Somos una empresa joven, pero con la madurez que da <b>la experiencia</b>. Nos apoyamos en <b>tecnología</b>, <b>procesos eficientes</b> y <b>herramientas</b> de gestión modernas para ofrecer un servicio ordenado, preciso y predecible. Porque entendemos que la <b>confianza</b> se construye con hechos, no con promesas.
           </p>
-          <img src="/houses/sample-02.jpg" alt="Building with natural light" />
+          <img src="/houses/sample-02.webp" alt="Building with natural light" />
           <p>En un entorno donde muchas veces reinan los retrasos, los sobrecostos y la desorganización, decidimos ser distintos. Nos comprometemos con <b>cada obra</b>, <b>cumplimos</b> lo pactado y seguimos <b>presentes</b> incluso después de la entrega.</p>
         </div>
         <div className='seccion'>

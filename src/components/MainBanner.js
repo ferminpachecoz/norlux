@@ -4,7 +4,7 @@ import "./MainBanner.scss";
 export default function MainBanner() {
   return (
     <div className='main-banner'>
-      <img src="/houses/house-banner.jpg" alt="interior of a house" />
+      <img src="/houses/house-banner.webp" alt="interior of a house" />
       <div className='overlay'>
         <div className='content'>
           <h1>Aberturas de PVC de <b>alta prestación</b></h1>

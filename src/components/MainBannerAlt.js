@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 
 const SLIDES = [
   {
-    image: "/images/_MG_0197.jpg",
+    image: "/images/_MG_0197.webp",
     h1: <>Aberturas de PVC de alta prestación</>,
     h2: "Soluciones ideales para quienes están construyendo su hogar.",
     ctaText: "Estoy construyendo mi casa",
@@ -15,7 +15,7 @@ const SLIDES = [
     ctaClass: "verde",
   },
   {
-    image: "/houses/house-banner-6.png",
+    image: "/houses/house-banner-6.webp",
     h1: <>Sistemas que potencian la visión de tus proyectos</>,
     h2: "Especificaciones técnicas y asesoría para estudios de arquitectura.",
     ctaText: "Soy arquitecto",
@@ -23,7 +23,7 @@ const SLIDES = [
     ctaClass: "verde",
   },
   {
-    image: "/houses/house-banner-2.jpg",
+    image: "/houses/house-banner-2.webp",
     h1: <>Rentabilidad tangible en cada metro cuadrado</>,
     h2: "Eficiencia, escalabilidad y soporte para desarrollos inmobiliarios.",
     ctaText: "Soy desarrollador",

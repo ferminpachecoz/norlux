@@ -4,21 +4,21 @@ import "./Desarrollos.scss"
 export default function Desarrollos({dev}) {
   let array=[
     {
-      image: "/houses/house-banner.jpg",
+      image: "/houses/house-banner.webp",
       title: "Complejo Residencial Torres del Norte",
       unidades: "240 unidades",
       barrio: "Martínez",
       lista: ["15% ahorro vs. competencia", "Entregado en tiempo récord"]
     },
     {
-      image: "/houses/house-banner.jpg",
+      image: "/houses/house-banner.webp",
       title: "Desarrollo Premium Riverside",
       unidades: "120 unidades",
       barrio: "Tigre",
       lista: ["20% mejora en eficiencia", "Cero reclamos post-entrega"]
     },
     {
-      image: "/houses/house-banner.jpg",
+      image: "/houses/house-banner.webp",
       title: "Edificio Corporativo Norte Plaza",
       unidades: "80 oficinas",
       barrio: "Vicente López",
@@ -27,21 +27,21 @@ export default function Desarrollos({dev}) {
   ]
   let array2=[
     {
-      image: "/houses/house-banner.jpg",
+      image: "/houses/house-banner.webp",
       title: "Edificio Residencial Premium",
       client: "Estudio Blanc Arquitectos",
       barrio: "Vicente López",
       description: "120 aberturas PVC con diseño minimalista y máxima eficiencia energética."
     },
     {
-      image: "/houses/house-banner.jpg",
+      image: "/houses/house-banner.webp",
       title: "Casa Unifamiliar Moderna",
       client: "Arq. Sofia Larsen",
       barrio: "San Isidro",
       description: "Ventanales panorámicos con perfiles ocultos y herrajes de alta gama."
     },
     {
-      image: "/houses/house-banner.jpg",
+      image: "/houses/house-banner.webp",
       title: "Complejo de Oficinas",
       client: "Grupo Arquitectónico Norte",
       barrio: "Olivos",

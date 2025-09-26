@@ -11,48 +11,48 @@ import IconText from '../Pisos/IconText';
 export default function WallPanelInterior() {
   let ITEMS=[
     {
-      image: "/WallPanel/TP_WP_EUCALYPTUS_1MOD.jpg",
+      image: "/WallPanel/TP_WP_EUCALYPTUS_1MOD.webp",
       title: "Eucalyptus"
     },
     {
-      image: "/WallPanel/TP_WP_OAK_1MOD.jpg",
+      image: "/WallPanel/TP_WP_OAK_1MOD.webp",
       title: "Oak"
     },
     {
-      image: "/WallPanel/TP_WP_POPLAR_1MOD.jpg",
+      image: "/WallPanel/TP_WP_POPLAR_1MOD.webp",
       title: "Poplar"
     },
     {
-      image: "/WallPanel/TP_WP_TEEK_1MOD.jpg",
+      image: "/WallPanel/TP_WP_TEEK_1MOD.webp",
       title: "Teek"
     },
     {
-      image: "/WallPanel/TP_WP_WALNUT_1MOD.jpg",
+      image: "/WallPanel/TP_WP_WALNUT_1MOD.webp",
       title: "Walnut"
     },
   ]
   let array=[
     {
-      image: "aislacion-termica.png",
+      image: "aislacion-termica.webp",
       text: "Gran confort térmico."
     },
     {
-      image: "estanquidad.png",
+      image: "estanquidad.webp",
       text: "Antialérgico, antihumedad, antimanchas, antitermitas."
     },
     {
-      image: "mantenimiento.png",
+      image: "mantenimiento.webp",
       text: "No requiere mantenimiento."
     },
     {
-      image: "limpieza.png",
+      image: "limpieza.webp",
       text: "Fácil de instalar y de limpiar."
     },
   ]
   return (
     <>
       <Header />
-      <HeroSection title="Wall Panel Interior" subtitle="Lorem ipsum dolor sit amet" image="/houses/house-banner.jpg" />
+      <HeroSection title="Wall Panel Interior" subtitle="Lorem ipsum dolor sit amet" image="/houses/house-banner.webp" />
       <Productos padding="0px">
         <div className='row' style={{padding: "100px"}}>
           <div className='col-7'>
@@ -67,10 +67,10 @@ export default function WallPanelInterior() {
             </ul>
           </div>
           <div className='col-5'>
-            <img src="/WallPanel/wall-panel-interior-contexto.jpg" alt="wall-panel-interior-contexto" />
+            <img src="/WallPanel/wall-panel-interior-contexto.webp" alt="wall-panel-interior-contexto" />
           </div>
         </div>
-        <ImageBg image="/houses/sample-02.jpg">
+        <ImageBg image="/houses/sample-02.webp">
           <h2>Una gran variedad de colores y texturas</h2>
           <Separador color="--color-2" width="100px" />
           <p>con la resistencia y durabilidad del PVC, garantizando una solución ideal para cada ambiente.</p>
@@ -89,10 +89,10 @@ export default function WallPanelInterior() {
             <p>Diseñado para tener la apariencia y textura de la madera natural con la resistencia y durabilidad del PVC.</p>
           </div>
           <div className='col-lg-4'>
-            <img src="/WallPanel/wall-panel-renders.png" alt="wall-panel-renders" />
+            <img src="/WallPanel/wall-panel-renders.webp" alt="wall-panel-renders" />
           </div>
           <div className='col-lg-12'>
-            <img src="/WallPanel/tipologias-wallpanel-01.png" alt="tipologias-wallpanel-01" />
+            <img src="/WallPanel/tipologias-wallpanel-01.webp" alt="tipologias-wallpanel-01" />
           </div>
         </div>
         <div style={{padding: "0px 100px 100px 100px"}}>

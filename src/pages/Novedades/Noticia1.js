@@ -12,7 +12,7 @@ export default function Noticia1() {
     <>
       <Header />
       <HeroSection 
-        image="/houses/house-banner.jpg" 
+        image="/houses/house-banner.webp" 
         title="PVC vs Aluminio"
         subtitle="Lorem ipsum dolor sit amet"
       />

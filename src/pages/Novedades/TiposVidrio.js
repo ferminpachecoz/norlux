@@ -159,7 +159,7 @@ const TiposVidrio = () => {
           </p>
         </div>
         <div className="tipos-vidrio__hero-image">
-          <img src="/Novedades/noticia-2/modern-glass-windows-with-different-types-of-glass.jpg" alt="Diferentes tipos de vidrio en ventanas modernas" />
+          <img src="/Novedades/noticia-2/modern-glass-windows-with-different-types-of-glass.webp" alt="Diferentes tipos de vidrio en ventanas modernas" />
         </div>
       </motion.div>
 
@@ -254,7 +254,7 @@ const TiposVidrio = () => {
             </div>
 
             <div className="tipos-vidrio__importance-image">
-              <img src="/Novedades/noticia-2/glass-selection-consultation-with-pvc-window-frame.jpg" alt="Asesoramiento en selección de vidrios" />
+              <img src="public/LineaJumbo/productos/LJ_2H_JBLACK.webp" alt="Asesoramiento en selección de vidrios" />
             </div>
           </div>
         </div>

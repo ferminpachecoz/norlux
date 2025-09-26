@@ -9,7 +9,7 @@ export default function Contacto() {
   return (
     <>
       <Header />
-      <HeroSection image="/houses/house-banner.jpg" title="Contacto" subtitle="Lorem ipsum dolor sit amet" />
+      <HeroSection image="/houses/house-banner.webp" title="Contacto" subtitle="Lorem ipsum dolor sit amet" />
       <ContactSection />
       <MapSection />
       <Footer />

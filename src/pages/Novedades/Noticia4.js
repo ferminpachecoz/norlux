@@ -11,7 +11,7 @@ export default function Noticia4() {
       <HeroSection 
         title="Montaje en obra" 
         subtitle="La clave para que tus ventanas rindan al máximo" 
-        image="/houses/house-banner.jpg"
+        image="/houses/house-banner.webp"
       />
       <MontajeObra />
       <Footer />

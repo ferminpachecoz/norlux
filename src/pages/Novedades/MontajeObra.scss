@@ -31,6 +31,8 @@
       img {
         width: 100%;
         height: auto;
+        aspect-ratio: 1/1;
+        object-fit: cover;
         border-radius: 12px;
         box-shadow: 0 20px 40px rgba(var(--color-6), 0.1);
       }
@@ -105,6 +107,8 @@
       img {
         width: 100%;
         height: auto;
+        aspect-ratio: 1/1;
+        object-fit: cover;
         border-radius: 12px;
         box-shadow: 0 15px 30px rgba(var(--color-6), 0.1);
       }
@@ -277,6 +281,8 @@
       img {
         width: 100%;
         height: auto;
+        aspect-ratio: 1/1;
+        object-fit: cover;
         border-radius: 12px;
         box-shadow: 0 15px 30px rgba(var(--color-6), 0.1);
       }

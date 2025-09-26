@@ -13,70 +13,70 @@ import ImageBg from '../Pisos/ImageBg';
 export default function WallPanelExterior() {
   const array=[
     {
-      icon: "/LineaJumbo/icons/interior-design.png",
+      icon: "/LineaJumbo/icons/interior-design.webp",
       title: "Diseño arquitectónico premium",
       description: "Estética contemporánea que eleva el valor del proyecto."
     },
     {
-      icon: "/Tubulares/icons/wood.png",
+      icon: "/Tubulares/icons/wood.webp",
       title: "Acabados imitación madera",
       description: "Calidez natural con la resistencia del PVC."
     },
     {
-      icon: "/LineaJumbo/icons/layer.png",
+      icon: "/LineaJumbo/icons/layer.webp",
       title: "Integración arquitectónica",
       description: "Múltiples opciones de diseño para fachadas modernas."
     },
     {
-      icon: "/pisosInterior/icons/water-resistant.png",
+      icon: "/pisosInterior/icons/water-resistant.webp",
       title: "Resistencia a la intemperie",
       description: "Soporta sol, lluvia y cambios de temperatura."
     },
     {
-      icon: "/Revestimiento/icons/reliability.png",
+      icon: "/Revestimiento/icons/reliability.webp",
       title: "Durabilidad y bajo mantenimiento",
       description: "No requiere barnices ni pinturas"
     },
     {
-      icon: "/LineaEfficient/icons/sustentabilidad.png",
+      icon: "/LineaEfficient/icons/sustentabilidad.webp",
       title: "Sustentabilidad",
       description: "Materiales reciclables y eco-friendly."
     },
   ]
 
-  const images=["/WallPanelExterior/image-banner-4.jpg", "/WallPanelExterior/image-banner-5.jpg", "/WallPanelExterior/image-banner-6.jpg"]
+  const images=["/WallPanelExterior/image-banner-4.webp", "/WallPanelExterior/image-banner-5.webp", "/WallPanelExterior/image-banner-6.webp"]
 
   const ITEMS = [
     {
-      image: "/WallPanelExterior/colores/TP_WP_TURNEROAK.jpg",
+      image: "/WallPanelExterior/colores/TP_WP_TURNEROAK.webp",
       title: "Turner Oak",
     },
     {
-      image: "/WallPanelExterior/colores/TP_WP_NOGAL.jpg",
+      image: "/WallPanelExterior/colores/TP_WP_NOGAL.webp",
       title: "Nogal",
     },
     {
-      image: "/WallPanelExterior/colores/TP_WP_TOFFEE.jpg",
+      image: "/WallPanelExterior/colores/TP_WP_TOFFEE.webp",
       title: "Toffee",
     },
     {
-      image: "/WallPanelExterior/colores/TP_WP_MATTEX KITAMI.jpg",
+      image: "/WallPanelExterior/colores/TP_WP_MATTEX KITAMI.webp",
       title: "Mattex Kitami",
     },
     {
-      image: "/WallPanelExterior/colores/TP_WP_JURA PINE.jpg",
+      image: "/WallPanelExterior/colores/TP_WP_JURA PINE.webp",
       title: "Jura Pine",
     },
     {
-      image: "/WallPanelExterior/colores/TP_WP_GOLDENOAK.jpg",
+      image: "/WallPanelExterior/colores/TP_WP_GOLDENOAK.webp",
       title: "Golden Oak",
     },
     {
-      image: "/WallPanelExterior/colores/TP_WP_CONCRETE_A.jpg",
+      image: "/WallPanelExterior/colores/TP_WP_CONCRETE_A.webp",
       title: "Concrete",
     },
     {
-      image: "/WallPanelExterior/colores/TP_WP_ALPINE.jpg",
+      image: "/WallPanelExterior/colores/TP_WP_ALPINE.webp",
       title: "Alpine",
     },
     // ...agregá más si querés
@@ -88,7 +88,7 @@ export default function WallPanelExterior() {
       <HeroSection 
         title="Wall Panel Exterior" 
         subtitle="La solución innovadora de PVC que combina estética contemporánea y máxima durabilidad para fachadas." 
-        image="/WallPanelExterior/image-banner-1.jpg" 
+        image="/WallPanelExterior/image-banner-1.webp" 
       />
       <Productos padding="0px">
         <div className='section-padding'>
@@ -98,7 +98,7 @@ export default function WallPanelExterior() {
             Los <b>Wallpanel Exterior de PVC Muchtek</b>, comercializados por <b>Nörlux</b>, son una opción de <b>revestimiento moderno para fachadas</b> que aporta carácter, elegancia y una terminación arquitectónica de vanguardia. 
           </p>
           <img 
-            src="/WallPanelExterior/image-banner-2.jpg" 
+            src="/WallPanelExterior/image-banner-2.webp" 
             alt="Diseño wall panel de exterior" 
             style={{borderRadius: "10px"}}
             className='mb-4'
@@ -115,7 +115,7 @@ export default function WallPanelExterior() {
           <CarruselOneImage images={images} />
         </div>
         <SmallSectionBanner title="¿Querés una fachada moderna, resistente y sin mantenimiento?" cta="Solicitá tu presupuesto" />
-        <ImageBg image="/WallPanelExterior/image-banner-3.jpg">
+        <ImageBg image="/WallPanelExterior/image-banner-3.webp">
           <h2>Posibilidad de laminarlos</h2>
           <Separador color="--color-2" width="100px" />
           <p>en la amplia gama de colores y texturas de SKAI Foils.</p>
