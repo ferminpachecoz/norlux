@@ -17,8 +17,9 @@
   width: 64px;
   height: 64px;
   border-radius: 16px;
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--color-1); /* color por defecto */
   transition: background-color 220ms ease;
 

@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 export default function Proyectos({handleClick, handleImages}) {
   const proyectos = [
     {
-      image: "/Casas - Clientes Satisfechos/Casa Barbarita/1754.webp",
+      image: "/Casas - Clientes Satisfechos/Casa Barbarita/2094.webp",
       title: "Casa Barbarita - Tigre",
       description:
         "Ventanas de PVC de alto rendimiento con perfiles Muchtek y herrajes Roto Frank.",

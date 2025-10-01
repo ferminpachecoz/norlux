@@ -101,5 +101,10 @@
     .swiper-button-prev, .swiper-button-next{
       top: var(--swiper-navigation-top-offset, 45%);
     }
+    .slide{
+      img{
+        height: 50vh;
+      }
+    }
   }
 }
