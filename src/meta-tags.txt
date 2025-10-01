@@ -1,0 +1,153 @@
+¡Listo! Aquí tienes títulos y descripciones listos para usar con `react-helmet` en cada URL:
+
+* **[https://norlux.vercel.app/](https://norlux.vercel.app/)**
+
+  * **Title:** Nörlux: Aberturas de PVC en Zona Norte
+  * **Description:** Ventanas y puertas de PVC con diseño minimalista, hermeticidad y eficiencia térmica y acústica. Asesoramiento técnico para hogares, arquitectos y desarrolladores.
+
+* **[https://norlux.vercel.app/nosotros](https://norlux.vercel.app/nosotros)**
+
+  * **Title:** Sobre Nörlux: especialistas en ventanas de PVC
+  * **Description:** Diseñamos, fabricamos e instalamos aberturas de PVC con precisión europea, obra llave en mano y garantía de cumplimiento en Zona Norte.
+
+* **[https://norlux.vercel.app/por-que-pvc](https://norlux.vercel.app/por-que-pvc)**
+
+  * **Title:** ¿Por qué PVC? Aislamiento, durabilidad y confort
+  * **Description:** Compará PVC vs. aluminio: mayor eficiencia térmica y acústica, baja manutención y hermeticidad superior para ahorrar energía y ganar confort.
+
+* **[https://norlux.vercel.app/FAQs](https://norlux.vercel.app/FAQs)**
+
+  * **Title:** FAQs Nörlux: instalación, vidrio, plazos y garantía
+  * **Description:** Respondemos las dudas clave sobre medidas, tiempos de entrega, elección de vidrios, mantenimiento y nuestro proceso de instalación profesional.
+
+* **[https://norlux.vercel.app/developer](https://norlux.vercel.app/developer)**
+
+  * **Title:** Nörlux para desarrolladores: ROI con aberturas de PVC
+  * **Description:** Especificaciones técnicas, plazos confiables y eficiencia energética para maximizar valor por m² y reducir costos operativos en tus desarrollos.
+
+* **[https://norlux.vercel.app/arquitect](https://norlux.vercel.app/arquitect)**
+
+  * **Title:** Nörlux para arquitectos: especificación y performance
+  * **Description:** Acompañamos tus proyectos con asesoría técnica, detalles constructivos y soluciones a medida en PVC de alta prestación y estética minimalista.
+
+* **[https://norlux.vercel.app/novedades](https://norlux.vercel.app/novedades)**
+
+  * **Title:** Novedades Nörlux: guías y tendencias en aberturas de PVC
+  * **Description:** Artículos técnicos y prácticos: comparación de materiales, tipos de vidrio, instalación en obra, aislación térmica y acústica, y más.
+
+* **[https://norlux.vercel.app/contacto](https://norlux.vercel.app/contacto)**
+
+  * **Title:** Contacto Nörlux: presupuesto y asesoramiento técnico
+  * **Description:** Escribinos para cotizar ventanas y puertas de PVC. Relevamos tu obra, tomamos medidas y planificamos una instalación precisa y garantizada.
+
+* **[https://norlux.vercel.app/perfiles/doble-contacto](https://norlux.vercel.app/perfiles/doble-contacto)**
+
+  * **Title:** Doble contacto Nörlux: máxima hermeticidad y confort
+  * **Description:** Ventanas batientes de PVC con burletes de doble contacto para aislación térmica y acústica superior, seguridad y eficiencia energética.
+
+* **[https://norlux.vercel.app/perfiles/corredizo](https://norlux.vercel.app/perfiles/corredizo)**
+
+  * **Title:** Corredizas Nörlux: vistas amplias con alto desempeño
+  * **Description:** Sistemas corredizos de PVC con suave deslizamiento y grandes luces, manteniendo hermeticidad, estética minimalista y durabilidad.
+
+* **[https://norlux.vercel.app/perfiles/doble-contacto/linea-efficient](https://norlux.vercel.app/perfiles/doble-contacto/linea-efficient)**
+
+  * **Title:** Línea Efficient: doble contacto de alta prestación
+  * **Description:** Diseño minimalista y aislación superior en PVC. Ideal para viviendas modernas que priorizan confort, eficiencia y terminaciones premium.
+
+* **[https://norlux.vercel.app/perfiles/doble-contacto/puerta-pivotante](https://norlux.vercel.app/perfiles/doble-contacto/puerta-pivotante)**
+
+  * **Title:** Puerta pivotante de PVC: diseño, seguridad y escala
+  * **Description:** Accesos protagónicos con herrajes europeos y gran hermeticidad. Estética contemporánea y eficiencia energética para tu entrada principal.
+
+* **[https://norlux.vercel.app/perfiles/corredizo/linea-advance](https://norlux.vercel.app/perfiles/corredizo/linea-advance)**
+
+  * **Title:** Línea Advance: corredizas de precisión y durabilidad
+  * **Description:** Sistemas de PVC para grandes paños con rodamiento confiable, estabilidad y estética limpia en proyectos residenciales y de inversión.
+
+* **[https://norlux.vercel.app/perfiles/corredizo/linea-prime](https://norlux.vercel.app/perfiles/corredizo/linea-prime)**
+
+  * **Title:** Línea Prime: corredizas con la mejor relación precio/calidad
+  * **Description:** Opción estándar inteligente: hasta 140 kg por hoja, rendimiento sólido y look minimalista para obras con presupuesto cuidado.
+
+* **[https://norlux.vercel.app/perfiles/corredizo/linea-jumbo](https://norlux.vercel.app/perfiles/corredizo/linea-jumbo)**
+
+  * **Title:** Línea Jumbo: corredizas para grandes luces y panoramas
+  * **Description:** Ventanales XXL en PVC con estabilidad estructural, hermeticidad y confort. Amplía tus vistas sin resignar performance.
+
+* **[https://norlux.vercel.app/perfiles/corredizo/linea-evolution](https://norlux.vercel.app/perfiles/corredizo/linea-evolution)**
+
+  * **Title:** Línea Evolution: la nueva generación de corredizas
+  * **Description:** Combina beneficios del doble contacto con movimiento soft-close. Más hermeticidad, confort y diseño en aberturas de alta prestación.
+
+* **[https://norlux.vercel.app/pisos/decks](https://norlux.vercel.app/pisos/decks)**
+
+  * **Title:** Decks de PVC: exteriores durables y sin mantenimiento
+  * **Description:** Solución ideal para galerías y terrazas: resistente al sol y la humedad, antideslizante y fácil de limpiar. Instalación profesional.
+
+* **[https://norlux.vercel.app/pisos/zocalos](https://norlux.vercel.app/pisos/zocalos)**
+
+  * **Title:** Zócalos de PVC: terminaciones prolijas y resistentes
+  * **Description:** Zócalos vinílicos higiénicos y de fácil limpieza para interiores. Acabados durables que acompañan tu proyecto.
+
+* **[https://norlux.vercel.app/pisos/pisos-de-interior](https://norlux.vercel.app/pisos/pisos-de-interior)**
+
+  * **Title:** Pisos de interior en PVC: calidez, confort y resistencia
+  * **Description:** Pisos vinílicos de alta durabilidad, fácil mantenimiento y estética contemporánea para hogares y oficinas.
+
+* **[https://norlux.vercel.app/in-out-design/tubulares](https://norlux.vercel.app/in-out-design/tubulares)**
+
+  * **Title:** Tubulares de PVC: soluciones de diseño in & out
+  * **Description:** Perfiles tubulares para pérgolas y detalles arquitectónicos con estética limpia, bajo mantenimiento y rápida instalación.
+
+* **[https://norlux.vercel.app/in-out-design/wall-panel-interior](https://norlux.vercel.app/in-out-design/wall-panel-interior)**
+
+  * **Title:** Wall Panel Interior: revestimiento de PVC sin obra
+  * **Description:** Paneles de PVC que renuevan ambientes con instalación rápida, mejor limpieza y apoyo a la aislación.
+
+* **[https://norlux.vercel.app/in-out-design/wall-panel-exterior](https://norlux.vercel.app/in-out-design/wall-panel-exterior)**
+
+  * **Title:** Wall Panel Exterior: fachadas en PVC de larga vida
+  * **Description:** Revestimientos de PVC con protección UV y bajo mantenimiento. Actualizá tu fachada con estética moderna y mejor desempeño térmico.
+
+* **[https://norlux.vercel.app/in-out-design/revestimientos](https://norlux.vercel.app/in-out-design/revestimientos)**
+
+  * **Title:** Revestimientos de PVC: interior y exterior versátil
+  * **Description:** Soluciones de PVC para renovar paredes y frentes con instalación ágil, estética contemporánea y mínima manutención.
+
+* **[https://norlux.vercel.app/novedades/pvc-vs-aluminio](https://norlux.vercel.app/novedades/pvc-vs-aluminio)**
+
+  * **Title:** PVC vs. aluminio: qué conviene para tus ventanas
+  * **Description:** Análisis técnico de aislación, hermeticidad y costos a largo plazo. Elegí aberturas que suman eficiencia y confort real.
+
+* **[https://norlux.vercel.app/novedades/tipos-de-vidrio](https://norlux.vercel.app/novedades/tipos-de-vidrio)**
+
+  * **Title:** Tipos de vidrio en Argentina: guía para elegir bien
+  * **Description:** Low-E, Sound Control, templado y más. Definí el paquete de vidrio ideal según uso, clima y normativa para mejorar performance.
+
+* **[https://norlux.vercel.app/novedades/nuevos-decks-de-pvc](https://norlux.vercel.app/novedades/nuevos-decks-de-pvc)**
+
+  * **Title:** Nuevos decks de PVC: estética, agarre y cero mantenimiento
+  * **Description:** Conocé la nueva línea de decks: durables, antideslizantes y fáciles de limpiar. Perfectos para galerías, piscinas y terrazas.
+
+* **[https://norlux.vercel.app/novedades/la-importancia-de-un-montaje-en-obra-de-calidad](https://norlux.vercel.app/novedades/la-importancia-de-un-montaje-en-obra-de-calidad)**
+
+  * **Title:** Montaje en obra: por qué la instalación define la performance
+  * **Description:** Insumos profesionales y procedimientos precisos para asegurar hermeticidad y durabilidad. La calidad se consolida en la instalación.
+
+* **[https://norlux.vercel.app/novedades/evolution-la-nueva-generacion-de-aberturas-pvc](https://norlux.vercel.app/novedades/evolution-la-nueva-generacion-de-aberturas-pvc)**
+
+  * **Title:** Evolution: la nueva generación de aberturas de PVC
+  * **Description:** Soft-close, gran hermeticidad y diseño minimalista. Descubrí por qué Evolution eleva la experiencia y el confort diario.
+
+* **[https://norlux.vercel.app/novedades/aislacion-termica-en-ventanas-de-pvc](https://norlux.vercel.app/novedades/aislacion-termica-en-ventanas-de-pvc)**
+
+  * **Title:** Aislación térmica en PVC: ahorro energético y confort
+  * **Description:** Cómo las ventanas de PVC reducen pérdidas de calor y mejoran la eficiencia del hogar y la obra con sellos y burletes adecuados.
+
+* **[https://norlux.vercel.app/novedades/aislacion-acustica-en-ventanas-de-pvc](https://norlux.vercel.app/novedades/aislacion-acustica-en-ventanas-de-pvc)**
+
+  * **Title:** Aislación acústica en PVC: menos ruido, más bienestar
+  * **Description:** Elegí aberturas que bloquean el ruido urbano: perfiles, doble contacto y vidrios correctos para lograr silencio y descanso.
+
+Basado en tu guía de Home Page y enfoque de marca (branding, confianza técnica y segmentación por público). 

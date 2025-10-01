@@ -7,6 +7,7 @@ import Footer from '../../components/Footer';
 import ImageBg from '../Pisos/ImageBg';
 import CardsCarousel from '../Pisos/CardsCarousel';
 import IconText from '../Pisos/IconText';
+import { Helmet } from 'react-helmet';
 
 export default function WallPanelInterior() {
   let ITEMS=[
@@ -51,6 +52,13 @@ export default function WallPanelInterior() {
   ]
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Paneles de PVC que renuevan ambientes con instalación rápida, mejor limpieza y apoyo a la aislación."
+        />
+        <title>Wall Panel Interior: revestimiento de PVC sin obra</title>
+      </Helmet>
       <Header />
       <HeroSection title="Wall Panel Interior" subtitle="Lorem ipsum dolor sit amet" image="/houses/house-banner.webp" />
       <Productos padding="0px">

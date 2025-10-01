@@ -6,6 +6,7 @@ import Ventajas from '../components/Arquitect-Developer/Ventajas'
 import Specifications from '../components/Arquitect-Developer/Specifications'
 import Desarrollos from '../components/Arquitect-Developer/Desarrollos'
 import Agenda from '../components/Arquitect-Developer/Agenda'
+import { Helmet } from 'react-helmet'
 
 export default function Arquitect() {
   let array=[
@@ -32,6 +33,13 @@ export default function Arquitect() {
   ]
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Acompañamos tus proyectos con asesoría técnica, detalles constructivos y soluciones a medida en PVC de alta prestación y estética minimalista."
+        />
+        <title>Nörlux para arquitectos: especificación y performance</title>
+      </Helmet>
       <Header />
       <BannerAlt />
       <Ventajas 

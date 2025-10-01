@@ -9,6 +9,7 @@ import CarruselOneImage from '../../components/CarruselOneImage'
 import SmallSectionBanner from '../../components/SmallSectionBanner'
 import ImageBg from './ImageBg'
 import CardsCarousel from './CardsCarousel'
+import { Helmet } from 'react-helmet'
 
 export default function Decks() {
   let array=[
@@ -70,6 +71,13 @@ export default function Decks() {
   ]
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Solución ideal para galerías y terrazas: resistente al sol y la humedad, antideslizante y fácil de limpiar. Instalación profesional."
+        />
+        <title>Decks de PVC: exteriores durables y sin mantenimiento</title>
+      </Helmet>
       <Header />
       <HeroSection title="Decks de PVC" subtitle={"La mejor alternativa a la madera: resistente, elegante y de bajo mantenimiento."} image={"/Decks/img-banner.webp"} />
       <Productos padding="0px">

@@ -9,6 +9,7 @@ import CarruselOneImage from '../../components/CarruselOneImage'
 import SmallSectionBanner from '../../components/SmallSectionBanner'
 import ImageBg from '../Pisos/ImageBg'
 import CardsCarousel from '../Pisos/CardsCarousel'
+import { Helmet } from 'react-helmet'
 
 export default function LineaEvolution() {
   let array=[
@@ -132,6 +133,13 @@ export default function LineaEvolution() {
   ]
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Combina beneficios del doble contacto con movimiento soft-close. Más hermeticidad, confort y diseño en aberturas de alta prestación."
+        />
+        <title>Línea Evolution: la nueva generación de corredizas</title>
+      </Helmet>
       <Header />
       <HeroSection title="Linea Evolution" subtitle="El sistema corredizo de PVC que une diseño moderno con la hermeticidad de la línea Efficient." image="/LineaEvolution/image-banner-1.webp" />
       <Productos padding="0px">

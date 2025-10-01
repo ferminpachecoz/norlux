@@ -10,6 +10,7 @@ import SmallSectionBanner from '../../components/SmallSectionBanner'
 import CarruselCards from '../../components/CarruselCards'
 import ImageBg from '../Pisos/ImageBg'
 import CardsCarousel from '../Pisos/CardsCarousel'
+import { Helmet } from 'react-helmet'
 
 export default function LineaJumbo() {
   const array=[
@@ -65,6 +66,13 @@ export default function LineaJumbo() {
   ]
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Ventanales XXL en PVC con estabilidad estructural, hermeticidad y confort. Amplía tus vistas sin resignar performance."
+        />
+        <title>Línea Jumbo: corredizas para grandes luces y panoramas</title>
+      </Helmet>
       <Header />
       <HeroSection 
         title="Línea Jumbo" 

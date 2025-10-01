@@ -9,6 +9,7 @@ import CarruselOneImage from '../../components/CarruselOneImage'
 import SmallSectionBanner from '../../components/SmallSectionBanner'
 import ImageBg from '../Pisos/ImageBg'
 import CardsCarousel from '../Pisos/CardsCarousel'
+import { Helmet } from 'react-helmet'
 
 export default function Revestimiento() {
   const array=[
@@ -80,6 +81,13 @@ export default function Revestimiento() {
   ]
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Soluciones de PVC para renovar paredes y frentes con instalación ágil, estética contemporánea y mínima manutención."
+        />
+        <title>Revestimientos de PVC: interior y exterior versátil</title>
+      </Helmet>
       <Header />
       <HeroSection 
         title="Revestimientos"

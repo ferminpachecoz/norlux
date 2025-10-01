@@ -6,10 +6,18 @@ import Footer from '../../components/Footer'
 import Productos from '../../components/Productos'
 import Separador from '../../components/Separador'
 import SmallSectionBanner from '../../components/SmallSectionBanner'
+import { Helmet } from 'react-helmet'
 
 export default function Noticia1() {
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Análisis técnico de aislación, hermeticidad y costos a largo plazo. Elegí aberturas que suman eficiencia y confort real."
+        />
+        <title>PVC vs. aluminio: qué conviene para tus ventanas</title>
+      </Helmet>
       <Header />
       <HeroSection 
         image="/houses/house-banner.webp" 

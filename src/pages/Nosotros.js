@@ -3,6 +3,7 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import "./Nosotros.scss";
 import Separador from '../components/Separador';
+import { Helmet } from 'react-helmet';
 
 export default function Nosotros() {
   let array = [
@@ -24,6 +25,13 @@ export default function Nosotros() {
   ]
   return (
     <>
+      <Helmet>
+         <meta
+            name="description"
+            content="Diseñamos, fabricamos e instalamos aberturas de PVC con precisión europea, obra llave en mano y garantía de cumplimiento en Zona Norte."
+          />
+          <title>Sobre Nörlux: especialistas en ventanas de PVC</title>
+      </Helmet>
       <Header />
       <div className='nosotros'>
         <div className='banner'>

@@ -10,6 +10,7 @@ import CarruselCards from '../../components/CarruselCards'
 import SmallSectionBanner from '../../components/SmallSectionBanner'
 import ImageBg from '../Pisos/ImageBg'
 import CardsCarousel from '../Pisos/CardsCarousel'
+import { Helmet } from 'react-helmet'
 
 export default function LineaAdvance() {
   let array = [
@@ -64,6 +65,13 @@ export default function LineaAdvance() {
   ]
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Sistemas de PVC para grandes paños con rodamiento confiable, estabilidad y estética limpia en proyectos residenciales y de inversión."
+        />
+        <title>Línea Advance: corredizas de precisión y durabilidad</title>
+      </Helmet>
       <Header />
       <HeroSection 
         title="Línea Advance" 

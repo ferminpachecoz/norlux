@@ -5,10 +5,18 @@ import HeroSection from "../components/WhyPVC/HeroSection"
 import ListaRazones from '../components/WhyPVC/ListaRazones'
 import ContenidoWhyPVC from '../components/WhyPVC/ContenidoWhyPVC'
 import Separador from '../components/Separador'
+import { Helmet } from 'react-helmet'
 
 export default function WhyPVC() {
   return (
     <>
+    <Helmet>
+      <meta
+        name="description"
+        content="Compará PVC vs. aluminio: mayor eficiencia térmica y acústica, baja manutención y hermeticidad superior para ahorrar energía y ganar confort."
+      />
+      <title>¿Por qué PVC? Aislamiento, durabilidad y confort</title>
+    </Helmet>
       <Header />
       <HeroSection 
         image="/images/_MG_0078.webp" 

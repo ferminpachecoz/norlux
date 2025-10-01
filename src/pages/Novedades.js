@@ -5,10 +5,18 @@ import Productos from "../components/Productos";
 import Separador from '../components/Separador';
 import ImageCard from '../components/Novedades/ImageCard';
 import Footer from '../components/Footer';
+import { Helmet } from 'react-helmet';
 
 export default function Novedades() {
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Artículos técnicos y prácticos: comparación de materiales, tipos de vidrio, instalación en obra, aislación térmica y acústica, y más."
+        />
+        <title>Novedades Nörlux: guías y tendencias en aberturas de PVC</title>
+      </Helmet>
       <Header />
       <HeroSection 
         image="/images/_MG_0197.webp" 

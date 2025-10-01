@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import HeroSection from '../components/WhyPVC/HeroSection'
 import TipoProducto from '../components/TipoProducto'
+import { Helmet } from 'react-helmet'
 
 export default function Corredizo() {
   let array=[
@@ -29,6 +30,13 @@ export default function Corredizo() {
   ]
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Sistemas corredizos de PVC con suave deslizamiento y grandes luces, manteniendo hermeticidad, estética minimalista y durabilidad."
+        />
+        <title>Corredizas Nörlux: vistas amplias con alto desempeño</title>
+      </Helmet>
       <Header />
       <HeroSection image="/images/_MG_0165.webp" title="Corredizo" subtitle="Descubrí todos nuestros sistemas corredizos" />
       <TipoProducto array={array} />

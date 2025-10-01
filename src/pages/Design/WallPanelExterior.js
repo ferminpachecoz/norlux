@@ -9,6 +9,7 @@ import CarruselOneImage from '../../components/CarruselOneImage';
 import SmallSectionBanner from '../../components/SmallSectionBanner';
 import CardsCarousel from '../Pisos/CardsCarousel';
 import ImageBg from '../Pisos/ImageBg';
+import { Helmet } from 'react-helmet';
 
 export default function WallPanelExterior() {
   const array=[
@@ -84,6 +85,13 @@ export default function WallPanelExterior() {
 
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Revestimientos de PVC con protección UV y bajo mantenimiento. Actualizá tu fachada con estética moderna y mejor desempeño térmico."
+        />
+        <title>Wall Panel Exterior: fachadas en PVC de larga vida</title>
+      </Helmet>
       <Header />
       <HeroSection 
         title="Wall Panel Exterior" 

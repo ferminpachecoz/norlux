@@ -11,6 +11,7 @@ import Ventajas from '../../components/Arquitect-Developer/Ventajas.js'
 import CarruselOneImage from '../../components/CarruselOneImage.js'
 import SmallSectionBanner from '../../components/SmallSectionBanner.js'
 import CarruselCards from '../../components/CarruselCards.js'
+import { Helmet } from 'react-helmet'
 
 export default function PisosInterior() {
   let array=[
@@ -68,6 +69,13 @@ export default function PisosInterior() {
   ]
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Pisos vinílicos de alta durabilidad, fácil mantenimiento y estética contemporánea para hogares y oficinas."
+        />
+        <title>Pisos de interior en PVC: calidez, confort y resistencia</title>
+      </Helmet>
       <Header />
       <HeroSection 
         title="Pisos de Interior" 

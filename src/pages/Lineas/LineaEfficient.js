@@ -11,6 +11,7 @@ import SmallSectionBanner from '../../components/SmallSectionBanner';
 import CarruselCards from '../../components/CarruselCards';
 import CardsCarousel from '../Pisos/CardsCarousel';
 import ImageBg from '../Pisos/ImageBg';
+import { Helmet } from 'react-helmet';
 
 export default function LineaEfficient() {
   let array = [
@@ -70,6 +71,13 @@ export default function LineaEfficient() {
   ]
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Diseño minimalista y aislación superior en PVC. Ideal para viviendas modernas que priorizan confort, eficiencia y terminaciones premium."
+        />
+        <title>Línea Efficient: doble contacto de alta prestación</title>
+      </Helmet>
       <Header />
       <HeroSection 
         title="Linea Efficient" 

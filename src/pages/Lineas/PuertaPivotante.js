@@ -8,6 +8,7 @@ import Ventajas from '../../components/Arquitect-Developer/Ventajas'
 import CarruselCards from '../../components/CarruselCards'
 import CarruselOneImage from '../../components/CarruselOneImage'
 import SmallSectionBanner from '../../components/SmallSectionBanner'
+import { Helmet } from 'react-helmet'
 
 export default function PuertaPivotante() {
   const array =[
@@ -40,6 +41,13 @@ export default function PuertaPivotante() {
   const images=["/PuertaPivotante/image-banner-2.webp", "/PuertaPivotante/image-banner-3.webp", "/PuertaPivotante/image-banner-4.webp"]
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Accesos protagónicos con herrajes europeos y gran hermeticidad. Estética contemporánea y eficiencia energética para tu entrada principal."
+        />
+        <title>Puerta pivotante de PVC: diseño, seguridad y escala</title>
+      </Helmet>
       <Header />
       <HeroSection 
         title="Puerta Pivotante" 

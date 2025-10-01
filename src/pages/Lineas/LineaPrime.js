@@ -10,6 +10,7 @@ import SmallSectionBanner from '../../components/SmallSectionBanner'
 import CarruselCards from '../../components/CarruselCards'
 import ImageBg from '../Pisos/ImageBg'
 import CardsCarousel from '../Pisos/CardsCarousel'
+import { Helmet } from 'react-helmet'
 
 export default function LineaPrime() {
   let array=[
@@ -68,6 +69,13 @@ export default function LineaPrime() {
   ]
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Opción estándar inteligente: hasta 140 kg por hoja, rendimiento sólido y look minimalista para obras con presupuesto cuidado."
+        />
+        <title>Línea Prime: corredizas con la mejor relación precio/calidad</title>
+      </Helmet>
       <Header />
       <HeroSection 
         title="Línea Prime" 

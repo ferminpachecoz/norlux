@@ -7,6 +7,7 @@ import Estadisticas from '../components/Arquitect-Developer/Estadisticas'
 import DescripcionServicios from '../components/Arquitect-Developer/DescripcionServicios'
 import Desarrollos from '../components/Arquitect-Developer/Desarrollos'
 import Agenda from '../components/Arquitect-Developer/Agenda'
+import { Helmet } from 'react-helmet'
 
 export default function Developer() {
   let array=[
@@ -37,6 +38,13 @@ export default function Developer() {
   ]
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Especificaciones técnicas, plazos confiables y eficiencia energética para maximizar valor por m² y reducir costos operativos en tus desarrollos."
+        />
+        <title>Nörlux para desarrolladores: ROI con aberturas de PVC</title>
+      </Helmet>
       <Header />
       <BannerAlt dev={true} />
       <Ventajas 

@@ -10,6 +10,7 @@ import ImageBg from './ImageBg'
 import CarruselCards from '../../components/CarruselCards'
 import CarruselOneImage from '../../components/CarruselOneImage'
 import SmallSectionBanner from '../../components/SmallSectionBanner'
+import { Helmet } from 'react-helmet'
 
 export default function Zocalos() {
   const array =[
@@ -102,6 +103,13 @@ export default function Zocalos() {
   ]
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Zócalos vinílicos higiénicos y de fácil limpieza para interiores. Acabados durables que acompañan tu proyecto."
+        />
+        <title>Zócalos de PVC: terminaciones prolijas y resistentes</title>
+      </Helmet>
       <Header />
       <HeroSection 
         title="Zócalos de PVC" 

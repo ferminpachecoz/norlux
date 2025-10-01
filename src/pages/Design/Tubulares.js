@@ -10,6 +10,7 @@ import IconText from '../Pisos/IconText'
 import CarruselCards from '../../components/CarruselCards'
 import CarruselOneImage from '../../components/CarruselOneImage'
 import SmallSectionBanner from '../../components/SmallSectionBanner'
+import { Helmet } from 'react-helmet'
 
 export default function Tubulares() {
   const ITEMS = [
@@ -87,6 +88,13 @@ export default function Tubulares() {
   const images = ["/Tubulares/image-banner-3.webp", "/Tubulares/image-banner-4.webp", "/Tubulares/image-banner-5.webp"]
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Perfiles tubulares para pérgolas y detalles arquitectónicos con estética limpia, bajo mantenimiento y rápida instalación."
+        />
+        <title>Tubulares de PVC: soluciones de diseño in & out</title>
+      </Helmet>
       <Header />
       <HeroSection 
         title="Tubulares" 

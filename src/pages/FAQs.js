@@ -5,6 +5,7 @@ import HeroFAQ from '../components/FAQs/HeroFAQ'
 import Filtros from '../components/FAQs/Filtros'
 import Acordion from '../components/FAQs/Acordion'
 import faqs from '../FAQs'
+import { Helmet } from 'react-helmet';
 
 export default function FAQs() {
   const [selected, setSelected] = useState('all');
@@ -21,6 +22,13 @@ export default function FAQs() {
   };
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Respondemos las dudas clave sobre medidas, tiempos de entrega, elección de vidrios, mantenimiento y nuestro proceso de instalación profesional."
+        />
+        <title>FAQs Nörlux: instalación, vidrio, plazos y garantía</title>
+      </Helmet>
       <Header />
       <HeroFAQ />
       <Filtros selected={selected} onSelect={setSelected} icons={icons} />
